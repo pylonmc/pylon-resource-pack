@@ -1,12 +1,4 @@
 {
     "author": "Pandicka",
-    "vanilla": "minecraft:lime_banner",
-    "fallback": {
-      "type": "minecraft:special",
-      "base": "minecraft:item/template_banner",
-      "model": {
-        "type": "minecraft:banner",
-        "color": "lime"
-      }
-    }
+    "vanilla": "minecraft:lime_banner"
 }
