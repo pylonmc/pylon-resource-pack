@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pylonbase:item/science/loupe_scope"
+	},
+	"gui_light": "front",
+	"display": {
+		"firstperson_righthand": {
+			"translation": [0, 0, -9],
+			"scale": [0.58, 0.58, 0.58]
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:firework_rocket",
+  "model": {
+    "type": "condition",
+    "property": "using_item",
+    "on_false": {
+      "type": "model",
+      "model": "pylonbase:item/tools/confetti_popper"
+    },
+    "on_true": {
+      "type": "select",
+      "property": "display_context",
+      "cases": [
+        {
+          "model": {
+            "type": "model",
+            "model": "pylonbase:item/tools/confetti_popper"
+          },
+          "when": ["gui", "ground", "fixed"]
+        }
+      ],
+      "fallback": {
+        "type": "model",
+        "model": "pylonbase:item/tools/confetti_popper_charged"
+      }
+    },
+    "fallback": {
+      "type": "model",
+      "model": "pylonbase:item/tools/confetti_popper"
+    }
+  }
+}

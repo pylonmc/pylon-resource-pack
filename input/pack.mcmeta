@@ -1,0 +1,10 @@
+{
+  "pack":{
+    "pack_format":64,
+    "description":[
+       "§3Pylon §eResourcepack",
+       "\n§7Experimental 1.21.8"
+    ],
+    "supported_formats":{"min_inclusive":9,"max_inclusive":68}
+  }
+}

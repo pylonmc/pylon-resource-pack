@@ -1,0 +1,56 @@
+{
+	"author": "Pandicka",
+	"textures": {
+		"popper": "pylonbase:item/tools/confetti_popper",
+		"particle": "pylonbase:item/tools/confetti_popper"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [9, 17, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 15, 6]},
+			"faces": {
+				"north": {"uv": [3.5, 0, 0, 16], "texture": "#popper"},
+				"east": {"uv": [3.5, 0, 0, 16], "texture": "#popper"},
+				"south": {"uv": [0, 0, 3.5, 16], "texture": "#popper"},
+				"west": {"uv": [0, 0, 3.5, 16], "texture": "#popper"},
+				"up": {"uv": [3.5, 0, 7, 3.5], "texture": "#popper"},
+				"down": {"uv": [3.5, 0, 7, 3.5], "texture": "#popper"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.5, 1.5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.5, 1.5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [155, 2.5, -175],
+			"translation": [1.13, 3, 1.13],
+			"scale": [0.68, 0.9, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -95, 25],
+			"translation": [1.13, 3, 1.13],
+			"scale": [0.68, 0.9, 0.68]
+		},
+		"ground": {
+			"rotation": [0, 180, -45],
+			"translation": [0, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 0, -45],
+			"translation": [0, -0.75, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, -45],
+			"translation": [0, -0.75, 0]
+		}
+	}
+}

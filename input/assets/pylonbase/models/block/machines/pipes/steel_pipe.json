@@ -1,0 +1,8 @@
+{
+	"parent": "pylonbase:block/machines/pipes/copper_pipe",
+	"author": "Pandicka",
+	"textures": {
+		"1": "pylonbase:block/machines/pipes/steel_pipe",
+		"particle": "pylonbase:block/machines/pipes/steel_pipe"
+	}
+}

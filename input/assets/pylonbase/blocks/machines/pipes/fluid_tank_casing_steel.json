@@ -1,0 +1,8 @@
+{
+  "author": "Pandicka",
+  "variants": {
+    "": {
+      "model": "pylonbase:block/machines/pipes/steel_tank_casing"
+    }
+  }
+}

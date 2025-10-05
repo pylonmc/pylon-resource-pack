@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller"
+    },
+    "facing=west": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller",
+      "y": 270
+    }
+  }
+}

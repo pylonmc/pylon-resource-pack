@@ -1,0 +1,10 @@
+{
+	"parent": "pylonbase:block/machines/pipes/copper_portable_tank",
+	"author": "Pandicka",
+	"textures": {
+		"0": "pylonbase:block/machines/pipes/steel_portable_tank_front",
+		"1": "pylonbase:block/machines/pipes/steel_portable_tank_input",
+		"2": "pylonbase:block/machines/pipes/steel_portable_tank_output",
+		"particle": "pylonbase:block/machines/pipes/steel_portable_tank_front"
+	}
+}
