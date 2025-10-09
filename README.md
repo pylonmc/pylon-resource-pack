@@ -2,7 +2,7 @@
 
 The **Pylon Resource Pack** is the official-unofficial resource pack for the [Pylon](https://github.com/pylonmc) plugin.
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.5–1.21.8-blue?style=for-the-badge&logo=minecraft)](https://www.minecraft.net) [![Releases](https://img.shields.io/github/v/release/Pandicka/pylon-resource-pack?style=for-the-badge&logo=github)](https://github.com/Pandicka/pylon-resource-pack/releases) [![Downloads](https://img.shields.io/github/downloads/Pandicka/pylon-resource-pack/total?style=for-the-badge&logo=github)](https://github.com/Pandicka/pylon-resource-pack/releases)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.5–1.21.8-blue?style=for-the-badge&logo=minecraft)](https://www.minecraft.net) [![Releases](https://img.shields.io/github/v/release/pylonmc/pylon-resource-pack?style=for-the-badge&logo=github)](https://github.com/pylonmc/pylon-resource-pack/releases) [![Downloads](https://img.shields.io/github/downloads/pylonmc/pylon-resource-pack/total?style=for-the-badge&logo=github)](https://github.com/pylonmc/pylon-resource-pack/releases)
 
 ---
 
