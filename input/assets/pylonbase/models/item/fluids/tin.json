@@ -1,0 +1,8 @@
+{
+	"parent": "pylonbase:item/fluids/lava",
+	"author": "Pandicka",
+	"textures": {
+		"0": "pylonbase:item/fluids/tin",
+		"particle": "pylonbase:item/fluids/tin"
+	}
+}

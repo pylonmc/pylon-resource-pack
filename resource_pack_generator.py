@@ -27,23 +27,6 @@ This script automates:
 - merging item model definitions
 """
 
-# The order that all common properties are listed in the custom model data of an item.
-# Any properties not listed here will be checked for (at the index of) the order they are found.
-BUILT_IN_PROPERTY_ORDER = [
-    "powered",
-    "power",
-    "open",
-    "half",
-    "hanging",
-    "face",
-    "facing",
-    "axis",
-    "rotation",
-    "type",
-    "shape",
-    "faces"
-]
-
 TRIM_TYPES = [
     "helmet",
     "chestplate",
@@ -397,7 +380,8 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
                 key, value = prop.split('=')
                 properties[key] = value
                 if key not in allPropertyKeys:
-                    allPropertyKeys.append(key)
+                    if logWarnings:
+                        print(f"Warning: Block variant {name} contains property {key} which is not in the block's property list, ignoring it.")
                 if value not in allPropertyValues[key]:
                     allPropertyValues[key].append(value)
 
@@ -409,8 +393,6 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
                 "properties": properties,
                 "model": modelPath
             })
-        
-        allPropertyKeys.sort(key=lambda x: BUILT_IN_PROPERTY_ORDER.index(x) if x in BUILT_IN_PROPERTY_ORDER else len(BUILT_IN_PROPERTY_ORDER) + allPropertyKeys.index(x))
 
         def build_select_from_cases(cases_list, propertyKeys, index=0):
             if index >= len(propertyKeys):
@@ -634,6 +616,19 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
                         "model": modelPath
                     }
                 }
+
+        if "tints" in itemData:
+            tints = itemData["tints"]
+            if not isinstance(tints, list) or len(tints) == 0:
+                if logWarnings:
+                    print(f"Warning: Item file {itemFilePath} contains invalid tints value (should be a non-empty list), skipping.")
+                continue
+            elif not case["model"]["type"] == "minecraft:model":
+                if logWarnings:
+                    print(f"Warning: Item file {itemFilePath} contains tints but its model type is not 'minecraft:model', skipping.")
+                continue
+            else:
+                case["model"]["tints"] = tints
         
         if "create_trims" in itemData:
             trimType = itemData["create_trims"]

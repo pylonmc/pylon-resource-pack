@@ -1,6 +1,6 @@
 {
   "author": "Pandicka",
-  "properties": ["face", "facing", "powered"],
+  "properties": ["facing", "face", "powered"],
   "variants": {
     "face=ceiling,facing=east,powered=false": {
       "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever",

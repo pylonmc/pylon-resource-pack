@@ -1,0 +1,10 @@
+{
+    "author": "Pandicka",
+    "vanilla": "minecraft:blue_concrete",
+    "tints": [
+        {
+            "type": "constant",
+            "value": 4159204
+        }
+    ]
+}
