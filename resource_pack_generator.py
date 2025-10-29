@@ -604,6 +604,25 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
                             "model": modelPath
                         }
                     }
+                elif texture_ever_exists(f"{namespace}:block/{itemName}"):
+                    texturePath = find_texture(f"{namespace}:block/{itemName}")
+                    modelPath = texturePath
+                    model = {
+                        "parent": "block/cube_all",
+                        "textures": {
+                            "all": texturePath
+                        }
+                    }
+                    if "author" in itemData:
+                        model["author"] = itemData["author"]
+                    save_model(modelPath, model)
+                    case = {
+                        "when": f"{itemKey}",
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": modelPath
+                        }
+                    }
                 else:
                     if logWarnings:
                         print(f"Warning: Item file {itemFilePath} does not contain a model and no model or texture to generate a model could be found for it, skipping.")
