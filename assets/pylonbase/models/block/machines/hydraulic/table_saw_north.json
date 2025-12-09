@@ -1,0 +1,18 @@
+{
+	"parent": "block/cube",
+	"author": "Pandicka",
+	"textures": {
+		"north": "pylonbase:block/machines/hydraulic/table_saw_input",
+		"east": "pylonbase:block/machines/hydraulic/table_saw_side",
+		"south": "pylonbase:block/machines/hydraulic/table_saw_output",
+		"west": "pylonbase:block/machines/hydraulic/table_saw_side",
+		"up": "pylonbase:block/machines/hydraulic/table_saw_top",
+		"down": "pylonbase:block/machines/hydraulic/table_saw_side",
+		"particle": "pylonbase:block/machines/hydraulic/table_saw_side"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

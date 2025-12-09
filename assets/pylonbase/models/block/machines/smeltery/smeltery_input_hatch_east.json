@@ -1,0 +1,10 @@
+{
+	"parent": "pylonbase:block/machines/smeltery/smeltery_input_hatch_north",
+	"author": "Pandicka",
+	"display": {
+		"fixed": {
+      "rotation": [0, 90, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

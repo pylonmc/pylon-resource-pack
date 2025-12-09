@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:steel_nugget",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/steel_nugget"
+        }
+      },
+      {
+        "when": "pylonbase:wrought_iron",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/wrought_iron"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_scrap"
+    }
+  }
+}

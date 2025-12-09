@@ -1,0 +1,136 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:fluid_pipe_iron",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/pipes/iron_pipe"
+        }
+      },
+      {
+        "when": "pylonbase:slurry_coal",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 3947580
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylonbase:slurry_raw_iron",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 14200723
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylonbase:slurry_raw_tin",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13029330
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylonbase:slurry_raw_copper",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13196853
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylonbase:slurry_raw_gold",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 14848260
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylonbase:slurry",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 8355711
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylonbase:slurry_redstone",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 12587522
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylonbase:slurry_carbon",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 2631720
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylonbase:slurry_sponge_iron",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 8555924
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/light_gray_concrete"
+    }
+  }
+}

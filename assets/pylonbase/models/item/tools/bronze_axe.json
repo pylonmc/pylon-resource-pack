@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"author": "dongji",
+	"textures": {
+		"layer0": "pylonbase:item/tools/bronze_axe"
+	}
+}

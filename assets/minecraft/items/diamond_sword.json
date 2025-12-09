@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:beheading_sword",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/beheading_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_sword"
+    }
+  }
+}

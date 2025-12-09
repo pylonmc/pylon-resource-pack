@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:filter_mesh",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/components/filter_mesh"
+        }
+      },
+      {
+        "when": "pylonbase:sawblade",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/components/sawblade"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_bars"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:splint",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/splint"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/stick"
+    }
+  }
+}

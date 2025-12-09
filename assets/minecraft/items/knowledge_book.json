@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pyloncore:guide",
+        "model": {
+          "type": "model",
+          "model": "pyloncore:item/ui/guide"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/knowledge_book"
+    }
+  }
+}

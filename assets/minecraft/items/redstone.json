@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:shimmer_dust_2",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/shimmer_dust_2"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/redstone"
+    }
+  }
+}

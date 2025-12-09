@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:hydraulic_motor",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/components/hydraulic_motor"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/piston_inventory"
+    }
+  }
+}

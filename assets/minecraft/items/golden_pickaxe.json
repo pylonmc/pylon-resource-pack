@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:bronze_pickaxe",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/tools/bronze_pickaxe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/golden_pickaxe"
+    }
+  }
+}

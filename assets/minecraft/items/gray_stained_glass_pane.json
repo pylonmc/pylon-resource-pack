@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pyloncore:background",
+        "model": {
+          "type": "model",
+          "model": "pyloncore:item/ui/background"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/gray_stained_glass_pane"
+    }
+  },
+  "oversized_in_gui": true
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases":[
+      {
+        "when": "pylonbase:abyssal_catalyst",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/components/abyssal_catalyst"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/black_candle"
+    }
+  }
+}

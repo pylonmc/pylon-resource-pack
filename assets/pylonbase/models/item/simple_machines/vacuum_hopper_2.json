@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"author": "dongji",
+	"textures": {
+		"layer0": "pylonbase:item/simple_machines/vacuum_hopper_2"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"parent": "block/cube_top",
+	"author": "Pandicka",
+	"textures": {
+		"top": "pylonbase:block/machines/fluid/water_pump_front",
+		"side": "pylonbase:block/machines/fluid/water_pump_side"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

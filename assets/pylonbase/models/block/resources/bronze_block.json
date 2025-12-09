@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_all",
+	"author": "Pandicka",
+	"textures": {
+		"all": "pylonbase:block/resources/bronze_block"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

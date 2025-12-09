@@ -1,0 +1,10 @@
+{
+	"parent": "pylonbase:block/machines/hydraulic/table_saw_north",
+	"author": "Pandicka",
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

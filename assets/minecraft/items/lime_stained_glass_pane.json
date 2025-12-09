@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:analogue_display",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/components/analogue_display"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/lime_stained_glass_pane"
+    }
+  }
+}

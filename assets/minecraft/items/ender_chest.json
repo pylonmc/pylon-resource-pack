@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:portable_ender_chest",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/tools/portable_ender_chest"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "special",
+      "base": "item/ender_chest",
+      "model": {
+        "type": "chest",
+        "texture": "ender"
+      }
+    }
+  }
+}

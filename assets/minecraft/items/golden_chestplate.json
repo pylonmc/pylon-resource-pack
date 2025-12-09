@@ -1,0 +1,102 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:bronze_chestplate",
+        "model": {
+          "type": "select",
+          "property": "trim_material",
+          "cases": [
+            {
+              "when": "quartz",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_quartz_trim"
+              }
+            },
+            {
+              "when": "iron",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_iron_trim"
+              }
+            },
+            {
+              "when": "netherite",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_netherite_trim"
+              }
+            },
+            {
+              "when": "redstone",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_redstone_trim"
+              }
+            },
+            {
+              "when": "copper",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_copper_trim"
+              }
+            },
+            {
+              "when": "gold",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_gold_trim"
+              }
+            },
+            {
+              "when": "emerald",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_emerald_trim"
+              }
+            },
+            {
+              "when": "diamond",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_diamond_trim"
+              }
+            },
+            {
+              "when": "lapis",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_lapis_trim"
+              }
+            },
+            {
+              "when": "amethyst",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_amethyst_trim"
+              }
+            },
+            {
+              "when": "resin",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_chestplate_resin_trim"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylonbase:item/armor/bronze_chestplate"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/golden_chestplate"
+    }
+  }
+}

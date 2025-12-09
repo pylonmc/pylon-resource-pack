@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:health_talisman_ultimate",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/health_talisman_ultimate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/budding_amethyst"
+    }
+  }
+}

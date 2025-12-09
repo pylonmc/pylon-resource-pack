@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases":[
+      {
+        "when": "pylonbase:ice_arrow",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/ice_arrow"
+        }
+      },
+      {
+        "when": "pylonbase:recoil_arrow",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/recoil_arrow"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/arrow"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:tin_block",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/resources/tin_block"
+        }
+      },
+      {
+        "when": "pylonbase:nickel_block",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/resources/nickel_block"
+        }
+      },
+      {
+        "when": "pylonbase:cobalt_block",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/resources/cobalt_block"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/iron_block"
+    }
+  }
+}

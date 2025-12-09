@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:bronze_block",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/resources/bronze_block"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/copper_block"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:bloomery",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/smeltery/bloomery"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/magma_block"
+    }
+  }
+}

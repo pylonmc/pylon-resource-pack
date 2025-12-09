@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:watering_can",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/tools/watering_can"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/bucket"
+    }
+  }
+}

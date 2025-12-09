@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:sulfur",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/sulfur"
+        }
+      },
+      {
+        "when": "pylonbase:dough",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/dough"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/yellow_dye"
+    }
+  }
+}

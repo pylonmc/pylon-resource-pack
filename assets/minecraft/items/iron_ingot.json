@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:tin_ingot",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/tin_ingot"
+        }
+      },
+      {
+        "when": "pylonbase:nickel_ingot",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/nickel_ingot"
+        }
+      },
+      {
+        "when": "pylonbase:cobalt_ingot",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/cobalt_ingot"
+        }
+      },
+      {
+        "when": "pyloncore:guide_page:pyloncore:low_temperature",
+        "model": {
+          "type": "model",
+          "model": "pyloncore:item/ui/low_temperature"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_ingot"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:nickel",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/nickel"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/white_terracotta"
+    }
+  }
+}

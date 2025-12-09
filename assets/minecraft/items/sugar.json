@@ -1,0 +1,89 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:quartz_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/quartz_dust"
+        }
+      },
+      {
+        "when": "pylonbase:diamond_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/diamond_dust"
+        }
+      },
+      {
+        "when": "pylonbase:emerald_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/emerald_dust"
+        }
+      },
+      {
+        "when": "pylonbase:gypsum_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/gypsum_dust"
+        }
+      },
+      {
+        "when": "pylonbase:crushed_raw_iron",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/crushed_raw_iron"
+        }
+      },
+      {
+        "when": "pylonbase:tin_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/tin_dust"
+        }
+      },
+      {
+        "when": "pylonbase:nickel_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/nickel_dust"
+        }
+      },
+      {
+        "when": "pylonbase:cobalt_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/cobalt_dust"
+        }
+      },
+      {
+        "when": "pylonbase:crushed_raw_tin",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/crushed_raw_tin"
+        }
+      },
+      {
+        "when": "pylonbase:shimmer_dust_1",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/shimmer_dust_1"
+        }
+      },
+      {
+        "when": "pylonbase:flour",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/flour"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/sugar"
+    }
+  }
+}

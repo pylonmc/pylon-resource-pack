@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:refractory_mix",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/resources/refractory_mix"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/smooth_red_sandstone"
+    }
+  }
+}

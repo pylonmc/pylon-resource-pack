@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:lumber_axe",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/tools/lumber_axe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/wooden_axe"
+    }
+  }
+}

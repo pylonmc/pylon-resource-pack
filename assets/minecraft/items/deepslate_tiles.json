@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:refractory_bricks",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/smeltery/refractory_bricks"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/deepslate_tiles"
+    }
+  }
+}

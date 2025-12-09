@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:water",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 4159204
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/blue_concrete"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pyloncore:page_next",
+        "model": {
+          "type": "model",
+          "model": "pyloncore:item/ui/next_off"
+        }
+      },
+      {
+        "when": "pyloncore:page_previous",
+        "model": {
+          "type": "model",
+          "model": "pyloncore:item/ui/previous_off"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/red_stained_glass_pane"
+    }
+  },
+  "oversized_in_gui": true
+}

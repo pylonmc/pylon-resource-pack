@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:tin_nugget",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/tin_nugget"
+        }
+      },
+      {
+        "when": "pylonbase:nickel_nugget",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/nickel_nugget"
+        }
+      },
+      {
+        "when": "pylonbase:cobalt_nugget",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/cobalt_nugget"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_nugget"
+    }
+  }
+}

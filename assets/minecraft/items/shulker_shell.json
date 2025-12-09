@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:medkit",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/medkit"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/shulker_shell"
+    }
+  }
+}

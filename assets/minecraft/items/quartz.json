@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:gypsum",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/gypsum"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/quartz"
+    }
+  }
+}

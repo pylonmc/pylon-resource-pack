@@ -1,8 +1,8 @@
 # 🎨 Pylon Resource Pack
 
-The **Pylon Resource Pack** is the official-unofficial resource pack for the [Pylon](https://github.com/pylonmc) plugin.
+The **Pylon Resource Pack** is the official-unofficial resource pack for the [Pylon](https://github.com/pylonmc/pylon-base) plugin.
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.5–1.21.8-blue?style=for-the-badge&logo=minecraft)](https://www.minecraft.net) [![Releases](https://img.shields.io/github/v/release/pylonmc/pylon-resource-pack?style=for-the-badge&logo=github)](https://github.com/pylonmc/pylon-resource-pack/releases) [![Downloads](https://img.shields.io/github/downloads/pylonmc/pylon-resource-pack/total?style=for-the-badge&logo=github)](https://github.com/pylonmc/pylon-resource-pack/releases)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.10-blue?style=for-the-badge&logo=minecraft)](https://www.minecraft.net) [![Releases](https://img.shields.io/github/v/release/Pandicka/pylon-resourcepack?style=for-the-badge&logo=github)](https://github.com/Pandicka/pylon-resourcepack/releases) [![Downloads](https://img.shields.io/github/downloads/Pandicka/pylon-resourcepack/total?style=for-the-badge&logo=github)](https://github.com/Pandicka/pylon-resourcepack/releases)
 
 ---
 
@@ -11,8 +11,8 @@ The **Pylon Resource Pack** is the official-unofficial resource pack for the [Py
 This resource pack enhances your Pylon experience with:
 - 🧱 **Custom block textures** for placed machines and components  
 - ⚙️ **Unique item and GUI models** built on top of vanilla rendering  
-- ⚔️ **Custom armor layer textures** for advanced visual customization  
-- 📖 **No mods required** — fully client-side and vanilla-compatible  
+- 🛡️ **Custom armor layer textures** for advanced visual customization  
+- 🪶 **No mods required** — fully client-side and vanilla-compatible  
 
 All models and textures are designed to integrate seamlessly with Minecraft’s default aesthetic,  
 while showcasing Pylon’s unique mechanical and industrial style.
@@ -40,11 +40,10 @@ Planned and upcoming improvements for the Pylon Resource Pack:
 ### ⏳ In Progress
 - Textures for all PylonBase items  
 - GUI icons
-- Bloomery and stuff around it
+- Hydraulic Machines
 
 ### Untouched
-- Hydraulic Machines
-- Structures
+- Fluid Machines
 
 ***Tools/Combat are reserved for @dongji - waiting for permission to add textures***
 

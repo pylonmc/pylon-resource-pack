@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:portable_fluid_tank_iron",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/pipes/iron_portable_tank"
+        }
+      },
+      {
+        "when": "pylonbase:fluid_tank_casing_iron",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/pipes/iron_tank_casing"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/light_gray_stained_glass"
+    }
+  }
+}

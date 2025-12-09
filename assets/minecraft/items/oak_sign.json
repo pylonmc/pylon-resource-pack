@@ -1,0 +1,20 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pyloncore:guide_page:pyloncore:search",
+        "model": {
+          "type": "model",
+          "model": "pyloncore:item/ui/search"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/oak_sign"
+    }
+  },
+  "oversized_in_gui": true
+}
