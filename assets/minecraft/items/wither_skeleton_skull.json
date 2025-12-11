@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:shimmer_skull",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/components/shimmer_skull"
+        }
+      },
+      {
+        "when": "pylonbase:reactivated_wither_skull",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/reactivated_wither_skull"
+        }
+      },
+      {
+        "when": "pylonbase:hyper_activated_wither_skull",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/hyper_activated_wither_skull"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_skull",
+      "model": {
+        "type": "minecraft:head",
+        "kind": "wither_skeleton"
+      }
+    }
+  }
+}

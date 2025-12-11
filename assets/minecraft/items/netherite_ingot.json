@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:steel_ingot",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/steel_ingot"
+        }
+      },
+      {
+        "when": "pylonbase:refractory_brick",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/refractory_brick"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/netherite_ingot"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pyloncore:toggle-armor-textures_enabled",
+        "model": {
+          "type": "model",
+          "model": "pyloncore:item/ui/armor_texture"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/lime_concrete"
+    }
+  }
+}

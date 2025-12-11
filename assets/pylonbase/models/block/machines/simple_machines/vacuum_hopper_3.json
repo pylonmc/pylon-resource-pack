@@ -1,0 +1,10 @@
+{
+	"parent": "pylonbase:block/machines/simple_machines/vacuum_hopper_1",
+	"author": "dongji",
+	"textures": {
+		"inside": "pylonbase:block/machines/simple_machines/vacuum_hopper_3_inside",
+		"side": "pylonbase:block/machines/simple_machines/vacuum_hopper_3_outside",
+		"top": "pylonbase:block/machines/simple_machines/vacuum_hopper_3_top",
+		"particle": "pylonbase:block/machines/simple_machines/vacuum_hopper_3_outside"
+	}
+}

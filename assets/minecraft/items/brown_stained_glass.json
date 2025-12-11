@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:portable_fluid_tank_wood",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/pipes/wood_portable_tank"
+        }
+      },
+      {
+        "when": "pylonbase:fluid_tank_casing_wood",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/pipes/wood_tank_casing"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/brown_stained_glass"
+    }
+  }
+}

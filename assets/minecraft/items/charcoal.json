@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:carbon",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/carbon"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/charcoal"
+    }
+  }
+}

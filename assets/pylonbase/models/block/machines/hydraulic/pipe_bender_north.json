@@ -1,0 +1,103 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"input": "pylonbase:block/machines/hydraulic/machine_input",
+		"output": "pylonbase:block/machines/hydraulic/machine_output",
+		"side": "pylonbase:block/machines/hydraulic/machine_side",
+		"top": "pylonbase:block/machines/hydraulic/table_saw_top",
+		"wheel": "pylonbase:block/machines/hydraulic/pipe_bender_wheel",
+		"particle": "pylonbase:block/machines/hydraulic/machine_input"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#input"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#output"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"from": [1.5, 17, 5.5],
+			"to": [6.5, 18, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 16, 6]},
+			"faces": {
+				"north": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"east": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"south": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"west": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"up": {"uv": [2, 2, 7, 7], "texture": "#wheel"},
+				"down": {"uv": [2, 6, 7, 7], "texture": "#wheel"}
+			}
+		},
+		{
+			"from": [2.5, 16, 6.5],
+			"to": [5.5, 17, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 15, 6]},
+			"faces": {
+				"north": {"uv": [10, 4, 13, 5], "texture": "#wheel"},
+				"east": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
+				"south": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
+				"west": {"uv": [10, 5, 13, 6], "texture": "#wheel"}
+			}
+		},
+		{
+			"from": [9.5, 17, 2],
+			"to": [14.5, 18, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 16, 3]},
+			"faces": {
+				"north": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"east": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"south": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"west": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"up": {"uv": [2, 2, 7, 7], "texture": "#wheel"},
+				"down": {"uv": [2, 6, 7, 7], "texture": "#wheel"}
+			}
+		},
+		{
+			"from": [10.5, 16, 3],
+			"to": [13.5, 17, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 15, 4]},
+			"faces": {
+				"north": {"uv": [10, 4, 13, 5], "texture": "#wheel"},
+				"east": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
+				"south": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
+				"west": {"uv": [10, 5, 13, 6], "texture": "#wheel"}
+			}
+		},
+		{
+			"from": [10.5, 16, 10],
+			"to": [13.5, 17, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 15, 11]},
+			"faces": {
+				"north": {"uv": [10, 4, 13, 5], "texture": "#wheel"},
+				"east": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
+				"south": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
+				"west": {"uv": [10, 5, 13, 6], "texture": "#wheel"}
+			}
+		},
+		{
+			"from": [9.5, 17, 9],
+			"to": [14.5, 18, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 16, 10]},
+			"faces": {
+				"north": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"east": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"south": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"west": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
+				"up": {"uv": [2, 2, 7, 7], "texture": "#wheel"},
+				"down": {"uv": [2, 6, 7, 7], "texture": "#wheel"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

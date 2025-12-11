@@ -1,0 +1,58 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:loupe",
+        "model": {
+          "type": "condition",
+          "property": "using_item",
+          "on_false": {
+            "type": "model",
+            "model": "pylonbase:item/science/loupe"
+          },
+          "on_true": {
+            "type": "select",
+            "property": "display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "model",
+                  "model": "pylonbase:item/science/loupe"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "firstperson_lefthand",
+                  "thirdperson_lefthand",
+                  "thirdperson_righthand"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "pylonbase:item/science/loupe_scope"
+            }
+          },
+          "fallback": {
+            "type": "model",
+            "model": "pylonbase:item/science/loupe"
+          }
+        }
+      },
+      {
+        "when": "pylonbase:solar_lens",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/hydraulic/solar_lens_south"
+        }
+      }
+    ],
+    "fallback":{
+      "type": "model",
+      "model": "item/glass_pane"
+    }
+  }
+}

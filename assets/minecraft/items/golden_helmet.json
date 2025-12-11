@@ -1,0 +1,102 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:bronze_helmet",
+        "model": {
+          "type": "select",
+          "property": "trim_material",
+          "cases": [
+            {
+              "when": "quartz",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_quartz_trim"
+              }
+            },
+            {
+              "when": "iron",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_iron_trim"
+              }
+            },
+            {
+              "when": "netherite",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_netherite_trim"
+              }
+            },
+            {
+              "when": "redstone",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_redstone_trim"
+              }
+            },
+            {
+              "when": "copper",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_copper_trim"
+              }
+            },
+            {
+              "when": "gold",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_gold_trim"
+              }
+            },
+            {
+              "when": "emerald",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_emerald_trim"
+              }
+            },
+            {
+              "when": "diamond",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_diamond_trim"
+              }
+            },
+            {
+              "when": "lapis",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_lapis_trim"
+              }
+            },
+            {
+              "when": "amethyst",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_amethyst_trim"
+              }
+            },
+            {
+              "when": "resin",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_helmet_resin_trim"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylonbase:item/armor/bronze_helmet"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/golden_helmet"
+    }
+  }
+}

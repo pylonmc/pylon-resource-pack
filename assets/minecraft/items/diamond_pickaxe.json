@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:diamond_hammer",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/tools/diamond_hammer"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_pickaxe"
+    }
+  }
+}

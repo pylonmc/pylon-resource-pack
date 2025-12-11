@@ -1,0 +1,14 @@
+{
+	"parent": "pylonbase:block/machines/simple_machines/press_north",
+	"author": "Pandicka",
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

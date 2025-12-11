@@ -1,0 +1,56 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"particle": "pylonbase:block/machines/simple_machines/magic_pedestal",
+		"pedestal": "pylonbase:block/machines/simple_machines/magic_pedestal",
+		"bottom": "block/smooth_stone",
+		"wall": "block/deepslate_bricks",
+		"base": "block/deepslate_tiles"
+	},
+	"elements": [
+		{
+			"from": [4, 2, 4],
+			"to": [12, 12, 12],
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#wall"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#wall"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#wall"}
+			}
+		},
+		{
+			"from": [2, 12, 2],
+			"to": [14, 16, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, 12, 2]},
+			"faces": {
+				"north": {"uv": [0, 12, 12, 16], "texture": "#pedestal"},
+				"east": {"uv": [0, 12, 12, 16], "texture": "#pedestal"},
+				"south": {"uv": [0, 12, 12, 16], "texture": "#pedestal"},
+				"west": {"uv": [0, 12, 12, 16], "texture": "#pedestal"},
+				"up": {"uv": [0, 0, 12, 12], "texture": "#pedestal"},
+				"down": {"uv": [0, 0, 12, 12], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [3, 0, 3],
+			"to": [13, 2, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 3]},
+			"faces": {
+				"north": {"uv": [0, 4, 10, 6], "texture": "#base"},
+				"east": {"uv": [0, 4, 10, 6], "texture": "#base"},
+				"south": {"uv": [0, 4, 10, 6], "texture": "#base"},
+				"west": {"uv": [0, 4, 10, 6], "texture": "#base"},
+				"up": {"uv": [0, 0, 10, 10], "texture": "#base"},
+				"down": {"uv": [0, 0, 10, 10], "texture": "#base"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

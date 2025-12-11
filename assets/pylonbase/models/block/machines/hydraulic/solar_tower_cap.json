@@ -1,0 +1,14 @@
+{
+	"parent": "block/slab",
+	"author": "Pandicka",
+	"textures": {
+		"bottom": "pylonbase:block/machines/hydraulic/solar_tower_glass_top",
+		"side": "pylonbase:block/machines/hydraulic/solar_tower_cap",
+		"top": "pylonbase:block/machines/hydraulic/machine_side"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

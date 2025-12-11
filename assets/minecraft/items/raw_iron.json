@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:raw_tin",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/raw_tin"
+        }
+      },
+      {
+        "when": "pylonbase:sponge_iron",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/sponge_iron"
+        }
+      },
+      {
+        "when": "pylonbase:iron_bloom",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/iron_bloom"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/raw_iron"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "pylonbase:block/fluids/lava",
+	"author": "Pandicka",
+	"textures": {
+		"0": "pylonbase:block/fluids/copper",
+		"particle": "pylonbase:block/fluids/copper"
+	}
+}

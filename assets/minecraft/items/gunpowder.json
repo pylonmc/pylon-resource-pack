@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:rock_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/rock_dust"
+        }
+      },
+      {
+        "when": "pylonbase:coal_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/coal_dust"
+        }
+      },
+      {
+        "when": "pylonbase:iron_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/iron_dust"
+        }
+      },
+      {
+        "when": "pylonbase:steel_dust",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/steel_dust"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/gunpowder"
+    }
+  }
+}

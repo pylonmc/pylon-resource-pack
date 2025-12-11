@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:gold",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/gold"
+        }
+      },
+      {
+        "when": "pylonbase:biodiesel",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 14669627
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/yellow_concrete"
+    }
+  }
+}

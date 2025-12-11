@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:unfired_refractory_brick",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/unfired_refractory_brick"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/brick"
+    }
+  }
+}

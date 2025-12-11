@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:improved_manual_core_drill",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/simple_machines/improved_manual_core_drill"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/oxidized_copper"
+    }
+  }
+}

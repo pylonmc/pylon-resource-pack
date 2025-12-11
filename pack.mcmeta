@@ -1,0 +1,14 @@
+{
+  "pack":{
+    "description":[
+       "§3Pylon §eResourcepack",
+       "\n§7Experimental 1.21.10"
+    ],
+    "min_format": [69, 0],
+    "max_format": [500, 0]
+  },
+  "Credits":{
+    "dongji": "On Discord",
+    "cromecloride": "On Discord"
+  }
+}

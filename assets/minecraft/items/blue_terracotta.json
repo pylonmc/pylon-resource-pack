@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:cobalt",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/cobalt"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/blue_terracotta"
+    }
+  }
+}

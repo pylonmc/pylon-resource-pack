@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:research_pack_1",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/science/research_pack_1"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_banner",
+      "model": {
+        "type": "minecraft:banner",
+        "color": "red"
+      }
+    }
+  }
+}

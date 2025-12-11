@@ -1,0 +1,7 @@
+{
+	"parent": "pyloncore:item/ui/background",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pyloncore:item/ui/settings"
+	}
+}

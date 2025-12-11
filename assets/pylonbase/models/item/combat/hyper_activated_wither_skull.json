@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"author": "dongji",
+	"textures": {
+		"layer0": "pylonbase:item/combat/hyper_activated_wither_skull"
+	}
+}

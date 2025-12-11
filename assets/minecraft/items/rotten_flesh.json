@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:monster_jerky",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/food/monster_jerky"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/rotten_flesh"
+    }
+  }
+}

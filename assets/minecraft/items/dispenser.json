@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:backflow_valve",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/components/backflow_valve"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/dispenser"
+    }
+  }
+}

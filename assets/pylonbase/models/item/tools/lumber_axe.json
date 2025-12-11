@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pylonbase:item/tools/lumber_axe"
+	},
+	"display": {
+		"gui": {
+			"translation": [0, -0.5, 0]
+		}
+	}
+}

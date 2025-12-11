@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:bronze_sword",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/combat/bronze_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/golden_sword"
+    }
+  }
+}

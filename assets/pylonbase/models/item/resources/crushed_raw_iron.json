@@ -1,0 +1,19 @@
+{
+	"parent": "item/generated",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pylonbase:item/resources/crushed_raw_iron"
+	},
+	"display": {
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}

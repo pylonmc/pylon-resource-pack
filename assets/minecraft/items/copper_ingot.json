@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:bronze_ingot",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/bronze_ingot"
+        }
+      },
+      {
+        "when": "pyloncore:guide_page:pyloncore:casting",
+        "model": {
+          "type": "model",
+          "model": "pyloncore:item/ui/casting"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/copper_ingot"
+    }
+  }
+}

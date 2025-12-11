@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:plant_oil",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 12890962
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/yellow_concrete_powder"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:fireproof_rune",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/tools/fireproof_rune"
+        }
+      },
+      {
+        "when": "pylonbase:soulbound_rune",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/tools/soulbound_rune"
+        }
+      },
+      {
+        "when": "pylonbase:shallow_core_chunk",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/shallow_core_chunk"
+        }
+      },
+      {
+        "when": "pylonbase:subsurface_core_chunk",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/subsurface_core_chunk"
+        }
+      },
+      {
+        "when": "pylonbase:intermediate_core_chunk",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/resources/intermediate_core_chunk"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/firework_star",
+      "tints": [
+        {
+          "type": "minecraft:constant",
+          "value": -1
+        },
+        {
+          "type": "minecraft:firework",
+          "default": -7697782
+        }
+      ]
+    }
+  }
+}

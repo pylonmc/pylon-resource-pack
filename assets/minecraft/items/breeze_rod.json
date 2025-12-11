@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:item_magnet",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:item/tools/item_magnet"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/breeze_rod"
+    }
+  }
+}
