@@ -9,13 +9,6 @@
           "type": "model",
           "model": "pylonbase:item/resources/bronze_ingot"
         }
-      },
-      {
-        "when": "pyloncore:guide_page:pyloncore:casting",
-        "model": {
-          "type": "model",
-          "model": "pyloncore:item/ui/casting"
-        }
       }
     ],
     "fallback": {

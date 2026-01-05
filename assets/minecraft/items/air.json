@@ -929,13 +929,6 @@
         }
       },
       {
-        "when": "pylonbase:water_pump",
-        "model": {
-          "type": "model",
-          "model": "pylonbase:block/machines/fluid/water_pump"
-        }
-      },
-      {
         "when": "pylonbase:vacuum_hopper_1",
         "model": {
           "type": "select",

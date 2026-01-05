@@ -23,13 +23,6 @@
           "type": "model",
           "model": "pylonbase:item/resources/cobalt_ingot"
         }
-      },
-      {
-        "when": "pyloncore:guide_page:pyloncore:low_temperature",
-        "model": {
-          "type": "model",
-          "model": "pyloncore:item/ui/low_temperature"
-        }
       }
     ],
     "fallback": {

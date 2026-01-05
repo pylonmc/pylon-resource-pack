@@ -2,7 +2,7 @@
 	"parent": "minecraft:block/slab",
 	"author": "Pandicka",
 	"textures": {
-		"handle": "pylonbase:block/machines/simple_machines/grindstone_handle",
+		"handle": "minecraft:block/oak_planks",
 		"side": "pylonbase:block/machines/simple_machines/grindstone",
 		"top": "block/smooth_stone"
 	},
