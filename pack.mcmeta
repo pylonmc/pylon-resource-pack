@@ -1,8 +1,7 @@
 {
   "pack":{
     "description":[
-       "§3Pylon §eResourcepack",
-       "\n§7Experimental 1.21.10"
+       "§3Pylon §eResource pack"
     ],
     "min_format": [69, 0],
     "max_format": [500, 0]

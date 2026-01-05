@@ -2,7 +2,7 @@
   "parent": "block/cube_column",
 	"author": "dongji",
   "textures": {
-    "end": "pylonbase:block/building/super_explosive_target_top",
+    "end": "pylonbase:block/building/super_explosive_target_side",
     "side": "pylonbase:block/building/super_explosive_target_side"
   },
   "display":{

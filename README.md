@@ -43,9 +43,11 @@ Planned and upcoming improvements for the Pylon Resource Pack:
 - Textures for all PylonBase items  
 - GUI icons
 - Hydraulic Machines
+- Cargo
 
 ### Untouched
 - Fluid Machines
+- Diesel Machines
 
 > Have ideas or want to contribute to this list?  
 > See the [Contributing](#-contributing) section below!

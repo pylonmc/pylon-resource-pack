@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:cargo_inserter",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/cargo/cargo_inserter_north"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/lime_terracotta"
+    }
+  }
+}

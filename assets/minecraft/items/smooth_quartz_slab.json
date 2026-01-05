@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:elevator_1",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/building/elevator_1"
+        }
+      },
+      {
+        "when": "pylonbase:elevator_2",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/building/elevator_2"
+        }
+      },
+      {
+        "when": "pylonbase:elevator_3",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/building/elevator_3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/smooth_quartz_slab"
+    }
+  }
+}

@@ -5,6 +5,13 @@
     "index": 0,
     "cases": [
       {
+        "when": "pylonbase:charcoal_block",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/resources/charcoal_block"
+        }
+      },
+      {
         "when": "pylonbase:tin_block",
         "model": {
           "type": "model",
@@ -1325,6 +1332,125 @@
             "type": "model",
             "model": "pylonbase:block/machines/hydraulic/solar_lens_south"
           }
+        }
+      },
+      {
+        "when": "pylonbase:cargo_duct",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/machines/cargo/cargo_duct"
+        }
+      },
+      {
+        "when": "pylonbase:cargo_inserter",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylonbase:block/machines/cargo/cargo_inserter_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylonbase:block/machines/cargo/cargo_inserter_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylonbase:block/machines/cargo/cargo_inserter_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylonbase:block/machines/cargo/cargo_inserter_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylonbase:block/machines/cargo/cargo_inserter_north"
+          }
+        }
+      },
+      {
+        "when": "pylonbase:cargo_extractor",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylonbase:block/machines/cargo/cargo_extractor_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylonbase:block/machines/cargo/cargo_extractor_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylonbase:block/machines/cargo/cargo_extractor_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylonbase:block/machines/cargo/cargo_extractor_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylonbase:block/machines/cargo/cargo_extractor_north"
+          }
+        }
+      },
+      {
+        "when": "pylonbase:pedestal",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/building/pedestal"
+        }
+      },
+      {
+        "when": "pylonbase:elevator_1",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/building/elevator_1"
+        }
+      },
+      {
+        "when": "pylonbase:elevator_2",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/building/elevator_2"
+        }
+      },
+      {
+        "when": "pylonbase:elevator_3",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/building/elevator_3"
         }
       }
     ],

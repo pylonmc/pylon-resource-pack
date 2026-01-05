@@ -2,13 +2,13 @@
 	"parent": "block/cube",
 	"author": "Pandicka",
 	"textures": {
-		"north": "pylonbase:block/machines/hydraulic/table_saw_input",
-		"east": "pylonbase:block/machines/hydraulic/table_saw_side",
-		"south": "pylonbase:block/machines/hydraulic/table_saw_output",
-		"west": "pylonbase:block/machines/hydraulic/table_saw_side",
-		"up": "pylonbase:block/machines/hydraulic/table_saw_top",
-		"down": "pylonbase:block/machines/hydraulic/table_saw_side",
-		"particle": "pylonbase:block/machines/hydraulic/table_saw_side"
+		"north": "pylonbase:block/machines/hydraulic/machine_output",
+		"east": "pylonbase:block/machines/hydraulic/machine_side",
+		"south": "pylonbase:block/machines/hydraulic/machine_input",
+		"west": "pylonbase:block/machines/hydraulic/machine_side",
+		"up": "pylonbase:block/machines/hydraulic/machine_top",
+		"down": "pylonbase:block/machines/hydraulic/machine_side",
+		"particle": "pylonbase:block/machines/hydraulic/machine_side"
 	},
 	"display": {
 		"fixed": {

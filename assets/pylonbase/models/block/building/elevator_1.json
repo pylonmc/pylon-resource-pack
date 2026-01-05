@@ -1,0 +1,42 @@
+{
+	"parent": "block/slab",
+	"author": "Pandicka",
+	"textures": {
+		"frame": "pylonbase:block/building/elevator_1_top",
+		"top": "pylonbase:block/building/elevator_portal",
+		"base": "block/quartz_block_top",
+		"particle": "pylonbase:block/building/elevator_1_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8.01, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#base"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#base"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#base"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#base"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#base"}
+			}
+		},
+		{
+			"from": [-0.01, 7.02, -0.01],
+			"to": [16.01, 8.02, 16.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 7, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#frame"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#frame"},
+				"south": {"uv": [0, 0, 16, 1], "texture": "#frame"},
+				"west": {"uv": [0, 0, 16, 1], "texture": "#frame"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#frame"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#frame"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

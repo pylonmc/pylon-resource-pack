@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylonbase:charcoal_block",
+        "model": {
+          "type": "model",
+          "model": "pylonbase:block/resources/charcoal_block"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/coal_block"
+    }
+  }
+}

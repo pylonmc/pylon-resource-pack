@@ -2,30 +2,30 @@
 	"parent": "block/block",
 	"author": "Pandicka",
 	"textures": {
+		"particle": "pylonbase:block/machines/hydraulic/machine_input",
 		"input": "pylonbase:block/machines/hydraulic/machine_input",
 		"output": "pylonbase:block/machines/hydraulic/machine_output",
 		"side": "pylonbase:block/machines/hydraulic/machine_side",
-		"top": "pylonbase:block/machines/hydraulic/table_saw_top",
-		"wheel": "pylonbase:block/machines/hydraulic/pipe_bender_wheel",
-		"particle": "pylonbase:block/machines/hydraulic/machine_input"
+		"top": "pylonbase:block/machines/hydraulic/machine_top",
+		"wheel": "pylonbase:block/machines/hydraulic/pipe_bender_wheel"
 	},
 	"elements": [
 		{
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#input"},
+				"north": {"uv": [0, 0, 16, 16], "texture": "#output"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#output"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#input"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#side"}
 			}
 		},
 		{
-			"from": [1.5, 17, 5.5],
-			"to": [6.5, 18, 10.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 16, 6]},
+			"from": [2.55, 17, 2.55],
+			"to": [7.05, 18, 7.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 16, 3]},
 			"faces": {
 				"north": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
 				"east": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
@@ -36,9 +36,9 @@
 			}
 		},
 		{
-			"from": [2.5, 16, 6.5],
-			"to": [5.5, 17, 9.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [1, 15, 6]},
+			"from": [2.8, 16, 2.8],
+			"to": [6.81, 17, 6.81],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 15, 2]},
 			"faces": {
 				"north": {"uv": [10, 4, 13, 5], "texture": "#wheel"},
 				"east": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
@@ -47,8 +47,8 @@
 			}
 		},
 		{
-			"from": [9.5, 17, 2],
-			"to": [14.5, 18, 7],
+			"from": [8.95, 17, 2.55],
+			"to": [13.45, 18, 7.05],
 			"rotation": {"angle": 0, "axis": "y", "origin": [9, 16, 3]},
 			"faces": {
 				"north": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
@@ -60,9 +60,9 @@
 			}
 		},
 		{
-			"from": [10.5, 16, 3],
-			"to": [13.5, 17, 6],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 15, 4]},
+			"from": [9.19, 16, 2.8],
+			"to": [13.2, 17, 6.81],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15, 4]},
 			"faces": {
 				"north": {"uv": [10, 4, 13, 5], "texture": "#wheel"},
 				"east": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
@@ -71,9 +71,9 @@
 			}
 		},
 		{
-			"from": [10.5, 16, 10],
-			"to": [13.5, 17, 13],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 15, 11]},
+			"from": [5.99, 16, 9.19],
+			"to": [10.01, 17, 13.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 15, 10]},
 			"faces": {
 				"north": {"uv": [10, 4, 13, 5], "texture": "#wheel"},
 				"east": {"uv": [10, 5, 13, 6], "texture": "#wheel"},
@@ -82,9 +82,9 @@
 			}
 		},
 		{
-			"from": [9.5, 17, 9],
-			"to": [14.5, 18, 14],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 16, 10]},
+			"from": [5.75, 17, 8.95],
+			"to": [10.25, 18, 13.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 16, 10]},
 			"faces": {
 				"north": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
 				"east": {"uv": [2, 6, 7, 7], "texture": "#wheel"},
@@ -96,6 +96,10 @@
 		}
 	],
 	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
 		"fixed": {
 			"scale": [1, 1, 1]
 		}

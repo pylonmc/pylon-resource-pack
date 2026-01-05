@@ -1,5 +1,5 @@
 {
-	"parent": "block/lever",
+	"parent": "block/block",
 	"author": "Pandicka",
 	"textures": {
 		"base": "block/black_wool",

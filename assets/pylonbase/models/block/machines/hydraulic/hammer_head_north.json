@@ -2,9 +2,9 @@
 	"parent": "block/cube",
 	"author": "Pandicka",
 	"textures": {
-		"north": "pylonbase:block/machines/hydraulic/machine_input",
+		"north": "pylonbase:block/machines/hydraulic/machine_output",
 		"east": "pylonbase:block/machines/hydraulic/machine_side",
-		"south": "pylonbase:block/machines/hydraulic/machine_output",
+		"south": "pylonbase:block/machines/hydraulic/machine_input",
 		"west": "pylonbase:block/machines/hydraulic/machine_side",
 		"up": "pylonbase:block/machines/hydraulic/machine_side",
 		"down": "pylonbase:block/machines/hydraulic/machine_side",
