@@ -215,13 +215,16 @@ def create_block_model_variant(name, variant):
                 print(f"Warning: Block variant {name} root model {modelPath} could not be found, skipping.")
             return None
 
-    if "x" in variant or "y" in variant:        
+    if "x" in variant or "y" in variant or "z" in variant:        
         if "x" in variant:
             x_rot = variant["x"] % 360
             modelPath += f"_x{x_rot}"
         if "y" in variant:
             y_rot = variant["y"] % 360
             modelPath += f"_y{y_rot}"
+        if "z" in variant:
+            z_rot = variant["z"] % 360
+            modelPath += f"_z{z_rot}"
 
         if not get_model(modelPath, False) is None:
             return modelPath # already exists
@@ -235,6 +238,9 @@ def create_block_model_variant(name, variant):
         if "y" in variant:
             y_rot = variant["y"] % 360
             fixed_rotation[1] = (fixed_rotation[1] + y_rot) % 360
+        if "z" in variant:
+            z_rot = variant["z"] % 360
+            fixed_rotation[2] = (fixed_rotation[2] + z_rot) % 360
         fixed_display["rotation"] = fixed_rotation
         display["fixed"] = fixed_display
         model["display"] = display
@@ -740,7 +746,7 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
                     "resource": f"{namespace}:{relFile[:-4]}"
                 })
 
-save_asset("minecraft:atlases/blocks.json", {
+save_asset("minecraft:atlases/items.json", {
     "sources": atlasSources
 })
 
