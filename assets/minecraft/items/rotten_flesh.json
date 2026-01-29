@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:monster_jerky",
+        "when": "pylon:monster_jerky",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/food/monster_jerky"
+          "model": "pylon:item/food/monster_jerky"
         }
       }
     ],

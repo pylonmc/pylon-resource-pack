@@ -4,10 +4,23 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pyloncore:toggle-armor-textures_enabled",
+        "when": "rebar:toggle-armor-textures_enabled",
         "model": {
           "type": "model",
-          "model": "pyloncore:item/ui/armor_texture"
+          "model": "rebar:item/ui/armor_texture"
+        }
+      },
+      {
+        "when": "pylon:sugarcane",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/fluids/water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13290377
+            }
+          ]
         }
       }
     ],

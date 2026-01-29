@@ -5,91 +5,91 @@
     "index": 0,
     "cases": [
       {
-        "when": "pylonbase:charcoal_block",
+        "when": "pylon:charcoal_block",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/charcoal_block"
+          "model": "pylon:block/resources/charcoal_block"
         }
       },
       {
-        "when": "pylonbase:tin_block",
+        "when": "pylon:tin_block",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/tin_block"
+          "model": "pylon:block/resources/tin_block"
         }
       },
       {
-        "when": "pylonbase:bronze_block",
+        "when": "pylon:bronze_block",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/bronze_block"
+          "model": "pylon:block/resources/bronze_block"
         }
       },
       {
-        "when": "pylonbase:steel_block",
+        "when": "pylon:steel_block",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/steel_block"
+          "model": "pylon:block/resources/steel_block"
         }
       },
       {
-        "when": "pylonbase:nickel_block",
+        "when": "pylon:nickel_block",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/nickel_block"
+          "model": "pylon:block/resources/nickel_block"
         }
       },
       {
-        "when": "pylonbase:cobalt_block",
+        "when": "pylon:cobalt_block",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/cobalt_block"
+          "model": "pylon:block/resources/cobalt_block"
         }
       },
       {
-        "when": "pylonbase:portable_fluid_tank_wood",
+        "when": "pylon:portable_fluid_tank_wood",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/wood_portable_tank"
+          "model": "pylon:block/machines/pipes/wood_portable_tank"
         }
       },
       {
-        "when": "pylonbase:portable_fluid_tank_copper",
+        "when": "pylon:portable_fluid_tank_copper",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/copper_portable_tank"
+          "model": "pylon:block/machines/pipes/copper_portable_tank"
         }
       },
       {
-        "when": "pylonbase:portable_fluid_tank_tin",
+        "when": "pylon:portable_fluid_tank_tin",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/tin_portable_tank"
+          "model": "pylon:block/machines/pipes/tin_portable_tank"
         }
       },
       {
-        "when": "pylonbase:portable_fluid_tank_iron",
+        "when": "pylon:portable_fluid_tank_iron",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/iron_portable_tank"
+          "model": "pylon:block/machines/pipes/iron_portable_tank"
         }
       },
       {
-        "when": "pylonbase:portable_fluid_tank_bronze",
+        "when": "pylon:portable_fluid_tank_bronze",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/bronze_portable_tank"
+          "model": "pylon:block/machines/pipes/bronze_portable_tank"
         }
       },
       {
-        "when": "pylonbase:portable_fluid_tank_steel",
+        "when": "pylon:portable_fluid_tank_steel",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/steel_portable_tank"
+          "model": "pylon:block/machines/pipes/steel_portable_tank"
         }
       },
       {
-        "when": "pylonbase:fluid_tank_casing_wood",
+        "when": "pylon:fluid_tank_casing_wood",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -99,32 +99,32 @@
               "when": "shape=bottom",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/wood_tank_casing_bottom"
+                "model": "pylon:block/machines/pipes/wood_tank_casing_bottom"
               }
             },
             {
               "when": "shape=middle",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/wood_tank_casing_middle"
+                "model": "pylon:block/machines/pipes/wood_tank_casing_middle"
               }
             },
             {
               "when": "shape=top",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/wood_tank_casing_top"
+                "model": "pylon:block/machines/pipes/wood_tank_casing_top"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/pipes/wood_tank_casing"
+            "model": "pylon:block/machines/pipes/wood_tank_casing"
           }
         }
       },
       {
-        "when": "pylonbase:fluid_tank_casing_copper",
+        "when": "pylon:fluid_tank_casing_copper",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -134,32 +134,32 @@
               "when": "shape=bottom",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/copper_tank_casing_bottom"
+                "model": "pylon:block/machines/pipes/copper_tank_casing_bottom"
               }
             },
             {
               "when": "shape=middle",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/copper_tank_casing_middle"
+                "model": "pylon:block/machines/pipes/copper_tank_casing_middle"
               }
             },
             {
               "when": "shape=top",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/copper_tank_casing_top"
+                "model": "pylon:block/machines/pipes/copper_tank_casing_top"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/pipes/copper_tank_casing"
+            "model": "pylon:block/machines/pipes/copper_tank_casing"
           }
         }
       },
       {
-        "when": "pylonbase:fluid_tank_casing_tin",
+        "when": "pylon:fluid_tank_casing_tin",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -169,32 +169,32 @@
               "when": "shape=bottom",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/tin_tank_casing_bottom"
+                "model": "pylon:block/machines/pipes/tin_tank_casing_bottom"
               }
             },
             {
               "when": "shape=middle",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/tin_tank_casing_middle"
+                "model": "pylon:block/machines/pipes/tin_tank_casing_middle"
               }
             },
             {
               "when": "shape=top",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/tin_tank_casing_top"
+                "model": "pylon:block/machines/pipes/tin_tank_casing_top"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/pipes/tin_tank_casing"
+            "model": "pylon:block/machines/pipes/tin_tank_casing"
           }
         }
       },
       {
-        "when": "pylonbase:fluid_tank_casing_iron",
+        "when": "pylon:fluid_tank_casing_iron",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -204,32 +204,32 @@
               "when": "shape=bottom",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/iron_tank_casing_bottom"
+                "model": "pylon:block/machines/pipes/iron_tank_casing_bottom"
               }
             },
             {
               "when": "shape=middle",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/iron_tank_casing_middle"
+                "model": "pylon:block/machines/pipes/iron_tank_casing_middle"
               }
             },
             {
               "when": "shape=top",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/iron_tank_casing_top"
+                "model": "pylon:block/machines/pipes/iron_tank_casing_top"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/pipes/iron_tank_casing"
+            "model": "pylon:block/machines/pipes/iron_tank_casing"
           }
         }
       },
       {
-        "when": "pylonbase:fluid_tank_casing_bronze",
+        "when": "pylon:fluid_tank_casing_bronze",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -239,32 +239,32 @@
               "when": "shape=bottom",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/bronze_tank_casing_bottom"
+                "model": "pylon:block/machines/pipes/bronze_tank_casing_bottom"
               }
             },
             {
               "when": "shape=middle",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/bronze_tank_casing_middle"
+                "model": "pylon:block/machines/pipes/bronze_tank_casing_middle"
               }
             },
             {
               "when": "shape=top",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/bronze_tank_casing_top"
+                "model": "pylon:block/machines/pipes/bronze_tank_casing_top"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/pipes/bronze_tank_casing"
+            "model": "pylon:block/machines/pipes/bronze_tank_casing"
           }
         }
       },
       {
-        "when": "pylonbase:fluid_tank_casing_steel",
+        "when": "pylon:fluid_tank_casing_steel",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -274,39 +274,39 @@
               "when": "shape=bottom",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/steel_tank_casing_bottom"
+                "model": "pylon:block/machines/pipes/steel_tank_casing_bottom"
               }
             },
             {
               "when": "shape=middle",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/steel_tank_casing_middle"
+                "model": "pylon:block/machines/pipes/steel_tank_casing_middle"
               }
             },
             {
               "when": "shape=top",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/steel_tank_casing_top"
+                "model": "pylon:block/machines/pipes/steel_tank_casing_top"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/pipes/steel_tank_casing"
+            "model": "pylon:block/machines/pipes/steel_tank_casing"
           }
         }
       },
       {
-        "when": "pylonbase:refractory_bricks",
+        "when": "pylon:refractory_bricks",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/smeltery/refractory_bricks"
+          "model": "pylon:block/machines/smeltery/refractory_bricks"
         }
       },
       {
-        "when": "pylonbase:smeltery_controller",
+        "when": "pylon:smeltery_controller",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -323,20 +323,20 @@
                     "when": "lit=true",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_controller_north_lit"
+                      "model": "pylon:block/machines/smeltery/smeltery_controller_north_lit"
                     }
                   },
                   {
                     "when": "lit=false",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_controller_north"
+                      "model": "pylon:block/machines/smeltery/smeltery_controller_north"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "model",
-                  "model": "pylonbase:block/machines/smeltery/smeltery_controller_north"
+                  "model": "pylon:block/machines/smeltery/smeltery_controller_north"
                 }
               }
             },
@@ -351,20 +351,20 @@
                     "when": "lit=true",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_controller_east_lit"
+                      "model": "pylon:block/machines/smeltery/smeltery_controller_east_lit"
                     }
                   },
                   {
                     "when": "lit=false",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_controller_east"
+                      "model": "pylon:block/machines/smeltery/smeltery_controller_east"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "model",
-                  "model": "pylonbase:block/machines/smeltery/smeltery_controller_east"
+                  "model": "pylon:block/machines/smeltery/smeltery_controller_east"
                 }
               }
             },
@@ -379,20 +379,20 @@
                     "when": "lit=true",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_controller_south_lit"
+                      "model": "pylon:block/machines/smeltery/smeltery_controller_south_lit"
                     }
                   },
                   {
                     "when": "lit=false",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_controller_south"
+                      "model": "pylon:block/machines/smeltery/smeltery_controller_south"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "model",
-                  "model": "pylonbase:block/machines/smeltery/smeltery_controller_south"
+                  "model": "pylon:block/machines/smeltery/smeltery_controller_south"
                 }
               }
             },
@@ -407,32 +407,32 @@
                     "when": "lit=true",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_controller_west_lit"
+                      "model": "pylon:block/machines/smeltery/smeltery_controller_west_lit"
                     }
                   },
                   {
                     "when": "lit=false",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_controller_west"
+                      "model": "pylon:block/machines/smeltery/smeltery_controller_west"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "model",
-                  "model": "pylonbase:block/machines/smeltery/smeltery_controller_west"
+                  "model": "pylon:block/machines/smeltery/smeltery_controller_west"
                 }
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/smeltery/smeltery_controller_north"
+            "model": "pylon:block/machines/smeltery/smeltery_controller_north"
           }
         }
       },
       {
-        "when": "pylonbase:smeltery_input_hatch",
+        "when": "pylon:smeltery_input_hatch",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -442,39 +442,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch_north"
+                "model": "pylon:block/machines/smeltery/smeltery_input_hatch_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch_east"
+                "model": "pylon:block/machines/smeltery/smeltery_input_hatch_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch_south"
+                "model": "pylon:block/machines/smeltery/smeltery_input_hatch_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch_west"
+                "model": "pylon:block/machines/smeltery/smeltery_input_hatch_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch_north"
+            "model": "pylon:block/machines/smeltery/smeltery_input_hatch_north"
           }
         }
       },
       {
-        "when": "pylonbase:smeltery_output_hatch",
+        "when": "pylon:smeltery_output_hatch",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -484,46 +484,46 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/smeltery/smeltery_output_hatch_north"
+                "model": "pylon:block/machines/smeltery/smeltery_output_hatch_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/smeltery/smeltery_output_hatch_east"
+                "model": "pylon:block/machines/smeltery/smeltery_output_hatch_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/smeltery/smeltery_output_hatch_south"
+                "model": "pylon:block/machines/smeltery/smeltery_output_hatch_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/smeltery/smeltery_output_hatch_west"
+                "model": "pylon:block/machines/smeltery/smeltery_output_hatch_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/smeltery/smeltery_output_hatch_north"
+            "model": "pylon:block/machines/smeltery/smeltery_output_hatch_north"
           }
         }
       },
       {
-        "when": "pylonbase:smeltery_hopper",
+        "when": "pylon:smeltery_hopper",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/smeltery/smeltery_hopper"
+          "model": "pylon:block/machines/smeltery/smeltery_hopper"
         }
       },
       {
-        "when": "pylonbase:smeltery_burner",
+        "when": "pylon:smeltery_burner",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -540,20 +540,20 @@
                     "when": "lit=true",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_burner_north_lit"
+                      "model": "pylon:block/machines/smeltery/smeltery_burner_north_lit"
                     }
                   },
                   {
                     "when": "lit=false",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_burner_north"
+                      "model": "pylon:block/machines/smeltery/smeltery_burner_north"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "model",
-                  "model": "pylonbase:block/machines/smeltery/smeltery_burner_north"
+                  "model": "pylon:block/machines/smeltery/smeltery_burner_north"
                 }
               }
             },
@@ -568,20 +568,20 @@
                     "when": "lit=true",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_burner_east_lit"
+                      "model": "pylon:block/machines/smeltery/smeltery_burner_east_lit"
                     }
                   },
                   {
                     "when": "lit=false",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_burner_east"
+                      "model": "pylon:block/machines/smeltery/smeltery_burner_east"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "model",
-                  "model": "pylonbase:block/machines/smeltery/smeltery_burner_east"
+                  "model": "pylon:block/machines/smeltery/smeltery_burner_east"
                 }
               }
             },
@@ -596,20 +596,20 @@
                     "when": "lit=true",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_burner_south_lit"
+                      "model": "pylon:block/machines/smeltery/smeltery_burner_south_lit"
                     }
                   },
                   {
                     "when": "lit=false",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_burner_south"
+                      "model": "pylon:block/machines/smeltery/smeltery_burner_south"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "model",
-                  "model": "pylonbase:block/machines/smeltery/smeltery_burner_south"
+                  "model": "pylon:block/machines/smeltery/smeltery_burner_south"
                 }
               }
             },
@@ -624,39 +624,39 @@
                     "when": "lit=true",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_burner_west_lit"
+                      "model": "pylon:block/machines/smeltery/smeltery_burner_west_lit"
                     }
                   },
                   {
                     "when": "lit=false",
                     "model": {
                       "type": "model",
-                      "model": "pylonbase:block/machines/smeltery/smeltery_burner_west"
+                      "model": "pylon:block/machines/smeltery/smeltery_burner_west"
                     }
                   }
                 ],
                 "fallback": {
                   "type": "model",
-                  "model": "pylonbase:block/machines/smeltery/smeltery_burner_west"
+                  "model": "pylon:block/machines/smeltery/smeltery_burner_west"
                 }
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/smeltery/smeltery_burner_north"
+            "model": "pylon:block/machines/smeltery/smeltery_burner_north"
           }
         }
       },
       {
-        "when": "pylonbase:smeltery_caster",
+        "when": "pylon:smeltery_caster",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/smeltery/smeltery_caster"
+          "model": "pylon:block/machines/smeltery/smeltery_caster"
         }
       },
       {
-        "when": "pylonbase:mixing_pot",
+        "when": "pylon:mixing_pot",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -666,88 +666,88 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/mixing_pot_north"
+                "model": "pylon:block/machines/simple_machines/mixing_pot_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/mixing_pot_east"
+                "model": "pylon:block/machines/simple_machines/mixing_pot_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/mixing_pot_south"
+                "model": "pylon:block/machines/simple_machines/mixing_pot_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/mixing_pot_west"
+                "model": "pylon:block/machines/simple_machines/mixing_pot_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/simple_machines/mixing_pot_north"
+            "model": "pylon:block/machines/simple_machines/mixing_pot_north"
           }
         }
       },
       {
-        "when": "pylonbase:magic_pedestal",
+        "when": "pylon:shimmer_pedestal",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/magic_pedestal"
+          "model": "pylon:block/machines/simple_machines/shimmer_pedestal"
         }
       },
       {
-        "when": "pylonbase:magic_altar",
+        "when": "pylon:shimmer_altar",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/magic_altar"
+          "model": "pylon:block/machines/simple_machines/shimmer_altar"
         }
       },
       {
-        "when": "pylonbase:manual_core_drill",
+        "when": "pylon:manual_core_drill",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/manual_core_drill"
+          "model": "pylon:block/machines/simple_machines/manual_core_drill"
         }
       },
       {
-        "when": "pylonbase:improved_manual_core_drill",
+        "when": "pylon:improved_manual_core_drill",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/improved_manual_core_drill"
+          "model": "pylon:block/machines/simple_machines/improved_manual_core_drill"
         }
       },
       {
-        "when": "pylonbase:manual_core_drill_lever",
+        "when": "pylon:manual_core_drill_lever",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/manual_core_drill_lever"
+          "model": "pylon:block/machines/simple_machines/manual_core_drill_lever"
         }
       },
       {
-        "when": "pylonbase:enriched_soul_soil",
+        "when": "pylon:enriched_soul_soil",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/components/enriched_soul_soil"
+          "model": "pylon:block/components/enriched_soul_soil"
         }
       },
       {
-        "when": "pylonbase:refractory_mix",
+        "when": "pylon:refractory_mix",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/refractory_mix"
+          "model": "pylon:block/resources/refractory_mix"
         }
       },
       {
-        "when": "pylonbase:press",
+        "when": "pylon:press",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -757,39 +757,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/press_north"
+                "model": "pylon:block/machines/simple_machines/press_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/press_east"
+                "model": "pylon:block/machines/simple_machines/press_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/press_south"
+                "model": "pylon:block/machines/simple_machines/press_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/press_west"
+                "model": "pylon:block/machines/simple_machines/press_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/simple_machines/press_north"
+            "model": "pylon:block/machines/simple_machines/press_north"
           }
         }
       },
       {
-        "when": "pylonbase:hydraulic_table_saw",
+        "when": "pylon:hydraulic_table_saw",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -799,53 +799,53 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/table_saw_north"
+                "model": "pylon:block/machines/hydraulic/table_saw_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/table_saw_east"
+                "model": "pylon:block/machines/hydraulic/table_saw_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/table_saw_south"
+                "model": "pylon:block/machines/hydraulic/table_saw_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/table_saw_west"
+                "model": "pylon:block/machines/hydraulic/table_saw_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/hydraulic/table_saw_north"
+            "model": "pylon:block/machines/hydraulic/table_saw_north"
           }
         }
       },
       {
-        "when": "pylonbase:igneous_composite",
+        "when": "pylon:igneous_composite",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/igneous_composite"
+          "model": "pylon:block/building/igneous_composite"
         }
       },
       {
-        "when": "pylonbase:fluid_pipe_igneous_composite",
+        "when": "pylon:fluid_pipe_igneous_composite",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/igneous_composite_pipe"
+          "model": "pylon:block/machines/pipes/igneous_composite_pipe"
         }
       },
       {
-        "when": "pylonbase:fluid_tank_casing_igneous_composite",
+        "when": "pylon:fluid_tank_casing_igneous_composite",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -855,39 +855,39 @@
               "when": "shape=bottom",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/igneous_composite_tank_casing_bottom"
+                "model": "pylon:block/machines/pipes/igneous_composite_tank_casing_bottom"
               }
             },
             {
               "when": "shape=middle",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/igneous_composite_tank_casing_middle"
+                "model": "pylon:block/machines/pipes/igneous_composite_tank_casing_middle"
               }
             },
             {
               "when": "shape=top",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/igneous_composite_tank_casing_top"
+                "model": "pylon:block/machines/pipes/igneous_composite_tank_casing_top"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/pipes/igneous_composite_tank_casing"
+            "model": "pylon:block/machines/pipes/igneous_composite_tank_casing"
           }
         }
       },
       {
-        "when": "pylonbase:portable_fluid_tank_igneous_composite",
+        "when": "pylon:portable_fluid_tank_igneous_composite",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/igneous_composite_portable_tank"
+          "model": "pylon:block/machines/pipes/igneous_composite_portable_tank"
         }
       },
       {
-        "when": "pylonbase:fluid_tank",
+        "when": "pylon:fluid_tank",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -897,39 +897,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/fluid_tank_north"
+                "model": "pylon:block/machines/pipes/fluid_tank_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/fluid_tank_east"
+                "model": "pylon:block/machines/pipes/fluid_tank_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/fluid_tank_south"
+                "model": "pylon:block/machines/pipes/fluid_tank_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/pipes/fluid_tank_west"
+                "model": "pylon:block/machines/pipes/fluid_tank_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/pipes/fluid_tank_north"
+            "model": "pylon:block/machines/pipes/fluid_tank_north"
           }
         }
       },
       {
-        "when": "pylonbase:vacuum_hopper_1",
+        "when": "pylon:vacuum_hopper_1",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -939,39 +939,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_1_north"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_1_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_1_east"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_1_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_1_south"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_1_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_1_west"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_1_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_1"
+            "model": "pylon:block/machines/simple_machines/vacuum_hopper_1"
           }
         }
       },
       {
-        "when": "pylonbase:vacuum_hopper_2",
+        "when": "pylon:vacuum_hopper_2",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -981,39 +981,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_2_north"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_2_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_2_east"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_2_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_2_south"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_2_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_2_west"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_2_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_2"
+            "model": "pylon:block/machines/simple_machines/vacuum_hopper_2"
           }
         }
       },
       {
-        "when": "pylonbase:vacuum_hopper_3",
+        "when": "pylon:vacuum_hopper_3",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -1023,39 +1023,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_3_north"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_3_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_3_east"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_3_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_3_south"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_3_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_3_west"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_3_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_3"
+            "model": "pylon:block/machines/simple_machines/vacuum_hopper_3"
           }
         }
       },
       {
-        "when": "pylonbase:vacuum_hopper_4",
+        "when": "pylon:vacuum_hopper_4",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -1065,74 +1065,74 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_4_north"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_4_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_4_east"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_4_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_4_south"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_4_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_4_west"
+                "model": "pylon:block/machines/simple_machines/vacuum_hopper_4_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/simple_machines/vacuum_hopper_4"
+            "model": "pylon:block/machines/simple_machines/vacuum_hopper_4"
           }
         }
       },
       {
-        "when": "pylonbase:explosive_target",
+        "when": "pylon:explosive_target",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/explosive_target"
+          "model": "pylon:block/building/explosive_target"
         }
       },
       {
-        "when": "pylonbase:explosive_target_fiery",
+        "when": "pylon:explosive_target_fiery",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/fiery_explosive_target"
+          "model": "pylon:block/building/fiery_explosive_target"
         }
       },
       {
-        "when": "pylonbase:explosive_target_super",
+        "when": "pylon:explosive_target_super",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/super_explosive_target"
+          "model": "pylon:block/building/super_explosive_target"
         }
       },
       {
-        "when": "pylonbase:explosive_target_super_fiery",
+        "when": "pylon:explosive_target_super_fiery",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/super_fiery_explosive_target"
+          "model": "pylon:block/building/super_fiery_explosive_target"
         }
       },
       {
-        "when": "pylonbase:bloomery",
+        "when": "pylon:bloomery",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/smeltery/bloomery"
+          "model": "pylon:block/machines/smeltery/bloomery"
         }
       },
       {
-        "when": "pylonbase:hydraulic_hammer_head",
+        "when": "pylon:hydraulic_hammer_head",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -1142,39 +1142,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/hammer_head_north"
+                "model": "pylon:block/machines/hydraulic/hammer_head_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/hammer_head_east"
+                "model": "pylon:block/machines/hydraulic/hammer_head_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/hammer_head_south"
+                "model": "pylon:block/machines/hydraulic/hammer_head_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/hammer_head_west"
+                "model": "pylon:block/machines/hydraulic/hammer_head_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/hydraulic/hammer_head_north"
+            "model": "pylon:block/machines/hydraulic/hammer_head_north"
           }
         }
       },
       {
-        "when": "pylonbase:hydraulic_pipe_bender",
+        "when": "pylon:hydraulic_pipe_bender",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -1184,39 +1184,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/pipe_bender_north"
+                "model": "pylon:block/machines/hydraulic/pipe_bender_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/pipe_bender_east"
+                "model": "pylon:block/machines/hydraulic/pipe_bender_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/pipe_bender_south"
+                "model": "pylon:block/machines/hydraulic/pipe_bender_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/pipe_bender_west"
+                "model": "pylon:block/machines/hydraulic/pipe_bender_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/hydraulic/pipe_bender_north"
+            "model": "pylon:block/machines/hydraulic/pipe_bender_north"
           }
         }
       },
       {
-        "when": "pylonbase:hydraulic_mixing_attachment",
+        "when": "pylon:hydraulic_mixing_attachment",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -1226,39 +1226,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/mixing_attachment_north"
+                "model": "pylon:block/machines/hydraulic/mixing_attachment_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/mixing_attachment_east"
+                "model": "pylon:block/machines/hydraulic/mixing_attachment_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/mixing_attachment_south"
+                "model": "pylon:block/machines/hydraulic/mixing_attachment_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/mixing_attachment_west"
+                "model": "pylon:block/machines/hydraulic/mixing_attachment_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/hydraulic/mixing_attachment_north"
+            "model": "pylon:block/machines/hydraulic/mixing_attachment_north"
           }
         }
       },
       {
-        "when": "pylonbase:hydraulic_press_piston",
+        "when": "pylon:hydraulic_press_piston",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -1268,74 +1268,75 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/press_piston_north"
+                "model": "pylon:block/machines/hydraulic/press_piston_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/press_piston_east"
+                "model": "pylon:block/machines/hydraulic/press_piston_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/press_piston_south"
+                "model": "pylon:block/machines/hydraulic/press_piston_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/press_piston_west"
+                "model": "pylon:block/machines/hydraulic/press_piston_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/hydraulic/press_piston_north"
+            "model": "pylon:block/machines/hydraulic/press_piston_north"
           }
         }
       },
       {
-        "when": "pylonbase:solar_lens",
+        "when": "pylon:solar_lens",
         "model": {
           "type": "select",
           "property": "custom_model_data",
           "index": 1,
           "cases": [
-            {
-              "when": "east=true",
-              "model": {
-                "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/solar_lens_east"
-              }
-            },
             {
               "when": "east=false",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/hydraulic/solar_lens_south"
+                "model": "pylon:block/machines/hydraulic/solar_lens_south"
+
+              }
+            },
+            {
+              "when": "east=true",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/hydraulic/solar_lens_east"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/hydraulic/solar_lens_south"
+            "model": "pylon:block/machines/hydraulic/solar_lens_south"
           }
         }
       },
       {
-        "when": "pylonbase:cargo_duct",
+        "when": "pylon:cargo_duct",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/cargo/cargo_duct"
+          "model": "pylon:block/machines/cargo/cargo_duct"
         }
       },
       {
-        "when": "pylonbase:cargo_inserter",
+        "when": "pylon:cargo_inserter",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -1345,39 +1346,39 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/cargo/cargo_inserter_north"
+                "model": "pylon:block/machines/cargo/cargo_inserter_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/cargo/cargo_inserter_east"
+                "model": "pylon:block/machines/cargo/cargo_inserter_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/cargo/cargo_inserter_south"
+                "model": "pylon:block/machines/cargo/cargo_inserter_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/cargo/cargo_inserter_west"
+                "model": "pylon:block/machines/cargo/cargo_inserter_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/cargo/cargo_inserter_north"
+            "model": "pylon:block/machines/cargo/cargo_inserter_north"
           }
         }
       },
       {
-        "when": "pylonbase:cargo_extractor",
+        "when": "pylon:cargo_extractor",
         "model": {
           "type": "select",
           "property": "custom_model_data",
@@ -1387,63 +1388,665 @@
               "when": "facing=north",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/cargo/cargo_extractor_north"
+                "model": "pylon:block/machines/cargo/cargo_extractor_north"
               }
             },
             {
               "when": "facing=east",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/cargo/cargo_extractor_east"
+                "model": "pylon:block/machines/cargo/cargo_extractor_east"
               }
             },
             {
               "when": "facing=south",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/cargo/cargo_extractor_south"
+                "model": "pylon:block/machines/cargo/cargo_extractor_south"
               }
             },
             {
               "when": "facing=west",
               "model": {
                 "type": "model",
-                "model": "pylonbase:block/machines/cargo/cargo_extractor_west"
+                "model": "pylon:block/machines/cargo/cargo_extractor_west"
               }
             }
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:block/machines/cargo/cargo_extractor_north"
+            "model": "pylon:block/machines/cargo/cargo_extractor_north"
           }
         }
       },
       {
-        "when": "pylonbase:pedestal",
+        "when": "pylon:pedestal",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/pedestal"
+          "model": "pylon:block/building/pedestal"
         }
       },
       {
-        "when": "pylonbase:elevator_1",
+        "when": "pylon:elevator_1",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/elevator_1"
+          "model": "pylon:block/building/elevator_1"
         }
       },
       {
-        "when": "pylonbase:elevator_2",
+        "when": "pylon:elevator_2",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/elevator_2"
+          "model": "pylon:block/building/elevator_2"
         }
       },
       {
-        "when": "pylonbase:elevator_3",
+        "when": "pylon:elevator_3",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/elevator_3"
+          "model": "pylon:block/building/elevator_3"
+        }
+      },
+      {
+        "when": "pylon:cargo_valve",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_valve_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_valve_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_valve_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_valve_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_valve_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:creative_fluid_source",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/creative_fluid_source"
+        }
+      },
+      {
+        "when": "pylon:cargo_splitter",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_splitter_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_splitter_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_splitter_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_splitter_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_splitter_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:cargo_merger",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_merger_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_merger_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_merger_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_merger_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_merger_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:cargo_buffer",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_buffer_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_buffer_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_buffer_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_buffer_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_buffer_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:cargo_monitor",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_monitor_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_monitor_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_monitor_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_monitor_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_monitor_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:cargo_meter",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_meter_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_meter_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_meter_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_meter_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_meter_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:cargo_accumulator",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_accumulator_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_accumulator_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_accumulator_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_accumulator_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_accumulator_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:cargo_gate",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_gate_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_gate_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_gate_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_gate_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_gate_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:cargo_filter",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_filter_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_filter_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_filter_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_filter_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_filter_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:cargo_fluid_accumulator",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_fluid_accumulator_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_fluid_accumulator_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_fluid_accumulator_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/cargo/cargo_fluid_accumulator_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/cargo/cargo_fluid_accumulator_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:sprinkler",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/fluid/sprinkler"
+        }
+      },
+      {
+        "when": "pylon:diesel_table_saw",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/table_saw_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/table_saw_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/table_saw_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/table_saw_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/diesel/table_saw_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:diesel_pipe_bender",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/pipe_bender_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/pipe_bender_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/pipe_bender_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/pipe_bender_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/diesel/pipe_bender_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:diesel_hammer_head",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/hammer_head_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/hammer_head_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/hammer_head_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/hammer_head_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/diesel/hammer_head_north"
+          }
+        }
+      },
+      {
+        "when": "pylon:diesel_mixing_attachment",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "facing=north",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/mixing_attachment_north"
+              }
+            },
+            {
+              "when": "facing=east",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/mixing_attachment_east"
+              }
+            },
+            {
+              "when": "facing=south",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/mixing_attachment_south"
+              }
+            },
+            {
+              "when": "facing=west",
+              "model": {
+                "type": "model",
+                "model": "pylon:block/machines/diesel/mixing_attachment_west"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:block/machines/diesel/mixing_attachment_north"
+          }
         }
       }
     ],

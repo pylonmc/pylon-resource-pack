@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:steel_block",
+        "when": "pylon:steel_block",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/steel_block"
+          "model": "pylon:block/resources/steel_block"
         }
       }
     ],

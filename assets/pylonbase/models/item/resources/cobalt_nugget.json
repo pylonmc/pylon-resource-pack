@@ -1,7 +1,0 @@
-{
-	"parent": "item/generated",
-	"author": "Pandicka",
-	"textures": {
-		"layer0": "pylonbase:item/resources/cobalt_nugget"
-	}
-}

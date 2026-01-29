@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:copper_drill_bit",
+        "when": "pylon:copper_drill_bit",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/copper_drill_bit"
+          "model": "pylon:item/components/copper_drill_bit"
         }
       },
       {
-        "when": "pylonbase:bronze_drill_bit",
+        "when": "pylon:bronze_drill_bit",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/bronze_drill_bit"
+          "model": "pylon:item/components/bronze_drill_bit"
         }
       }
     ],

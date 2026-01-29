@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:sulfur",
+        "when": "pylon:sulfur",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/sulfur"
+          "model": "pylon:item/resources/sulfur"
         }
       },
       {
-        "when": "pylonbase:dough",
+        "when": "pylon:dough",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/dough"
+          "model": "pylon:item/resources/dough"
         }
       }
     ],

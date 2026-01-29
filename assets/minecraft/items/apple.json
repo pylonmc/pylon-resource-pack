@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:breeding_talisman_simple",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/breeding_talisman_simple"
+        }
+      },
+      {
+        "when": "pylon:breeding_talisman_advanced",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/breeding_talisman_advanced"
+        }
+      },
+      {
+        "when": "pylon:breeding_talisman_ultimate",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/breeding_talisman_ultimate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/apple"
+    }
+  }
+}

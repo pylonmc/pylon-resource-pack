@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze",
+        "when": "pylon:bronze",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/bronze"
+          "model": "pylon:block/fluids/bronze"
         }
       }
     ],

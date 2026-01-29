@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:stone_hammer",
+        "when": "pylon:stone_hammer",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/stone_hammer"
+          "model": "pylon:item/tools/stone_hammer"
         }
       }
     ],

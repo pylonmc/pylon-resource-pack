@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:refractory_bricks",
+        "when": "pylon:refractory_bricks",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/smeltery/refractory_bricks"
+          "model": "pylon:block/machines/smeltery/refractory_bricks"
         }
       }
     ],

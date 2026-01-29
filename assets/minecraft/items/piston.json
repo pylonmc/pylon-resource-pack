@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:hydraulic_motor",
+        "when": "pylon:hydraulic_motor",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/hydraulic_motor"
+          "model": "pylon:item/components/hydraulic_motor"
         }
       }
     ],

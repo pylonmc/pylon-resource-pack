@@ -4,17 +4,38 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:filter_mesh",
+        "when": "pylon:filter_mesh",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/filter_mesh"
+          "model": "pylon:item/components/filter_mesh"
         }
       },
       {
-        "when": "pylonbase:sawblade",
+        "when": "pylon:sawblade",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/sawblade"
+          "model": "pylon:item/components/sawblade"
+        }
+      },
+      {
+        "when": "pylon:hydraulic_table_saw:saw",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/air"
+        }
+      },
+      {
+        "when": "pylon:diesel_table_saw:saw",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/air"
+        }
+      },
+      {
+        "when": "pylon:diesel_table_saw",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/diesel/table_saw_north"
         }
       }
     ],

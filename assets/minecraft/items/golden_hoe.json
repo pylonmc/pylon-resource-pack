@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_hoe",
+        "when": "pylon:bronze_hoe",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/bronze_hoe"
+          "model": "pylon:item/tools/bronze_hoe"
         }
       }
     ],

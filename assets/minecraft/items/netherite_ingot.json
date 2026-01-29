@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:steel_ingot",
+        "when": "pylon:steel_ingot",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/steel_ingot"
+          "model": "pylon:item/resources/steel_ingot"
         }
       },
       {
-        "when": "pylonbase:refractory_brick",
+        "when": "pylon:refractory_brick",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/refractory_brick"
+          "model": "pylon:item/resources/refractory_brick"
         }
       }
     ],

@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:hydraulic_table_saw",
+        "when": "pylon:hydraulic_table_saw",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/hydraulic/table_saw"
+          "model": "pylon:block/machines/hydraulic/table_saw_north"
         }
       }
     ],

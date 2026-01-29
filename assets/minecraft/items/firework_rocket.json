@@ -4,13 +4,13 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:confetti_popper",
+        "when": "pylon:confetti_popper",
         "model": {
           "type": "condition",
           "property": "using_item",
           "on_false": {
             "type": "model",
-            "model": "pylonbase:item/tools/confetti_popper_hand"
+            "model": "pylon:item/tools/confetti_popper_hand"
           },
           "on_true": {
             "type": "select",
@@ -19,7 +19,7 @@
               {
                 "model": {
                   "type": "model",
-                  "model": "pylonbase:item/tools/confetti_popper_hand"
+                  "model": "pylon:item/tools/confetti_popper_hand"
                 },
                 "when": [
                   "gui",
@@ -30,12 +30,8 @@
             ],
             "fallback": {
               "type": "model",
-              "model": "pylonbase:item/tools/confetti_popper_charged"
+              "model": "pylon:item/tools/confetti_popper_charged"
             }
-          },
-          "fallback": {
-            "type": "model",
-            "model": "pylonbase:item/tools/confetti_popper_hand"
           }
         }
       }

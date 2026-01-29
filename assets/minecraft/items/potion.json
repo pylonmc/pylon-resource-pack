@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:disinfectant",
+        "when": "pylon:disinfectant",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/disinfectant"
+          "model": "pylon:item/combat/disinfectant"
         }
       }
     ],

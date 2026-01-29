@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:pedestal",
+        "when": "pylon:pedestal",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/pedestal"
+          "model": "pylon:block/building/pedestal"
         }
       }
     ],

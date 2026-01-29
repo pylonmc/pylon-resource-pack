@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"author": "cromecloride",
+	"textures": {
+		"layer0": "pylon:item/components/shaft"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"author": "Leo",
+	"textures": {
+		"layer0": "pylon:item/combat/tin_projectile"
+	}
+}

@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:unfired_refractory_brick",
+        "when": "pylon:unfired_refractory_brick",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/unfired_refractory_brick"
+          "model": "pylon:item/resources/unfired_refractory_brick"
         }
       }
     ],

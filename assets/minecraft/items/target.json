@@ -4,31 +4,31 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:explosive_target",
+        "when": "pylon:explosive_target",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/explosive_target"
+          "model": "pylon:block/building/explosive_target"
         }
       },
       {
-        "when": "pylonbase:explosive_target_fiery",
+        "when": "pylon:explosive_target_fiery",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/fiery_explosive_target"
+          "model": "pylon:block/building/fiery_explosive_target"
         }
       },
       {
-        "when": "pylonbase:explosive_target_super",
+        "when": "pylon:explosive_target_super",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/super_explosive_target"
+          "model": "pylon:block/building/super_explosive_target"
         }
       },
       {
-        "when": "pylonbase:explosive_target_super_fiery",
+        "when": "pylon:explosive_target_super_fiery",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/super_fiery_explosive_target"
+          "model": "pylon:block/building/super_fiery_explosive_target"
         }
       }
     ],

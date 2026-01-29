@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:cargo_fluid_accumulator",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/cargo/cargo_fluid_accumulator_north"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/note_block"
+    }
+  }
+}

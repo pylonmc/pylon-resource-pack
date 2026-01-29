@@ -4,10 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pyloncore:guide_page:pyloncore:settings",
+        "when": "rebar:guide_page:rebar:settings",
         "model": {
           "type": "model",
-          "model": "pyloncore:item/ui/settings"
+          "model": "rebar:item/ui/settings"
+        }
+      },
+      {
+        "when": "pylon:cargo_filter",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/cargo/cargo_filter_north"
         }
       }
     ],

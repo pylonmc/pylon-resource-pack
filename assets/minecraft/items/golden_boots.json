@@ -4,7 +4,7 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_boots",
+        "when": "pylon:bronze_boots",
         "model": {
           "type": "select",
           "property": "trim_material",
@@ -89,7 +89,7 @@
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:item/armor/bronze_boots"
+            "model": "pylon:item/armor/bronze_boots"
           }
         }
       }

@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:refractory_mix",
+        "when": "pylon:refractory_mix",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/refractory_mix"
+          "model": "pylon:block/resources/refractory_mix"
         }
       }
     ],

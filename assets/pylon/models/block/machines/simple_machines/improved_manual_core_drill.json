@@ -1,0 +1,13 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"author": "Pandicka",
+	"textures": {
+		"end": "pylon:block/machines/simple_machines/improved_manual_core_drill_top",
+		"side": "pylon:block/machines/simple_machines/improved_manual_core_drill_side"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

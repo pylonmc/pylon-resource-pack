@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:brick_mold",
+        "when": "pylon:brick_mold",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/brick_mold"
+          "model": "pylon:item/tools/brick_mold"
         }
       }
     ],

@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:enriched_soul_soil",
+        "when": "pylon:enriched_soul_soil",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/components/enriched_soul_soil"
+          "model": "pylon:block/components/enriched_soul_soil"
         }
       }
     ],

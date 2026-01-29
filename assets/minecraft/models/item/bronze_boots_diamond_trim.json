@@ -2,7 +2,7 @@
   "parent": "item/generated",
   "author": "Pandicka",
   "textures": {
-    "layer0": "pylonbase:item/armor/bronze_boots",
+    "layer0": "pylon:item/armor/bronze_boots",
     "layer1": "trims/items/boots_trim_diamond"
   }
 }

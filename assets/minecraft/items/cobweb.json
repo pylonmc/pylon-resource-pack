@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bandage",
+        "when": "pylon:bandage",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/bandage"
+          "model": "pylon:item/combat/bandage"
         }
       }
     ],

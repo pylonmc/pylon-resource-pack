@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:medkit",
+        "when": "pylon:medkit",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/medkit"
+          "model": "pylon:item/combat/medkit"
         }
       }
     ],

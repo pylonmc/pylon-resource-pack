@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:steel_nugget",
+        "when": "pylon:steel_nugget",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/steel_nugget"
+          "model": "pylon:item/resources/steel_nugget"
         }
       },
       {
-        "when": "pylonbase:wrought_iron",
+        "when": "pylon:wrought_iron",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/wrought_iron"
+          "model": "pylon:item/resources/wrought_iron"
         }
       }
     ],

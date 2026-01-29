@@ -4,7 +4,7 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_chestplate",
+        "when": "pylon:bronze_chestplate",
         "model": {
           "type": "select",
           "property": "trim_material",
@@ -89,7 +89,7 @@
           ],
           "fallback": {
             "type": "model",
-            "model": "pylonbase:item/armor/bronze_chestplate"
+            "model": "pylon:item/armor/bronze_chestplate"
           }
         }
       }

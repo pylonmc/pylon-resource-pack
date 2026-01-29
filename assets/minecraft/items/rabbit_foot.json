@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:luck_talisman_simple",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/luck_talisman_simple"
+        }
+      },
+      {
+        "when": "pylon:luck_talisman_advanced",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/luck_talisman_advanced"
+        }
+      },
+      {
+        "when": "pylon:luck_talisman_ultimate",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/luck_talisman_ultimate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/rabbit_foot"
+    }
+  }
+}

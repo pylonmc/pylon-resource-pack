@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:climbing_pick",
+        "when": "pylon:climbing_pick",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/climbing_pick"
+          "model": "pylon:item/tools/climbing_pick"
         }
       }
     ],

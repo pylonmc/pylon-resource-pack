@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:portable_ender_chest",
+        "when": "pylon:portable_ender_chest",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/portable_ender_chest"
+          "model": "pylon:item/tools/portable_ender_chest"
         }
       }
     ],

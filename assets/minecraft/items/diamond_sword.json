@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:beheading_sword",
+        "when": "pylon:beheading_sword",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/beheading_sword"
+          "model": "pylon:item/combat/beheading_sword"
         }
       }
     ],

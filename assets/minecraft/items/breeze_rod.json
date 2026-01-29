@@ -4,10 +4,18 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:item_magnet",
+        "when": "pylon:shimmer_magnet",
         "model": {
-          "type": "model",
-          "model": "pylonbase:item/tools/item_magnet"
+          "type": "condition",
+          "property": "custom_model_data",
+          "on_true": {
+            "type": "model",
+            "model": "pylon:item/tools/shimmer_magnet_on"
+          },
+          "on_false": {
+            "type": "model",
+            "model": "pylon:item/tools/shimmer_magnet_off"
+          }
         }
       }
     ],

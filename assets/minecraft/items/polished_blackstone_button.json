@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:obsidian_chip",
+        "when": "pylon:obsidian_chip",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/obsidian_chip"
+          "model": "pylon:item/resources/obsidian_chip"
         }
       }
     ],

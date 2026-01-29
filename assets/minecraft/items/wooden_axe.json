@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:lumber_axe",
+        "when": "pylon:lumber_axe",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/lumber_axe"
+          "model": "pylon:item/tools/lumber_axe"
         }
       }
     ],

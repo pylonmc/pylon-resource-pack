@@ -4,24 +4,24 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:elevator_1",
+        "when": "pylon:elevator_1",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/elevator_1"
+          "model": "pylon:block/building/elevator_1"
         }
       },
       {
-        "when": "pylonbase:elevator_2",
+        "when": "pylon:elevator_2",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/elevator_2"
+          "model": "pylon:block/building/elevator_2"
         }
       },
       {
-        "when": "pylonbase:elevator_3",
+        "when": "pylon:elevator_3",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/elevator_3"
+          "model": "pylon:block/building/elevator_3"
         }
       }
     ],

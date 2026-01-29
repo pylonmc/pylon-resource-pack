@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:smeltery_caster",
+        "when": "pylon:smeltery_caster",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/smeltery/smeltery_caster"
+          "model": "pylon:block/machines/smeltery/smeltery_caster"
         }
       }
     ],

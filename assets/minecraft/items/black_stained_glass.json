@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:portable_fluid_tank_igneous_composite",
+        "when": "pylon:portable_fluid_tank_igneous_composite",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/igneous_composite_portable_tank"
+          "model": "pylon:block/machines/pipes/igneous_composite_portable_tank"
         }
       },
       {
-        "when": "pylonbase:fluid_tank_casing_igneous_composite",
+        "when": "pylon:fluid_tank_casing_igneous_composite",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/igneous_composite_tank_casing"
+          "model": "pylon:block/machines/pipes/igneous_composite_tank_casing"
         }
       }
     ],

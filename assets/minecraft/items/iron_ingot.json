@@ -4,24 +4,24 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:tin_ingot",
+        "when": "pylon:tin_ingot",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/tin_ingot"
+          "model": "pylon:item/resources/tin_ingot"
         }
       },
       {
-        "when": "pylonbase:nickel_ingot",
+        "when": "pylon:nickel_ingot",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/nickel_ingot"
+          "model": "pylon:item/resources/nickel_ingot"
         }
       },
       {
-        "when": "pylonbase:cobalt_ingot",
+        "when": "pylon:cobalt_ingot",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/cobalt_ingot"
+          "model": "pylon:item/resources/cobalt_ingot"
         }
       }
     ],

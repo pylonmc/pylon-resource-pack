@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:fluid_pipe_iron",
+        "when": "pylon:fluid_pipe_iron",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/iron_pipe"
+          "model": "pylon:block/machines/pipes/iron_pipe"
         }
       },
       {
-        "when": "pylonbase:slurry_coal",
+        "when": "pylon:slurry_coal",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
@@ -24,10 +24,10 @@
         }
       },
       {
-        "when": "pylonbase:slurry_raw_iron",
+        "when": "pylon:slurry_raw_iron",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
@@ -37,10 +37,10 @@
         }
       },
       {
-        "when": "pylonbase:slurry_raw_tin",
+        "when": "pylon:slurry_raw_tin",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
@@ -50,10 +50,10 @@
         }
       },
       {
-        "when": "pylonbase:slurry_raw_copper",
+        "when": "pylon:slurry_raw_copper",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
@@ -63,10 +63,10 @@
         }
       },
       {
-        "when": "pylonbase:slurry_raw_gold",
+        "when": "pylon:slurry_raw_gold",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
@@ -76,10 +76,10 @@
         }
       },
       {
-        "when": "pylonbase:slurry",
+        "when": "pylon:slurry",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
@@ -89,10 +89,10 @@
         }
       },
       {
-        "when": "pylonbase:slurry_redstone",
+        "when": "pylon:slurry_redstone",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
@@ -102,10 +102,10 @@
         }
       },
       {
-        "when": "pylonbase:slurry_carbon",
+        "when": "pylon:slurry_carbon",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
@@ -115,16 +115,23 @@
         }
       },
       {
-        "when": "pylonbase:slurry_sponge_iron",
+        "when": "pylon:slurry_sponge_iron",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",
               "value": 8555924
             }
           ]
+        }
+      },
+      {
+        "when": "pylon:diesel_mixing_attachment",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/diesel/mixing_attachment"
         }
       }
     ],

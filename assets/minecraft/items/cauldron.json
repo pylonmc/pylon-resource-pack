@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:portable_dustbin",
+        "when": "pylon:portable_dustbin",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/portable_dustbin"
+          "model": "pylon:item/tools/portable_dustbin"
         }
       },
       {
-        "when": "pylonbase:mixing_pot",
+        "when": "pylon:mixing_pot",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/mixing_pot_north"
+          "model": "pylon:block/machines/simple_machines/mixing_pot_north"
         }
       }
     ],

@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:fiber",
+        "when": "pylon:fiber",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/fiber"
+          "model": "pylon:item/components/fiber"
         }
       }
     ],

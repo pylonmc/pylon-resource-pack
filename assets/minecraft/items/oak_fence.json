@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:grindstone_handle",
+        "when": "pylon:grindstone_handle",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/grindstone_handle"
+          "model": "pylon:block/machines/simple_machines/grindstone_handle"
         }
       },
       {
-        "when": "pylonbase:axle",
+        "when": "pylon:axle",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/axle"
+          "model": "pylon:item/components/axle"
         }
       }
     ],

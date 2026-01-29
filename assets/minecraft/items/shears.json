@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases":[
       {
-        "when": "pylonbase:tongs",
+        "when": "pylon:tongs",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/tongs"
+          "model": "pylon:item/tools/tongs"
         }
       }
     ],

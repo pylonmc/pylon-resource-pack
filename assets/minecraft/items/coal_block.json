@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:charcoal_block",
+        "when": "pylon:charcoal_block",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/resources/charcoal_block"
+          "model": "pylon:block/resources/charcoal_block"
         }
       }
     ],

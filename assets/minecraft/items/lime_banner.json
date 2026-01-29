@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:research_pack_2",
+        "when": "pylon:research_pack_2",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/science/research_pack_2"
+          "model": "pylon:item/science/research_pack_2"
         }
       }
     ],

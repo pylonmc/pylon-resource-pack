@@ -1,0 +1,96 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"output": "pylon:block/machines/cargo/cargo_extractor",
+		"input": "pylon:block/machines/cargo/cargo_inserter",
+		"valve": "pylon:block/machines/cargo/cargo_valve",
+		"particle": "pylon:block/machines/cargo/cargo_valve"
+	},
+	"elements": [
+		{
+			"from": [4, 4, 2.8],
+			"to": [12.01, 12.01, 13.21],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
+			"faces": {
+				"north": {"uv": [0, 4, 10, 12], "texture": "#valve"},
+				"east": {"uv": [0, 4, 10, 12], "texture": "#valve"},
+				"south": {"uv": [0, 4, 10, 12], "texture": "#valve"},
+				"west": {"uv": [0, 4, 10, 12], "texture": "#valve"},
+				"up": {"uv": [0, 4, 10, 12], "texture": "#valve"},
+				"down": {"uv": [0, 4, 10, 12], "texture": "#valve"}
+			}
+		},
+		{
+			"from": [4.5, 4.5, 12.6],
+			"to": [11.5, 11.5, 13.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 10]},
+			"faces": {
+				"east": {"uv": [4, 4, 5, 5], "texture": "#input"},
+				"south": {"uv": [2, 4, 10, 12], "texture": "#input"},
+				"west": {"uv": [4, 4, 5, 5], "texture": "#input"},
+				"up": {"uv": [4, 4, 5, 5], "texture": "#input"},
+				"down": {"uv": [4, 4, 5, 5], "texture": "#input"}
+			}
+		},
+		{
+			"from": [4.5, 4.5, 2.4],
+			"to": [11.5, 11.5, 3.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -1]},
+			"faces": {
+				"north": {"uv": [2, 4, 10, 12], "texture": "#output"},
+				"east": {"uv": [4, 4, 5, 5], "texture": "#output"},
+				"west": {"uv": [4, 4, 5, 5], "texture": "#output"},
+				"up": {"uv": [4, 4, 5, 5], "texture": "#output"},
+				"down": {"uv": [4, 4, 5, 5], "texture": "#output"}
+			}
+		},
+		{
+			"from": [7.25, 12, 7.25],
+			"to": [8.75, 15.5, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 12, 7]},
+			"faces": {
+				"north": {"uv": [13, 9, 14, 14], "texture": "#valve"},
+				"east": {"uv": [13, 9, 16, 14], "texture": "#valve"},
+				"south": {"uv": [13, 9, 14, 14], "texture": "#valve"},
+				"west": {"uv": [13, 9, 16, 14], "texture": "#valve"},
+				"up": {"uv": [13, 9, 14, 10], "texture": "#valve"}
+			}
+		},
+		{
+			"from": [7.5, 13, 5],
+			"to": [8.5, 15, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
+			"faces": {
+				"north": {"uv": [13, 2, 16, 3], "rotation": 90, "texture": "#valve"},
+				"east": {"uv": [13, 2, 16, 9], "rotation": 90, "texture": "#valve"},
+				"south": {"uv": [13, 2, 16, 3], "rotation": 90, "texture": "#valve"},
+				"west": {"uv": [13, 2, 16, 9], "rotation": 90, "texture": "#valve"},
+				"up": {"uv": [13, 2, 14, 9], "rotation": 90, "texture": "#valve"},
+				"down": {"uv": [13, 2, 14, 9], "rotation": 90, "texture": "#valve"}
+			}
+		},
+		{
+			"from": [6.5, 13, 6.5],
+			"to": [9.5, 14, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 13, 11]},
+			"faces": {
+				"north": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"east": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"south": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"west": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"up": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"down": {"uv": [13, 2, 16, 3], "texture": "#valve"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:rotor",
+        "when": "pylon:rotor",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/rotor"
+          "model": "pylon:item/components/rotor"
         }
       }
     ],

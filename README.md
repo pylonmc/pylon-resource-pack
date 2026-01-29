@@ -1,8 +1,8 @@
 # 🎨 Pylon Resource Pack
 
-The **Pylon Resource Pack** is the official-unofficial resource pack for the [Pylon](https://github.com/pylonmc/pylon-base) plugin.
+The **Pylon Resource Pack** is the official-unofficial resource pack for the [Pylon](https://github.com/pylonmc/pylon) plugin.
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.10-blue?style=flat&logo=minecraft&logoSize=auto)](https://www.minecraft.net) 
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-blue?style=flat&logo=minecraft&logoSize=auto)](https://www.minecraft.net) 
 [![Latest Release](https://img.shields.io/github/v/release/pylonmc/pylon-resource-pack?sort=semver&style=flat&logo=github&display_name=release&label=Latest%20release&color=C47900)](https://github.com/pylonmc/pylon-resource-pack/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/pylonmc/pylon-resource-pack/total?style=flat&label=Downloads&color=0D910D)](https://github.com/pylonmc/pylon-resource-pack/releases)
 
@@ -40,14 +40,15 @@ while showcasing Pylon’s unique mechanical and industrial style.
 Planned and upcoming improvements for the Pylon Resource Pack:
 
 ### ⏳ In Progress
-- Textures for all PylonBase items  
+- Textures for all Pylon items  
 - GUI icons
 - Hydraulic Machines
+- Diesel Machines
 - Cargo
 
 ### Untouched
 - Fluid Machines
-- Diesel Machines
+- Diesel Production
 
 > Have ideas or want to contribute to this list?  
 > See the [Contributing](#-contributing) section below!

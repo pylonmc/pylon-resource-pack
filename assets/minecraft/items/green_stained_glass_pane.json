@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pyloncore:page_next",
+        "when": "rebar:page_next",
         "model": {
           "type": "model",
-          "model": "pyloncore:item/ui/next_on"
+          "model": "rebar:item/ui/next_on"
         }
       },
       {
-        "when": "pyloncore:page_previous",
+        "when": "rebar:page_previous",
         "model": {
           "type": "model",
-          "model": "pyloncore:item/ui/previous_on"
+          "model": "rebar:item/ui/previous_on"
         }
       }
     ],

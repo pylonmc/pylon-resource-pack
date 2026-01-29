@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:mercury",
+        "when": "pylon:mercury",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",

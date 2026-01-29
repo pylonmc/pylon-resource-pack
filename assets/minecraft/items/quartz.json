@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:gypsum",
+        "when": "pylon:gypsum",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/gypsum"
+          "model": "pylon:item/resources/gypsum"
         }
       }
     ],

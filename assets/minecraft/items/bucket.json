@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:watering_can",
+        "when": "pylon:watering_can",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/watering_can"
+          "model": "pylon:item/tools/watering_can"
         }
       }
     ],

@@ -1,0 +1,11 @@
+{
+	"parent": "pylon:block/machines/cargo/cargo_buffer_north",
+	"author": "Pandicka",
+	"textures": {
+		"output": "pylon:block/machines/cargo/cargo_extractor",
+		"side": "block/redstone_lamp",
+		"duct": "pylon:block/machines/cargo/cargo_duct_alt",
+		"particle": "pylon:block/machines/cargo/cargo_duct_alt",
+		"input": "pylon:block/machines/cargo/cargo_inserter"
+	}
+}

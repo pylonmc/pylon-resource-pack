@@ -1,7 +1,0 @@
-{
-	"parent": "item/generated",
-	"author": "cromecloride",
-	"textures": {
-		"layer0": "pylonbase:item/components/axle"
-	}
-}

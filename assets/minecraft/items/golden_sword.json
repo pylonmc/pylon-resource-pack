@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_sword",
+        "when": "pylon:bronze_sword",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/bronze_sword"
+          "model": "pylon:item/combat/bronze_sword"
         }
       }
     ],

@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:carbon",
+        "when": "pylon:carbon",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/carbon"
+          "model": "pylon:item/resources/carbon"
         }
       }
     ],

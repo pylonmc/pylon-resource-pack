@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:shimmer_dust_2",
+        "when": "pylon:shimmer_dust_2",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/shimmer_dust_2"
+          "model": "pylon:item/resources/shimmer_dust_2"
         }
       }
     ],

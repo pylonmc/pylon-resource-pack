@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases":[
       {
-        "when": "pylonbase:abyssal_catalyst",
+        "when": "pylon:abyssal_catalyst",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/abyssal_catalyst"
+          "model": "pylon:item/components/abyssal_catalyst"
         }
       }
     ],

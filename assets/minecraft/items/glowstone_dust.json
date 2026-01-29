@@ -4,45 +4,45 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_dust",
+        "when": "pylon:bronze_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/bronze_dust"
+          "model": "pylon:item/resources/bronze_dust"
         }
       },
       {
-        "when": "pylonbase:copper_dust",
+        "when": "pylon:copper_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/copper_dust"
+          "model": "pylon:item/resources/copper_dust"
         }
       },
       {
-        "when": "pylonbase:crushed_raw_copper",
+        "when": "pylon:crushed_raw_copper",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/crushed_raw_copper"
+          "model": "pylon:item/resources/crushed_raw_copper"
         }
       },
       {
-        "when": "pylonbase:gold_dust",
+        "when": "pylon:gold_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/gold_dust"
+          "model": "pylon:item/resources/gold_dust"
         }
       },
       {
-        "when": "pylonbase:crushed_raw_gold",
+        "when": "pylon:crushed_raw_gold",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/crushed_raw_gold"
+          "model": "pylon:item/resources/crushed_raw_gold"
         }
       },
       {
-        "when": "pylonbase:shimmer_dust_3",
+        "when": "pylon:shimmer_dust_3",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/shimmer_dust_3"
+          "model": "pylon:item/resources/shimmer_dust_3"
         }
       }
     ],

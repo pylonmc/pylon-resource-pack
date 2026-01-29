@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:cargo_valve",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/cargo/cargo_valve_north"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/white_concrete"
+    }
+  }
+}

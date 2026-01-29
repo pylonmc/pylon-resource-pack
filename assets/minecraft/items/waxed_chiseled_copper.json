@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:hydraulic_pipe_bender",
+        "when": "pylon:hydraulic_pipe_bender",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/hydraulic/pipe_bender_north"
+          "model": "pylon:block/machines/hydraulic/pipe_bender_north"
         }
       }
     ],

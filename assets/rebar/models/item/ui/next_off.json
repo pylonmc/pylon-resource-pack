@@ -1,0 +1,7 @@
+{
+	"parent": "rebar:item/ui/background",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "rebar:item/ui/next_off"
+	}
+}

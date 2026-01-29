@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_shovel",
+        "when": "pylon:bronze_shovel",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/bronze_shovel"
+          "model": "pylon:item/tools/bronze_shovel"
         }
       }
     ],

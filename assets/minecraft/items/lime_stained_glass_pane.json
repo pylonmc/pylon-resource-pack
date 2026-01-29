@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:analogue_display",
+        "when": "pylon:analogue_display",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/analogue_display"
+          "model": "pylon:item/components/analogue_display"
         }
       }
     ],

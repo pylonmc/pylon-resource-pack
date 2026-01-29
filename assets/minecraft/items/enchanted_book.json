@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pyloncore:guide_back",
+        "when": "rebar:guide_back",
         "model": {
           "type": "model",
-          "model": "pyloncore:item/ui/back"
+          "model": "rebar:item/ui/back"
         }
       }
     ],

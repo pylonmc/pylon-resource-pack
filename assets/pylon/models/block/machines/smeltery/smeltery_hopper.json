@@ -1,0 +1,18 @@
+{
+	"parent": "block/cube",
+	"author": "Pandicka",
+	"textures": {
+		"north": "pylon:block/machines/smeltery/smeltery_hopper",
+		"east": "pylon:block/machines/smeltery/smeltery_hopper",
+		"south": "pylon:block/machines/smeltery/smeltery_hopper",
+		"west": "pylon:block/machines/smeltery/smeltery_hopper",
+		"up": "pylon:block/machines/smeltery/refractory_bricks",
+		"down": "pylon:block/machines/smeltery/refractory_bricks",
+		"particle": "pylon:block/machines/smeltery/smeltery_hopper"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

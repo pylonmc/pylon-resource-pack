@@ -1,9 +1,0 @@
-{
-	"parent": "pylonbase:block/machines/pipes/copper_tank_casing",
-	"author": "Pandicka",
-	"textures": {
-		"side": "pylonbase:block/machines/pipes/tin_tank_casing",
-		"top": "pylonbase:block/machines/pipes/tin_tank_casing_roof",
-		"particle": "pylonbase:block/machines/pipes/tin_tank_casing"
-	}
-}

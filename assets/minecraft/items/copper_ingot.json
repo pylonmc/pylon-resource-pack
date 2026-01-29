@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_ingot",
+        "when": "pylon:bronze_ingot",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/bronze_ingot"
+          "model": "pylon:item/resources/bronze_ingot"
         }
       }
     ],

@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:nickel",
+        "when": "pylon:nickel",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/nickel"
+          "model": "pylon:block/fluids/nickel"
         }
       }
     ],

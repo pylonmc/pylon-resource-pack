@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:press",
+        "when": "pylon:press",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/press_north"
+          "model": "pylon:block/machines/simple_machines/press_north"
         }
       }
     ],

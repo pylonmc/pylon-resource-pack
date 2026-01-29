@@ -4,24 +4,24 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:shimmer_skull",
+        "when": "pylon:shimmer_skull",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/shimmer_skull"
+          "model": "pylon:item/components/shimmer_skull"
         }
       },
       {
-        "when": "pylonbase:reactivated_wither_skull",
+        "when": "pylon:reactivated_wither_skull",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/reactivated_wither_skull"
+          "model": "pylon:item/combat/reactivated_wither_skull"
         }
       },
       {
-        "when": "pylonbase:hyper_activated_wither_skull",
+        "when": "pylon:hyper_activated_wither_skull",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/hyper_activated_wither_skull"
+          "model": "pylon:item/combat/hyper_activated_wither_skull"
         }
       }
     ],

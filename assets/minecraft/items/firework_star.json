@@ -4,38 +4,38 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:fireproof_rune",
+        "when": "pylon:fireproof_rune",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/fireproof_rune"
+          "model": "pylon:item/tools/fireproof_rune"
         }
       },
       {
-        "when": "pylonbase:soulbound_rune",
+        "when": "pylon:soulbound_rune",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/soulbound_rune"
+          "model": "pylon:item/tools/soulbound_rune"
         }
       },
       {
-        "when": "pylonbase:shallow_core_chunk",
+        "when": "pylon:shallow_core_chunk",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/shallow_core_chunk"
+          "model": "pylon:item/resources/shallow_core_chunk"
         }
       },
       {
-        "when": "pylonbase:subsurface_core_chunk",
+        "when": "pylon:subsurface_core_chunk",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/subsurface_core_chunk"
+          "model": "pylon:item/resources/subsurface_core_chunk"
         }
       },
       {
-        "when": "pylonbase:intermediate_core_chunk",
+        "when": "pylon:intermediate_core_chunk",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/intermediate_core_chunk"
+          "model": "pylon:item/resources/intermediate_core_chunk"
         }
       }
     ],

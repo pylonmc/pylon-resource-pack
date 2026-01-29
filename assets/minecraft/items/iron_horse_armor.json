@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:hydraulic_cannon",
+        "when": "pylon:hydraulic_cannon",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/hydraulic_cannon"
+          "model": "pylon:item/combat/hydraulic_cannon"
         }
       }
     ],

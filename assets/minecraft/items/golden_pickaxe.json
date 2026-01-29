@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_pickaxe",
+        "when": "pylon:bronze_pickaxe",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/tools/bronze_pickaxe"
+          "model": "pylon:item/tools/bronze_pickaxe"
         }
       }
     ],

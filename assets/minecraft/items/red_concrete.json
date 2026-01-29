@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pyloncore:toggle-armor-textures_disabled",
+        "when": "rebar:toggle-armor-textures_disabled",
         "model": {
           "type": "model",
-          "model": "pyloncore:item/ui/armor_texture_off"
+          "model": "rebar:item/ui/armor_texture_off"
         }
       }
     ],

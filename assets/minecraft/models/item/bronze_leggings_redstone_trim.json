@@ -2,7 +2,7 @@
   "parent": "item/generated",
   "author": "Pandicka",
   "textures": {
-    "layer0": "pylonbase:item/armor/bronze_leggings",
+    "layer0": "pylon:item/armor/bronze_leggings",
     "layer1": "trims/items/leggings_trim_redstone"
   }
 }

@@ -4,13 +4,13 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:loupe",
+        "when": "pylon:loupe",
         "model": {
           "type": "condition",
           "property": "using_item",
           "on_false": {
             "type": "model",
-            "model": "pylonbase:item/science/loupe"
+            "model": "pylon:item/science/loupe"
           },
           "on_true": {
             "type": "select",
@@ -19,7 +19,7 @@
               {
                 "model": {
                   "type": "model",
-                  "model": "pylonbase:item/science/loupe"
+                  "model": "pylon:item/science/loupe"
                 },
                 "when": [
                   "gui",
@@ -32,20 +32,16 @@
             ],
             "fallback": {
               "type": "model",
-              "model": "pylonbase:item/science/loupe_scope"
+              "model": "pylon:item/science/loupe_scope"
             }
-          },
-          "fallback": {
-            "type": "model",
-            "model": "pylonbase:item/science/loupe"
           }
         }
       },
       {
-        "when": "pylonbase:solar_lens",
+        "when": "pylon:solar_lens",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/hydraulic/solar_lens"
+          "model": "pylon:item/hydraulic/solar_lens"
         }
       }
     ],

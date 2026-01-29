@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:gold",
+        "when": "pylon:gold",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/gold"
+          "model": "pylon:block/fluids/gold"
         }
       },
       {
-        "when": "pylonbase:biodiesel",
+        "when": "pylon:biodiesel",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/water",
+          "model": "pylon:block/fluids/water",
           "tints": [
             {
               "type": "constant",

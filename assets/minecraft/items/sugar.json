@@ -4,80 +4,80 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:quartz_dust",
+        "when": "pylon:quartz_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/quartz_dust"
+          "model": "pylon:item/resources/quartz_dust"
         }
       },
       {
-        "when": "pylonbase:diamond_dust",
+        "when": "pylon:diamond_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/diamond_dust"
+          "model": "pylon:item/resources/diamond_dust"
         }
       },
       {
-        "when": "pylonbase:emerald_dust",
+        "when": "pylon:emerald_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/emerald_dust"
+          "model": "pylon:item/resources/emerald_dust"
         }
       },
       {
-        "when": "pylonbase:gypsum_dust",
+        "when": "pylon:gypsum_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/gypsum_dust"
+          "model": "pylon:item/resources/gypsum_dust"
         }
       },
       {
-        "when": "pylonbase:crushed_raw_iron",
+        "when": "pylon:crushed_raw_iron",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/crushed_raw_iron"
+          "model": "pylon:item/resources/crushed_raw_iron"
         }
       },
       {
-        "when": "pylonbase:tin_dust",
+        "when": "pylon:tin_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/tin_dust"
+          "model": "pylon:item/resources/tin_dust"
         }
       },
       {
-        "when": "pylonbase:nickel_dust",
+        "when": "pylon:nickel_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/nickel_dust"
+          "model": "pylon:item/resources/nickel_dust"
         }
       },
       {
-        "when": "pylonbase:cobalt_dust",
+        "when": "pylon:cobalt_dust",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/cobalt_dust"
+          "model": "pylon:item/resources/cobalt_dust"
         }
       },
       {
-        "when": "pylonbase:crushed_raw_tin",
+        "when": "pylon:crushed_raw_tin",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/crushed_raw_tin"
+          "model": "pylon:item/resources/crushed_raw_tin"
         }
       },
       {
-        "when": "pylonbase:shimmer_dust_1",
+        "when": "pylon:shimmer_dust_1",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/shimmer_dust_1"
+          "model": "pylon:item/resources/shimmer_dust_1"
         }
       },
       {
-        "when": "pylonbase:flour",
+        "when": "pylon:flour",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/flour"
+          "model": "pylon:item/resources/flour"
         }
       }
     ],

@@ -4,45 +4,45 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:copper_sheet",
+        "when": "pylon:copper_sheet",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/copper_sheet"
+          "model": "pylon:item/components/copper_sheet"
         }
       },
       {
-        "when": "pylonbase:gold_sheet",
+        "when": "pylon:gold_sheet",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/gold_sheet"
+          "model": "pylon:item/components/gold_sheet"
         }
       },
       {
-        "when": "pylonbase:iron_sheet",
+        "when": "pylon:iron_sheet",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/iron_sheet"
+          "model": "pylon:item/components/iron_sheet"
         }
       },
       {
-        "when": "pylonbase:tin_sheet",
+        "when": "pylon:tin_sheet",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/tin_sheet"
+          "model": "pylon:item/components/tin_sheet"
         }
       },
       {
-        "when": "pylonbase:bronze_sheet",
+        "when": "pylon:bronze_sheet",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/bronze_sheet"
+          "model": "pylon:item/components/bronze_sheet"
         }
       },
       {
-        "when": "pylonbase:steel_sheet",
+        "when": "pylon:steel_sheet",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/steel_sheet"
+          "model": "pylon:item/components/steel_sheet"
         }
       }
     ],

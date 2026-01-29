@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:igneous_composite",
+        "when": "pylon:igneous_composite",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/building/igneous_composite"
+          "model": "pylon:block/building/igneous_composite"
         }
       }
     ],

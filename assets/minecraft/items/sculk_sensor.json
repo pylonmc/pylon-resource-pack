@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pyloncore:guide_page:pyloncore:item_ingredients",
+        "when": "rebar:guide_page:rebar:item_ingredients",
         "model": {
           "type": "model",
-          "model": "pyloncore:item/ui/item_ingredients"
+          "model": "rebar:item/ui/item_ingredients"
         }
       }
     ],

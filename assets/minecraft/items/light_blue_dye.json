@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:covalent_binder",
+        "when": "pylon:covalent_binder",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/covalent_binder"
+          "model": "pylon:item/resources/covalent_binder"
         }
       }
     ],

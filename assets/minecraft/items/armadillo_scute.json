@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:bronze_nugget",
+        "when": "pylon:bronze_nugget",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/resources/bronze_nugget"
+          "model": "pylon:item/resources/bronze_nugget"
         }
       }
     ],

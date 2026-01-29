@@ -4,17 +4,17 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:manual_core_drill",
+        "when": "pylon:manual_core_drill",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/simple_machines/manual_core_drill"
+          "model": "pylon:block/machines/simple_machines/manual_core_drill"
         }
       },
       {
-        "when": "pylonbase:hydraulic_mixing_attachment",
+        "when": "pylon:hydraulic_mixing_attachment",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/hydraulic/mixing_attachment"
+          "model": "pylon:block/machines/hydraulic/mixing_attachment"
         }
       }
     ],

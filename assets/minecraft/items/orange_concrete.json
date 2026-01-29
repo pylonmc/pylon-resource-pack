@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:lava",
+        "when": "pylon:lava",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/lava"
+          "model": "pylon:block/fluids/lava"
         }
       }
     ],

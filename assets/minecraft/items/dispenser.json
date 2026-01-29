@@ -4,10 +4,10 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:backflow_valve",
+        "when": "pylon:backflow_valve",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/backflow_valve"
+          "model": "pylon:item/components/backflow_valve"
         }
       }
     ],

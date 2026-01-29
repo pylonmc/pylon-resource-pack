@@ -4,24 +4,24 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:fluid_pipe_steel",
+        "when": "pylon:steel",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/pipes/steel_pipe"
+          "model": "pylon:block/fluids/steel"
         }
       },
       {
-        "when": "pylonbase:steel",
+        "when": "pylon:cargo_duct",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/fluids/steel"
+          "model": "pylon:block/machines/cargo/cargo_duct"
         }
       },
       {
-        "when": "pylonbase:cargo_duct",
+        "when": "pylon:diesel_hammer_head",
         "model": {
           "type": "model",
-          "model": "pylonbase:block/machines/cargo/cargo_duct"
+          "model": "pylon:block/machines/diesel/hammer_head"
         }
       }
     ],

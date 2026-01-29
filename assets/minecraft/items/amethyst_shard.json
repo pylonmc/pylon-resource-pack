@@ -4,17 +4,31 @@
     "property": "custom_model_data",
     "cases": [
       {
-        "when": "pylonbase:health_talisman_simple",
+        "when": "pylon:health_talisman_simple",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/combat/health_talisman_simple"
+          "model": "pylon:item/combat/health_talisman_simple"
         }
       },
       {
-        "when": "pylonbase:portability_catalyst",
+        "when": "pylon:health_talisman_advanced",
         "model": {
           "type": "model",
-          "model": "pylonbase:item/components/portability_catalyst"
+          "model": "pylon:item/combat/health_talisman_advanced"
+        }
+      },
+      {
+        "when": "pylon:health_talisman_ultimate",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/combat/health_talisman_ultimate"
+        }
+      },
+      {
+        "when": "pylon:portability_catalyst",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/portability_catalyst"
         }
       }
     ],
