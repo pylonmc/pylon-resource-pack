@@ -1,8 +1,0 @@
-{
-  "author": "Pandicka",
-  "variants": {
-    "": {
-      "model": "pylonbase:block/machines/pipes/tin_tank_casing"
-    }
-  }
-}

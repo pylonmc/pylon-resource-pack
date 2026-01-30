@@ -1,8 +1,0 @@
-{
-	"parent": "pylonbase:block/machines/pipes/copper_tank_casing",
-	"author": "Pandicka",
-	"textures": {
-		"0": "pylonbase:block/machines/pipes/bronze_tank_casing_front",
-		"particle": "pylonbase:block/machines/pipes/bronze_tank_casing_front"
-	}
-}

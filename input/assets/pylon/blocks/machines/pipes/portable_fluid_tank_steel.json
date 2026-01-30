@@ -1,8 +1,0 @@
-{
-  "author": "Pandicka",
-  "variants": {
-    "": {
-      "model": "pylonbase:block/machines/pipes/steel_portable_tank"
-    }
-  }
-}
