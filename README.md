@@ -35,8 +35,9 @@ Refer to [Contributing](CONTRIBUTING.md) if you'd like to help out!
 
 ## 🙌 Credits & Special Thanks
 
-**Pylon Plugin Development:** [@pylonmc]  
-**Special thanks** to the developers who helped extend Pylon’s visual and technical capabilities  
+**Special thanks** to the developers of [@pylonmc] who helped extend Pylon’s visual and technical capabilities  
+
+**Thanks** to [ALL CONTRIBUTORS HERE].
 
 Your contributions made this pack possible ❤️
 
