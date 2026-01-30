@@ -1,20 +1,21 @@
-## Supported Addons
-- [PylonCore]
-- [PylonBase]
+# Rebar
 
-## Pylon Core
-
-
-## Pylon Base
-
-### Untouched
-- Hydraulic Machines
-- Structures
+### ❌ Untouched
+- TBA
 
 ### ⏳ In Progress
-- Textures for all PylonBase items  
-- GUI icons
-- Bloomery and stuff around it
+- TBA
 
-### Supported
-- TBD
+### ✔️ Supported
+- TBA
+
+# Pylon
+
+### ❌ Untouched
+- TBA
+
+### ⏳ In Progress
+- TBA
+
+### ✔️ Supported
+- TBA

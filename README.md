@@ -1,6 +1,7 @@
 # 🎨 Pylon Resource Pack
 
-The **Pylon Resource Pack** is the official-unofficial resource pack for the [Pylon](https://github.com/pylonmc/pylon-core) plugin and [Addon Ecosystem]().
+The **Pylon Resource Pack** is the official-unofficial resource pack for the [Pylon] [Rebar] addon, and the [Rebar] framework itself.   
+It makes use of the [Rebar Pack Generator]
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.5–1.21.8-blue?style=for-the-badge&logo=minecraft)](https://www.minecraft.net) [![Releases](https://img.shields.io/github/v/release/pylonmc/pylon-resource-pack?style=for-the-badge&logo=github)](https://github.com/pylonmc/pylon-resource-pack/releases) [![Downloads](https://img.shields.io/github/downloads/pylonmc/pylon-resource-pack/total?style=for-the-badge&logo=github)](https://github.com/pylonmc/pylon-resource-pack/releases)
 
@@ -15,10 +16,9 @@ This pack adds:
 - ⚙️ **Unique item and GUI models**
 - ⚔️ **Custom armor layer textures**
 
-For PylonCore and PylonBase.
 See [Resource Pack](RESOURCE_PACK.md) for specific texture/model support.
 
-Refer to [Contributing](CONTRIBUTING.md) 
+Refer to [Contributing](CONTRIBUTING.md) if you'd like to help out!
 
 ---
 
@@ -35,7 +35,12 @@ Refer to [Contributing](CONTRIBUTING.md)
 
 ## 🙌 Credits & Special Thanks
 
-**Pylon Plugin Development:** [@pylonmc](https://github.com/pylonmc)  
+**Pylon Plugin Development:** [@pylonmc]  
 **Special thanks** to the developers who helped extend Pylon’s visual and technical capabilities  
 
 Your contributions made this pack possible ❤️
+
+[@pylonmc]: https://github.com/pylonmc
+[Pylon]: https://github.com/pylonmc/pylon
+[Rebar]: https://github.com/pylonmc/rebar
+[Rebar Pack Generator]: https://github.com/pylonmc/rebar-pack-generator-template
