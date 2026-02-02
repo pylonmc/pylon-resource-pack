@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/machines/hydraulic_machines/pipe_bender",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/hydraulic_machines/pipe_bender"
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/hydraulic_machines/pipe_bender",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pylon:block/machines/hydraulic_machines/pipe_bender",
+      "y": 90
+    }
+  }
+}

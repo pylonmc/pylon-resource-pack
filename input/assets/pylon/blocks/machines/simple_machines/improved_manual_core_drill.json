@@ -1,0 +1,8 @@
+{
+  "author": "Pandicka",
+  "variants": {
+    "": {
+      "model": "pylon:block/machines/simple_machines/improved_manual_core_drill"
+    }
+  }
+}

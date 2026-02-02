@@ -1,0 +1,12 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:wither_skeleton_skull",
+  "fallback": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/template_skull",
+    "model": {
+      "type": "minecraft:head",
+      "kind": "wither_skeleton"
+    }
+  }
+}

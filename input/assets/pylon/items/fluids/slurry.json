@@ -1,0 +1,14 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:light_gray_concrete",
+  "model":{
+    "type": "model",
+    "model": "pylon:block/fluids/water",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 8355711
+      }
+    ]
+  }
+}

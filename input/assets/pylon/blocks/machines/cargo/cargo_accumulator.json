@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/machines/cargo/cargo_accumulator",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/cargo/cargo_accumulator"
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/cargo/cargo_accumulator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pylon:block/machines/cargo/cargo_accumulator",
+      "y": 90
+    }
+  }
+}

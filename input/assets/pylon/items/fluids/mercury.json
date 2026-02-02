@@ -1,0 +1,14 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:cyan_terracotta",
+  "model":{
+    "type": "model",
+    "model": "pylon:block/fluids/water",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 9868950
+      }
+    ]
+  }
+}

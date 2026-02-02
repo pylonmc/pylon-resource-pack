@@ -1,0 +1,29 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=down": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch"
+    },
+    "facing=south": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_input_hatch",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:red_banner",
+  "fallback": {
+    "type": "minecraft:special",
+    "base": "minecraft:item/template_banner",
+    "model": {
+      "type": "minecraft:banner",
+      "color": "red"
+    }
+  }
+}

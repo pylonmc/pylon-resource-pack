@@ -1,0 +1,16 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:breeze_rod",
+  "model": {
+    "type": "condition",
+    "property": "custom_model_data",
+    "on_true": {
+      "type": "model",
+      "model": "pylon:item/tools/shimmer_magnet_on"
+    },
+    "on_false": {
+      "type": "model",
+      "model": "pylon:item/tools/shimmer_magnet_off"
+    }
+  }
+}

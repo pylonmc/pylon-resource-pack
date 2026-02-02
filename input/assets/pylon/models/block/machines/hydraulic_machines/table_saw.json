@@ -1,0 +1,45 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"side": "pylon:block/machines/hydraulic_machines/machine_side",
+		"top": "pylon:block/machines/hydraulic_machines/machine_top",
+		"input": "pylon:block/machines/hydraulic_machines/machine_input",
+		"output": "pylon:block/machines/hydraulic_machines/machine_output",
+		"particle": "pylon:block/machines/hydraulic_machines/machine_side",
+		"saw": "pylon:block/components/sawblade"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#output"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#input"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"from": [1, 16, 8],
+      "to": [15, 23, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 16, 8]},
+      "faces": {
+    	  "north": {"uv": [1, 1, 15, 8], "texture": "#saw"},
+    	  "south": {"uv": [1, 1, 15, 8], "texture": "#saw"}
+  	  }
+  	}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, -0.75, 0],
+			"scale": [0.59, 0.59, 0.59]
+		},
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

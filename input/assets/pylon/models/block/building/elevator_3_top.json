@@ -1,0 +1,15 @@
+{
+	"parent": "pylon:block/building/elevator_1_top",
+	"author": "Pandicka",
+	"textures": {
+		"particle": "pylon:block/building/elevator_3_top",
+		"frame": "pylon:block/building/elevator_3_top",
+		"top": "pylon:block/building/elevator_portal",
+		"base": "block/quartz_block_top"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

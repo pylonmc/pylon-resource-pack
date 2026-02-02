@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pylon:item/tools/iron_hammer"
+	}
+}

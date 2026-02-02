@@ -1,0 +1,13 @@
+{
+  "author": "Pandicka",
+  "properties": ["east"],
+  "variants": {
+    "east=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_south"
+    },
+    "east=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_south",
+      "y": 90
+    }
+  }
+}

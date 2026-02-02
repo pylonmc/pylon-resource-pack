@@ -1,0 +1,8 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:blue_terracotta",
+  "model":{
+    "type": "model",
+    "model": "pylon:block/fluids/cobalt"
+  }
+}

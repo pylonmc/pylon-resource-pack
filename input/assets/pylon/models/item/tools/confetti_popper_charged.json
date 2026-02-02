@@ -1,0 +1,16 @@
+{
+	"parent": "pylon:item/tools/confetti_popper_hand",
+	"author": "Pandicka",
+	"display": {
+		"firstperson_righthand": {
+      "rotation": [-20, 0, 45],
+			"translation": [-9.5, 2, -10],
+			"scale": [1.4, 1.4, 1.4]
+		},
+    "firstperson_lefthand": {
+      "rotation": [-20, 0, -45],
+			"translation": [-8.75, 2, -10],
+			"scale": [1.4, 1.4, 1.4]
+		}
+	}
+}

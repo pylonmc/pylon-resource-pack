@@ -1,0 +1,19 @@
+{
+	"parent": "item/generated",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pylon:item/tools/tongs"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 3.2, 1.13],
+			"scale": [0.68, 0.68, 0.68]
+		}
+	}
+}

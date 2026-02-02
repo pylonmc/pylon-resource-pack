@@ -4,7 +4,7 @@
 - TBA
 
 ### ⏳ In Progress
-- TBA
+- GUI Icons
 
 ### ✔️ Supported
 - TBA
@@ -12,10 +12,30 @@
 # Pylon
 
 ### ❌ Untouched
-- TBA
+- Components - Hatches, Cannon Chamber
+- Simple Machines - Crucible
+- Smelting - Pit Kiln, Bronze Anvil
+- Fluid Machines - all except Sprinkler
+- Diesel Production - all
+- Building - Immobilizer
+- Creative Items - all
 
 ### ⏳ In Progress
-- TBA
+- Talismans
+- Hydraulic Machines/Purification
+- Cargo
+- Diesel Machines
 
 ### ✔️ Supported
-- TBA
+- Fluids
+- Science
+- Resources
+- Components (mostly)
+- Tools
+- Combat
+- Armor
+- Food
+- Simple Machines (mostly)
+- Smelting (mostly)
+- Pipes & Tanks
+- Building (mostly)

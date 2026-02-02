@@ -3,7 +3,9 @@
 The **Pylon Resource Pack** is the official-unofficial resource pack for the [Pylon] [Rebar] addon, and the [Rebar] framework itself.   
 It makes use of the [Rebar Pack Generator]
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.5–1.21.8-blue?style=for-the-badge&logo=minecraft)](https://www.minecraft.net) [![Releases](https://img.shields.io/github/v/release/pylonmc/pylon-resource-pack?style=for-the-badge&logo=github)](https://github.com/pylonmc/pylon-resource-pack/releases) [![Downloads](https://img.shields.io/github/downloads/pylonmc/pylon-resource-pack/total?style=for-the-badge&logo=github)](https://github.com/pylonmc/pylon-resource-pack/releases)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-blue?style=flat&logo=minecraft&logoSize=auto)](https://www.minecraft.net) 
+[![Latest Release](https://img.shields.io/github/v/release/pylonmc/pylon-resource-pack?sort=semver&style=flat&logo=github&display_name=release&label=Latest%20release&color=C47900)](https://github.com/pylonmc/pylon-resource-pack/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/pylonmc/pylon-resource-pack/total?style=flat&label=Downloads&color=0D910D)](https://github.com/pylonmc/pylon-resource-pack/releases)
 
 ---
 

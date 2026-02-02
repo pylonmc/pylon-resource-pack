@@ -1,0 +1,36 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing","lit"],
+  "variants": {
+    "facing=east,lit=false": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller",
+      "y": 270
+    },
+    "facing=east,lit=true": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller_lit",
+      "y": 270
+    },
+    "facing=north,lit=false": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller"
+    },
+    "facing=north,lit=true": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller_lit"
+    },
+    "facing=south,lit=false": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller_lit",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller",
+      "y": 90
+    },
+    "facing=west,lit=true": {
+      "model": "pylonbase:block/machines/smeltery/smeltery_controller_lit",
+      "y": 90
+    }
+  }
+}
