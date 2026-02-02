@@ -335,6 +335,9 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         blockPath = blockFile[:-5]
         blockName = blockPath.split('/')[-1] if '/' in blockPath else blockPath
+        if "id" in blockData:
+            blockName = blockData["id"]
+
         blockModel = {}
         blockModelDefinition = {
             "when": f"{namespace}:{blockName}"
@@ -514,6 +517,8 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         itemPath = itemFile[:-5]
         itemName = itemPath.split('/')[-1] if '/' in itemPath else itemPath
+        if "id" in itemData:
+            itemName = itemData["id"]
         itemKey = f"{namespace}:{itemName}"
         
         if "vanilla" not in itemData or not isinstance(itemData["vanilla"], str):
@@ -540,10 +545,10 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
                     print(f"Warning: Item file {itemFilePath} contains a fallback but one is already defined for {vanillaItem}, overwriting fallback {vanillaDefinition['fallback']}.")
             vanillaDefinition["fallback"] = itemData["fallback"]
 
-        if "oversized" in itemData:
-            if itemData["oversized"] != True:
+        if "oversized_in_gui" in itemData:
+            if itemData["oversized_in_gui"] != True:
                 if logWarnings:
-                    print(f"Warning: Item file {itemFilePath} contains invalid oversized value (should only ever be 'true'), skipping.")
+                    print(f"Warning: Item file {itemFilePath} contains invalid oversized_in_gui value (should only ever be 'true'), skipping.")
                 continue
             vanillaDefinition["oversized_in_gui"] = True
         
