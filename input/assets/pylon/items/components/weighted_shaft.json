@@ -1,4 +1,5 @@
 {
   "author": "Pandicka",
-  "vanilla": "minecraft:deepslate_tile_wall"
+  "vanilla": "minecraft:deepslate_tile_wall",
+  "model": "pylon:item/components/shaft"
 }

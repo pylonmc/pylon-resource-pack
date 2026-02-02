@@ -3,18 +3,18 @@
   "properties": ["facing"],
   "variants": {
     "facing=east": {
-      "model": "pylonbase:block/machines/simple_machines/press",
+      "model": "pylon:block/machines/simple_machines/press",
       "y": 270
     },
     "facing=north": {
-      "model": "pylonbase:block/machines/simple_machines/press"
+      "model": "pylon:block/machines/simple_machines/press"
     },
     "facing=south": {
-      "model": "pylonbase:block/machines/simple_machines/press",
+      "model": "pylon:block/machines/simple_machines/press",
       "y": 180
     },
     "facing=west": {
-      "model": "pylonbase:block/machines/simple_machines/press",
+      "model": "pylon:block/machines/simple_machines/press",
       "y": 90
     }
   }

@@ -3,10 +3,10 @@
   "properties": ["type"],
   "variants": {
     "type=bottom": {
-      "model": "pylonbase:block/machines/simple_machines/shimmer_altar"
+      "model": "pylon:block/machines/simple_machines/shimmer_altar"
     },
     "type=top": {
-      "model": "pylonbase:block/machines/simple_machines/shimmer_altar_top"
+      "model": "pylon:block/machines/simple_machines/shimmer_altar_top"
     }
   }
 }
