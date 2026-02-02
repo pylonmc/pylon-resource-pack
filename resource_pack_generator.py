@@ -188,8 +188,8 @@ def find_texture(texturePath):
     return None
 
 def save_item_definition(itemPath, itemDef):
-    namespace, itemKey = itemPath.split(':') if ':' in itemPath else ('minecraft', itemPath)
-    save_asset(f"{namespace}:items/{itemKey}.json", itemDef)
+    namespace, itemId = itemPath.split(':') if ':' in itemPath else ('minecraft', itemPath)
+    save_asset(f"{namespace}:items/{itemId}.json", itemDef)
 
 def create_block_model_variant(name, variant):
     if "uvlock" in variant or "weight" in variant:
@@ -342,12 +342,13 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         blockPath = blockFile[:-5]
         blockName = blockPath.split('/')[-1] if '/' in blockPath else blockPath
+        blockId = blockName
         if "id" in blockData:
-            blockName = blockData["id"]
+            blockId = blockData["id"]
 
         blockModel = {}
         blockModelDefinition = {
-            "when": f"{namespace}:{blockName}"
+            "when": f"{namespace}:{blockId}"
         }
         cases = []
 
@@ -524,9 +525,10 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         itemPath = itemFile[:-5]
         itemName = itemPath.split('/')[-1] if '/' in itemPath else itemPath
+        itemId = itemName
         if "id" in itemData:
-            itemName = itemData["id"]
-        itemKey = f"{namespace}:{itemName}"
+            itemId = itemData["id"]
+        itemKey = f"{namespace}:{itemId}"
         
         if "vanilla" not in itemData or not isinstance(itemData["vanilla"], str):
             if logWarnings:
@@ -732,14 +734,14 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
         itemModelDefinitions[vanillaItem] = vanillaDefinition
                     
 # Then create each item definition
-for itemKey, itemDef in itemModelDefinitions.items():
-    namespace, itemName = itemKey.split(':') if ':' in itemKey else ('minecraft', itemKey)
+for itemPath, itemDef in itemModelDefinitions.items():
+    namespace, itemName = itemPath.split(':') if ':' in itemPath else ('minecraft', itemPath)
     if "fallback" not in itemDef["model"]:
         template = get_template(f"items/{itemName}")
         if template is None:
             template = {"model": {"type": "minecraft:model", "model": f"minecraft:item/{itemName}"} }
         itemDef["model"]["fallback"] = template["model"]
-    save_item_definition(itemKey, itemDef)
+    save_item_definition(itemPath, itemDef)
 
 # Add the atlas appends
 itemAtlasSources = []
