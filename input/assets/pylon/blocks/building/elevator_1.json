@@ -1,6 +1,6 @@
 {
   "author": "Pandicka",
-  "property": ["type"],
+  "properties": ["type"],
   "variants": {
     "type=bottom": {
       "model": "pylon:block/building/elevator_1"

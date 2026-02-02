@@ -699,6 +699,7 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
                 trimModelPath = f"{modelPath}_trim_{trim}"
                 trimModel = copy.deepcopy(model)
                 
+                particleLayer = None
                 if "particle" in trimModel["textures"]:
                     particleLayer = trimModel["textures"].pop("particle")
                 trimModel["textures"][f"layer{len(trimModel['textures'])}"] = f"trims/items/{trimType}_trim_{trim}"
