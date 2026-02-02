@@ -1,5 +1,7 @@
 {
   "author": "Pandicka",
   "vanilla": "minecraft:sculk_sensor",
+  "id": "guide_page:rebar:item_ingredients",
+  "model": "rebar:item/ui/item_ingredients",
   "oversized_in_gui": true
 }

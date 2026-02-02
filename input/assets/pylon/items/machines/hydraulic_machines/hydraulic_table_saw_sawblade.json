@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:iron_bars",
+  "model": "pylon:block/components/sawblade",
+  "id": "hydraulic_table_saw:saw"
+}

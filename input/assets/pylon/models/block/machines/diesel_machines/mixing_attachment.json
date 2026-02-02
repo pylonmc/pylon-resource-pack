@@ -4,7 +4,8 @@
 	"textures": {
 		"core": "pylon:block/machines/diesel_machines/diesel_machine_block",
 		"frame": "pylon:block/machines/diesel_machines/diesel_frame",
-		"input": "pylon:block/machines/diesel_machines/diesel_input"
+		"input": "pylon:block/machines/diesel_machines/diesel_input",
+		"particle": "pylon:block/machines/diesel_machines/diesel_input"
 	},
 	"elements": [
 		{

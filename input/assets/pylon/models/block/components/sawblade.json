@@ -1,7 +1,8 @@
 {
 	"author": "Pandicka",
 	"textures": {
-		"layer0": "pylon:block/components/sawblade"
+		"layer0": "pylon:block/components/sawblade",
+		"particle": "pylon:block/components/sawblade"
 	},
 	"elements": [
 		{

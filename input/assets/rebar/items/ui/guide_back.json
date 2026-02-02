@@ -1,5 +1,6 @@
 {
   "author": "Pandicka",
   "vanilla": "minecraft:enchanted_book",
+  "model": "rebar:item/ui/guide_back",
   "oversized_in_gui": true
 }

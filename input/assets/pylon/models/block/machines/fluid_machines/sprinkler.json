@@ -2,8 +2,8 @@
 	"parent": "block/block",
 	"author": "Leo",
 	"textures": {
-		"sprinkler": "pylon:block/machines/fluid/sprinkler",
-		"particle": "pylon:block/machines/fluid/sprinkler"
+		"sprinkler": "pylon:block/machines/fluid_machines/sprinkler",
+		"particle": "pylon:block/machines/fluid_machines/sprinkler"
 	},
 	"elements": [
 		{

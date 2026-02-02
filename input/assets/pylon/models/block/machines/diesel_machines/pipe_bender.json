@@ -6,7 +6,8 @@
 		"frame": "pylon:block/machines/diesel_machines/diesel_frame",
 		"input": "pylon:block/machines/diesel_machines/diesel_input",
 		"top": "pylon:block/machines/diesel_machines/diesel_top",
-		"wheel": "pylon:block/machines/hydraulic_machines/pipe_bender_wheel"
+		"wheel": "pylon:block/machines/hydraulic_machines/pipe_bender_wheel",
+		"particle": "pylon:block/machines/hydraulic_machines/pipe_bender_wheel"
 	},
 	"elements": [
 		{

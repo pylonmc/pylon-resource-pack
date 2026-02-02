@@ -1,5 +1,7 @@
 {
   "author": "Pandicka",
   "vanilla": "minecraft:comparator",
+  "model": "rebar:item/ui/settings",
+  "id": "guide_page:rebar:settings",
   "oversized_in_gui": true
 }

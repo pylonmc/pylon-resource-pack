@@ -2,8 +2,8 @@
   "parent": "block/cube_column",
 	"author": "dongji",
   "textures": {
-    "end": "pylon:block/building/super_explosive_target_side",
-    "side": "pylon:block/building/super_explosive_target_side"
+    "end": "pylon:block/building/explosive_target_fiery_side",
+    "side": "pylon:block/building/explosive_target_fiery_side"
   },
   "display":{
     "fixed": {

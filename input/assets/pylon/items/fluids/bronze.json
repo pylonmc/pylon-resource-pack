@@ -1,6 +1,6 @@
 {
   "author": "Pandicka",
-  "vanilla": "minecraft:yellow_concrete",
+  "vanilla": "minecraft:brown_concrete",
   "model":{
     "type": "model",
     "model": "pylon:block/fluids/bronze"
