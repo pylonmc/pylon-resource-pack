@@ -279,9 +279,16 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
 for file in os.listdir(INPUT_DIR):
     inputFilePath = os.path.join(INPUT_DIR, file)
-    if os.path.isfile(inputFilePath) and file != "assets":
+    if os.path.isfile(inputFilePath) and file != "assets" and file != "settings.json":
         outputFilePath = os.path.join(tempDir, file)
-        shutil.copyfile(inputFilePath, outputFilePath)
+        if file == "pack.mcmeta":
+            with open(inputFilePath, 'r', encoding='utf-8') as f:
+                contents = f.read()
+            contents = contents.replace("{version}", str(settings.get("version", "")))
+            with open(outputFilePath, 'w', encoding='utf-8', newline='\n') as f:
+                f.write(contents)
+        else:
+            shutil.copyfile(inputFilePath, outputFilePath)
 
 
 ## Generate from blockstate files:
