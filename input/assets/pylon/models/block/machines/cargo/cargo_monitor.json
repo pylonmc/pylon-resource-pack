@@ -1,5 +1,5 @@
 {
-	"parent": "pylon:block/machines/cargo/cargo_duct",
+	"parent": "pylon:block/machines/cargo/cargo_buffer",
 	"author": "Pandicka",
 	"textures": {
 		"output": "pylon:block/machines/cargo/cargo_extractor",

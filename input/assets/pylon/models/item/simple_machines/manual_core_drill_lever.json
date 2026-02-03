@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pylon:item/simple_machines/manual_core_drill_lever"
+	}
+}

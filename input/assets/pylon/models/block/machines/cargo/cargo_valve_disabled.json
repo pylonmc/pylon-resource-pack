@@ -83,5 +83,14 @@
 				"down": {"uv": [13, 2, 16, 3], "texture": "#valve"}
 			}
 		}
-	]
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
 }

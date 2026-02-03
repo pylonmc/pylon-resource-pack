@@ -1,13 +1,64 @@
 {
   "author": "Pandicka",
-  "properties": ["east"],
+  "properties": ["east", "north", "south", "waterlogged", "west"],
   "variants": {
-    "east=false": {
-      "model": "pylon:block/machines/hydraulic_machines/solar_lens_south"
+    "east=false,north=false,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_post"
     },
-    "east=true": {
-      "model": "pylon:block/machines/hydraulic_machines/solar_lens_south",
+    "east=false,north=false,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_noside",
+      "y": 270
+    },
+    "east=false,north=false,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_noside"
+    },
+    "east=false,north=false,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner",
+      "y": 270
+    },
+    "east=false,north=true,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_noside",
+      "y": 180
+    },
+    "east=false,north=true,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner",
+      "y": 180
+    },
+    "east=false,north=true,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_side"
+    },
+    "east=false,north=true,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner_alt",
+      "y": 180
+    },
+    "east=true,north=false,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_noside",
       "y": 90
+    },
+    "east=true,north=false,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_side",
+      "y": 90
+    },
+    "east=true,north=false,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner"
+    },
+    "east=true,north=false,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner_alt",
+      "y": 270
+    },
+    "east=true,north=true,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner",
+      "y": 90
+    },
+    "east=true,north=true,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner_alt",
+      "y": 90
+    },
+    "east=true,north=true,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner_alt"
+    },
+    "east=true,north=true,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/machines/hydraulic_machines/solar_lens_corner_all"
     }
   }
 }

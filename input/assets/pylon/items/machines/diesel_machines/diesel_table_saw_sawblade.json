@@ -2,5 +2,5 @@
   "author": "Pandicka",
   "vanilla": "minecraft:iron_bars",
   "model": "pylon:item/components/air",
-  "id": "hydraulic_table_saw:saw"
+  "id": "diesel_table_saw:saw"
 }

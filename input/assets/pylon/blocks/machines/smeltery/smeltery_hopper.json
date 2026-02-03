@@ -1,24 +1,8 @@
 {
   "author": "Pandicka",
-  "properties": ["facing"],
   "variants": {
-    "facing=down": {
+    "": {
       "model": "pylon:block/machines/smeltery/smeltery_hopper"
-    },
-    "facing=east": {
-      "model": "pylon:block/machines/smeltery/smeltery_hopper_side",
-      "y": 90
-    },
-    "facing=north": {
-      "model": "pylon:block/machines/smeltery/smeltery_hopper_side",
-      "y": 180
-    },
-    "facing=south": {
-      "model": "pylon:block/machines/smeltery/smeltery_hopper_side"
-    },
-    "facing=west": {
-      "model": "pylon:block/machines/smeltery/smeltery_hopper_side",
-      "y": 270
     }
   }
 }

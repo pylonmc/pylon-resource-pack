@@ -2,9 +2,9 @@
 	"parent": "block/orientable",
 	"author": "Pandicka",
 	"textures": {
-		"front": "pylon:block/machines/smeltery/refractory_bricks",
-		"side": "pylon:block/machines/smeltery/refractory_bricks",
-		"top": "pylon:block/machines/smeltery/smeltery_hopper"
+		"front": "pylon:block/machines/smeltery/smeltery_hopper",
+		"side": "pylon:block/machines/smeltery/smeltery_hopper",
+		"top": "pylon:block/machines/smeltery/refractory_bricks"
 	},
 	"display": {
 		"fixed": {
