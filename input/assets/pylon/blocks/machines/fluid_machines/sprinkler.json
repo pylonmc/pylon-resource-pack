@@ -1,0 +1,8 @@
+{
+  "author": "Leo, Pandicka",
+  "variants": {
+    "": {
+      "model": "pylon:block/machines/fluid_machines/sprinkler"
+    }
+  }
+}

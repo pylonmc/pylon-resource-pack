@@ -1,0 +1,14 @@
+{
+	"parent": "block/orientable",
+	"author": "Pandicka",
+	"textures": {
+		"front": "pylon:block/machines/smeltery/smeltery_hopper",
+		"side": "pylon:block/machines/smeltery/smeltery_hopper",
+		"top": "pylon:block/machines/smeltery/refractory_bricks"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

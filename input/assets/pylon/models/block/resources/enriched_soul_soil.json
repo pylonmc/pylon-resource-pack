@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube_all",
+	"author": "Pandicka",
+	"textures": {
+		"all": "pylon:block/resources/enriched_soul_soil"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

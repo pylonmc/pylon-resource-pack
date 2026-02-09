@@ -1,0 +1,18 @@
+{
+	"parent": "block/cube",
+	"author": "Pandicka",
+	"textures": {
+		"north": "pylon:block/machines/hydraulic_machines/machine_output",
+		"east": "pylon:block/machines/hydraulic_machines/machine_side",
+		"south": "pylon:block/machines/hydraulic_machines/machine_input",
+		"west": "pylon:block/machines/hydraulic_machines/machine_side",
+		"up": "pylon:block/machines/hydraulic_machines/machine_side",
+		"down": "pylon:block/machines/hydraulic_machines/machine_side",
+		"particle": "pylon:block/machines/hydraulic_machines/machine_side"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/machines/simple_machines/vacuum_hopper_4_side",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/simple_machines/vacuum_hopper_4_side"
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/simple_machines/vacuum_hopper_4_side",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pylon:block/machines/simple_machines/vacuum_hopper_4_side",
+      "y": 90
+    },
+    "facing=down": {
+      "model": "pylon:block/machines/simple_machines/vacuum_hopper_4"
+    }
+  }
+}

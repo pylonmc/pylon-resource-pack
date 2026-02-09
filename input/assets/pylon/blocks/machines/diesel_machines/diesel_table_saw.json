@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/machines/diesel_machines/table_saw",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/diesel_machines/table_saw"
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/diesel_machines/table_saw",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pylon:block/machines/diesel_machines/table_saw",
+      "y": 90
+    }
+  }
+}

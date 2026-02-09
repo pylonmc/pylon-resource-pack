@@ -1,0 +1,7 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:oak_sign",
+  "model": "rebar:item/ui/search",
+  "id": "guide_page:rebar:search",
+  "oversized_in_gui": true
+}

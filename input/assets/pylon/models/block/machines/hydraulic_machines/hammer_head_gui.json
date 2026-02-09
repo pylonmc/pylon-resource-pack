@@ -1,0 +1,77 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"hammer": "pylon:block/machines/hydraulic_machines/hammer_head_hammer",
+		"shaft": "pylon:block/machines/hydraulic_machines/hammer_head_shaft",
+		"input": "pylon:block/machines/hydraulic_machines/machine_input",
+		"output": "pylon:block/machines/hydraulic_machines/machine_output",
+		"side": "pylon:block/machines/hydraulic_machines/machine_side",
+		"particle": "pylon:block/machines/hydraulic_machines/machine_side"
+	},
+	"elements": [
+		{
+			"from": [2, 5.8, 2],
+			"to": [14, 17.8, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 6, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#input"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#output"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"from": [6, -2, 6],
+			"to": [10, 6, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -6, 6]},
+			"faces": {
+				"north": {"uv": [3, 0, 13, 16], "texture": "#shaft"},
+				"east": {"uv": [3, 0, 13, 16], "texture": "#shaft"},
+				"south": {"uv": [3, 0, 13, 16], "texture": "#shaft"},
+				"west": {"uv": [3, 0, 13, 16], "texture": "#shaft"}
+			}
+		},
+		{
+			"from": [4.5, -3, 4.5],
+			"to": [11.5, -1.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -7, 6]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#hammer"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#hammer"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#hammer"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#hammer"},
+				"up": {"uv": [0, 8, 16, 16], "texture": "#hammer"},
+				"down": {"uv": [0, 8, 16, 16], "texture": "#hammer"}
+			}
+		},
+		{
+			"from": [4.5, 1, 4.5],
+			"to": [11.5, 2.5, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -4, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#hammer"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#hammer"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#hammer"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#hammer"},
+				"up": {"uv": [0, 0, 16, 8], "texture": "#hammer"},
+				"down": {"uv": [0, 0, 16, 8], "texture": "#hammer"}
+			}
+		},
+		{
+			"from": [6, 17, 6],
+			"to": [10, 19, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 18, 6]},
+			"faces": {
+				"north": {"uv": [3, 0, 13, 8], "texture": "#shaft"},
+				"east": {"uv": [3, 0, 13, 8], "texture": "#shaft"},
+				"south": {"uv": [3, 0, 13, 8], "texture": "#shaft"},
+				"west": {"uv": [3, 0, 13, 8], "texture": "#shaft"},
+				"up": {"uv": [3, 0, 13, 8], "texture": "#shaft"},
+				"down": {"uv": [3, 0, 13, 8], "texture": "#shaft"}
+			}
+		}
+	]
+}

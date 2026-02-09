@@ -1,0 +1,12 @@
+{
+  "author": "Pandicka",
+  "properties": ["type"],
+  "variants": {
+    "type=bottom": {
+      "model": "pylon:block/building/elevator_2"
+    },
+    "type=top": {
+      "model": "pylon:block/building/elevator_2_top"
+    }
+  }
+}

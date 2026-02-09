@@ -1,8 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Pandicka",
-  "textures": {
-    "layer0": "pylon:item/armor/bronze_helmet",
-    "layer1": "trims/items/helmet_trim_resin"
-  }
-}

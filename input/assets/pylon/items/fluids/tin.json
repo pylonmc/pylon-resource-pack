@@ -1,0 +1,8 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:green_terracotta",
+  "model":{
+    "type": "model",
+    "model": "pylon:block/fluids/tin"
+  }
+}

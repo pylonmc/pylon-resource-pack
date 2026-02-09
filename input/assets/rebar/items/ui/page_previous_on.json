@@ -1,0 +1,7 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:green_stained_glass_pane",
+  "model": "rebar:item/ui/page_previous_on",
+  "id": "page_previous",
+  "oversized_in_gui": true
+}

@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:gray_stained_glass_pane",
+  "model": "rebar:item/ui/background",
+  "oversized_in_gui": true
+}

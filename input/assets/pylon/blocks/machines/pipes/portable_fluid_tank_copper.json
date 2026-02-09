@@ -1,0 +1,8 @@
+{
+  "author": "Pandicka",
+  "variants": {
+    "": {
+      "model": "pylon:block/machines/pipes/copper_portable_tank"
+    }
+  }
+}

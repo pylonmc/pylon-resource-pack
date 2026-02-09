@@ -1,0 +1,36 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing","lit"],
+  "variants": {
+    "facing=east,lit=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_burner",
+      "y": 270
+    },
+    "facing=east,lit=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_burner_lit",
+      "y": 270
+    },
+    "facing=north,lit=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_burner"
+    },
+    "facing=north,lit=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_burner_lit"
+    },
+    "facing=south,lit=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_burner",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_burner_lit",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_burner",
+      "y": 90
+    },
+    "facing=west,lit=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_burner_lit",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:raw_iron",
+  "model":{
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_0"
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_1"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_2"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_3"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_4"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_5"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_6"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_7"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_8"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_9"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_10"
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_11"
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/iron_bloom_12"
+        }
+      }
+    ]
+  }
+}

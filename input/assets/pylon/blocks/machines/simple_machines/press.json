@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["level","facing"],
+  "variants": {
+    "level=0,facing=east": {
+      "model": "pylon:block/machines/simple_machines/press",
+      "y": 270
+    },
+    "level=0,facing=north": {
+      "model": "pylon:block/machines/simple_machines/press"
+    },
+    "level=0,facing=south": {
+      "model": "pylon:block/machines/simple_machines/press",
+      "y": 180
+    },
+    "level=0,facing=west": {
+      "model": "pylon:block/machines/simple_machines/press",
+      "y": 90
+    }
+  }
+}

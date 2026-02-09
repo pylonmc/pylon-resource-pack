@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/machines/diesel_machines/mixing_attachment",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/diesel_machines/mixing_attachment"
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/diesel_machines/mixing_attachment",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pylon:block/machines/diesel_machines/mixing_attachment",
+      "y": 90
+    }
+  }
+}

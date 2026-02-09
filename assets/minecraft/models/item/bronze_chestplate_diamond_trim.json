@@ -1,8 +1,0 @@
-{
-  "parent": "item/generated",
-  "author": "Pandicka",
-  "textures": {
-    "layer0": "pylon:item/armor/bronze_chestplate",
-    "layer1": "trims/items/chestplate_trim_diamond"
-  }
-}
