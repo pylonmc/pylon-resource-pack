@@ -1,7 +1,0 @@
-{
-	"parent": "item/handheld",
-	"author": "dongji",
-	"textures": {
-		"layer0": "pylon:item/tools/bronze_shovel"
-	}
-}

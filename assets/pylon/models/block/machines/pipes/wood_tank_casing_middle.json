@@ -1,8 +1,0 @@
-{
-	"parent": "pylon:block/machines/pipes/copper_tank_casing_middle",
-	"author": "Pandicka",
-	"textures": {
-		"side": "pylon:block/machines/pipes/wood_tank_casing_middle",
-		"particle": "pylon:block/machines/pipes/wood_tank_casing_middle"
-	}
-}

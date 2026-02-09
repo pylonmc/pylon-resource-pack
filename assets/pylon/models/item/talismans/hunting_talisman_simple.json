@@ -1,7 +1,0 @@
-{
-	"parent": "item/generated",
-	"author": "Pandicka",
-	"textures": {
-		"layer0": "pylon:item/talismans/hunting_talisman_simple"
-	}
-}

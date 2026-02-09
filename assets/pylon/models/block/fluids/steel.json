@@ -1,8 +1,0 @@
-{
-	"parent": "pylon:block/fluids/lava",
-	"author": "Pandicka",
-	"textures": {
-		"0": "pylon:block/fluids/steel",
-		"particle": "pylon:block/fluids/steel"
-	}
-}

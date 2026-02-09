@@ -1,8 +1,0 @@
-{
-	"parent": "item/generated",
-	"author": "dongji",
-	"textures": {
-		"layer0": "pylon:item/combat/disinfectant",
-		"layer1": "pylon:item/combat/disinfectant"
-	}
-}

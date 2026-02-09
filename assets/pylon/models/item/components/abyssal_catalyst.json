@@ -1,7 +1,0 @@
-{
-	"parent": "item/generated",
-	"author": "dongji",
-	"textures": {
-		"layer0": "pylon:item/components/abyssal_catalyst"
-	}
-}
