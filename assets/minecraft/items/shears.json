@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases":[
+      {
+        "when": "pylon:tongs",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/tools/tongs"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/shears"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:grindstone",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/simple_machines/grindstone"
+        }
+      },
+      {
+        "when": "pylon:shimmer_altar",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/simple_machines/shimmer_altar"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/smooth_stone_slab"
+    }
+  }
+}

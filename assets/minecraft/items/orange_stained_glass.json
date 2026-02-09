@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:portable_fluid_tank_copper",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/copper_portable_tank"
+        }
+      },
+      {
+        "when": "pylon:portable_fluid_tank_bronze",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/bronze_portable_tank"
+        }
+      },
+      {
+        "when": "pylon:fluid_tank_casing_copper",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/copper_tank_casing"
+        }
+      },
+      {
+        "when": "pylon:fluid_tank_casing_bronze",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/bronze_tank_casing"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/orange_stained_glass"
+    }
+  }
+}

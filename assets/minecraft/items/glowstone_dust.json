@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:bronze_dust",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/bronze_dust"
+        }
+      },
+      {
+        "when": "pylon:copper_dust",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/copper_dust"
+        }
+      },
+      {
+        "when": "pylon:crushed_raw_copper",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/crushed_raw_copper"
+        }
+      },
+      {
+        "when": "pylon:gold_dust",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/gold_dust"
+        }
+      },
+      {
+        "when": "pylon:crushed_raw_gold",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/crushed_raw_gold"
+        }
+      },
+      {
+        "when": "pylon:shimmer_dust_3",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/shimmer_dust_3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/glowstone_dust"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pylon:block/components/sawblade"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#layer0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:steel_block",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/resources/steel_block"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/netherite_block"
+    }
+  }
+}

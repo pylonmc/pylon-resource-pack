@@ -1,0 +1,7 @@
+{
+	"parent": "item/handheld",
+	"author": "dongji",
+	"textures": {
+		"layer0": "pylon:item/combat/reactivated_wither_skull"
+	}
+}

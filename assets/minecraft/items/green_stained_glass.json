@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:portable_fluid_tank_tin",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/tin_portable_tank"
+        }
+      },
+      {
+        "when": "pylon:fluid_tank_casing_tin",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/tin_tank_casing"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/green_stained_glass"
+    }
+  }
+}

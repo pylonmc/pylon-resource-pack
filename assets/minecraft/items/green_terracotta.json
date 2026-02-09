@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:fluid_pipe_tin",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/tin_pipe"
+        }
+      },
+      {
+        "when": "pylon:tin",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/fluids/tin"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/green_terracotta"
+    }
+  }
+}

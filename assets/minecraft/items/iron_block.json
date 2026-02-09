@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:tin_block",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/resources/tin_block"
+        }
+      },
+      {
+        "when": "pylon:nickel_block",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/resources/nickel_block"
+        }
+      },
+      {
+        "when": "pylon:cobalt_block",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/resources/cobalt_block"
+        }
+      },
+      {
+        "when": "pylon:diesel_pipe_bender",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/diesel/pipe_bender_north"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/iron_block"
+    }
+  }
+}

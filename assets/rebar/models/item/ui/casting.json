@@ -1,0 +1,17 @@
+{
+	"parent": "item/generated",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "rebar:item/ui/casting"
+	},
+	"display":{
+		"gui":{
+			"translation":[
+				0, 0.75, 0
+			],
+			"scale":[
+				1.5, 1.5, 1.5
+			]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:bronze_hoe",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/tools/bronze_hoe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/golden_hoe"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"author": "dongji",
+	"textures": {
+		"layer0": "pylon:item/combat/bandage"
+	},
+	"display": {
+		"gui": {
+			"translation": [-0.5, 0.5, 0]
+		}
+	}
+}

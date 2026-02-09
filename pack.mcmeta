@@ -1,0 +1,14 @@
+{
+  "pack":{
+    "description":[
+       "§3Pylon §eResource pack"
+    ],
+    "min_format": [75, 0],
+    "max_format": [500, 0]
+  },
+  "Credits":{
+    "dongji": "On Discord",
+    "cromecloride": "On Discord",
+    "Leo": "On Discord"
+  }
+}

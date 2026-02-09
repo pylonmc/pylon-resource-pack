@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:steel",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/fluids/steel"
+        }
+      },
+      {
+        "when": "pylon:cargo_duct",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/cargo/cargo_duct"
+        }
+      },
+      {
+        "when": "pylon:diesel_hammer_head",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/diesel/hammer_head"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/gray_concrete"
+    }
+  }
+}

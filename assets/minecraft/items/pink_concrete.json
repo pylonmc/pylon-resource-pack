@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:fluid_pipe_creative",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/creative_pipe"
+        }
+      },
+      {
+        "when": "pylon:creative_fluid_source",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/creative_fluid_source"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/pink_concrete"
+    }
+  }
+}

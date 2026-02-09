@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:copper_sheet",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/copper_sheet"
+        }
+      },
+      {
+        "when": "pylon:gold_sheet",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/gold_sheet"
+        }
+      },
+      {
+        "when": "pylon:iron_sheet",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/iron_sheet"
+        }
+      },
+      {
+        "when": "pylon:tin_sheet",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/tin_sheet"
+        }
+      },
+      {
+        "when": "pylon:bronze_sheet",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/bronze_sheet"
+        }
+      },
+      {
+        "when": "pylon:steel_sheet",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/steel_sheet"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/paper"
+    }
+  }
+}

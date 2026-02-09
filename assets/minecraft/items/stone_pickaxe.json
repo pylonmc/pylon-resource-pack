@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:stone_hammer",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/tools/stone_hammer"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/stone_pickaxe"
+    }
+  }
+}

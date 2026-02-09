@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:smeltery_caster",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/smeltery/smeltery_caster"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/bricks"
+    }
+  }
+}

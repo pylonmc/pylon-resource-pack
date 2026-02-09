@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:copper_drill_bit",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/copper_drill_bit"
+        }
+      },
+      {
+        "when": "pylon:bronze_drill_bit",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/bronze_drill_bit"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/lightning_rod"
+    }
+  }
+}

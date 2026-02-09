@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:climbing_pick",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/tools/climbing_pick"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_hoe"
+    }
+  }
+}

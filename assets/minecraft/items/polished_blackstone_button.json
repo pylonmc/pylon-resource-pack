@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:obsidian_chip",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/obsidian_chip"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/polished_blackstone_button_inventory"
+    }
+  }
+}

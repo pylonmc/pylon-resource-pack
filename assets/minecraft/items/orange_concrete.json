@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:lava",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/fluids/lava"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/orange_concrete"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:cargo_accumulator",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/cargo/cargo_accumulator_north"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/redstone_lamp"
+    }
+  }
+}

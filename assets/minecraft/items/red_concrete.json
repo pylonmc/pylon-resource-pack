@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "rebar:toggle-armor-textures_disabled",
+        "model": {
+          "type": "model",
+          "model": "rebar:item/ui/armor_texture_off"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/red_concrete"
+    }
+  }
+}

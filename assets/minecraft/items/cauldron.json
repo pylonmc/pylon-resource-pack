@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:portable_dustbin",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/tools/portable_dustbin"
+        }
+      },
+      {
+        "when": "pylon:mixing_pot",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/simple_machines/mixing_pot_north"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/cauldron"
+    }
+  }
+}

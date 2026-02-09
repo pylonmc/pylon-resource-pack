@@ -1,0 +1,25 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:disinfectant",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/combat/disinfectant"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/potion",
+      "tints": [
+        {
+          "type": "potion",
+          "default": -13083194
+        }
+      ]
+    }
+  }
+}

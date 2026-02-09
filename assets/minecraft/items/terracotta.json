@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:fluid_pipe_copper",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/copper_pipe"
+        }
+      },
+      {
+        "when": "pylon:copper",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/fluids/copper"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/terracotta"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"core": "pylon:block/machines/diesel/diesel_machine_block",
+		"frame": "pylon:block/machines/diesel/diesel_frame",
+		"input": "pylon:block/machines/diesel/diesel_input",
+		"top": "pylon:block/machines/diesel/diesel_top",
+		"saw": "pylon:block/components/sawblade",
+		"particle": "pylon:block/machines/diesel/diesel_frame"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#core"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#core"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#core"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#core"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#core"}
+			}
+		},
+		{
+			"from": [-0.8, 1.5, 1.5],
+			"to": [16.8, 14.5, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.5, 1.5]},
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"east": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"south": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"west": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"up": {"uv": [1.5, 1.5, 14.5, 14.5], "rotation": 90, "texture": "#frame"},
+				"down": {"uv": [1.5, 1.5, 14.5, 14.5], "rotation": 90, "texture": "#frame"}
+			}
+		},
+		{
+			"from": [1.5, 1.5, -0.8],
+			"to": [14.5, 14.5, 16.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.5, 1.5]},
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"east": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"south": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#input"},
+				"west": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"up": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"down": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"}
+			}
+		},
+		{
+			"from": [1, 16, 8],
+			"to": [15, 23, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 16, 8]},
+			"faces": {
+				"north": {"uv": [1, 1, 15, 8], "texture": "#saw"},
+				"south": {"uv": [1, 1, 15, 8], "texture": "#saw"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, -0.75, 0],
+			"scale": [0.59, 0.59, 0.59]
+		},
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

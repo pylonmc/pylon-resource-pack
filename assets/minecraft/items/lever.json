@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:manual_core_drill_lever",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/simple_machines/manual_core_drill_lever"
+        }
+      },
+      {
+        "when": "pylon:nozzle",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/nozzle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/lever"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"spoon": "pylon:block/machines/hydraulic/mixing_attachment_spoon",
+		"input": "pylon:block/machines/hydraulic/machine_input",
+		"output": "pylon:block/machines/hydraulic/machine_output",
+		"side": "pylon:block/machines/hydraulic/machine_side",
+		"particle": "pylon:block/machines/hydraulic/mixing_attachment_spoon"
+	},
+	"elements": [
+		{
+			"from": [2, 5.8, 2],
+			"to": [14, 17.8, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 6, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#input"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#output"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"from": [7.5, 0, 7.5],
+			"to": [8.5, 5, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -6, 7]},
+			"faces": {
+				"north": {"uv": [3, 4, 4, 9], "texture": "#spoon"},
+				"east": {"uv": [3, 4, 4, 9], "texture": "#spoon"},
+				"south": {"uv": [3, 4, 4, 9], "texture": "#spoon"},
+				"west": {"uv": [3, 4, 4, 9], "texture": "#spoon"},
+				"up": {"uv": [3, 4, 4, 9], "texture": "#spoon"},
+				"down": {"uv": [3, 4, 4, 9], "texture": "#spoon"}
+			}
+		},
+		{
+			"from": [4.5, -5.5, 7.5],
+			"to": [11.5, 0, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -2.75, 8]},
+			"faces": {
+				"north": {"uv": [3, 4, 12, 13], "texture": "#spoon"},
+				"east": {"uv": [3, 4, 4, 13], "texture": "#spoon"},
+				"south": {"uv": [3, 4, 12, 13], "texture": "#spoon"},
+				"west": {"uv": [3, 4, 4, 13], "texture": "#spoon"},
+				"up": {"uv": [4, 4, 3, 12], "texture": "#spoon"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#spoon"}
+			}
+		},
+		{
+			"from": [7.5, -5.5, 4.5],
+			"to": [8.5, 0, 11.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, -2.75, 6]},
+			"faces": {
+				"north": {"uv": [3, 4, 4, 13], "texture": "#spoon"},
+				"east": {"uv": [3, 4, 12, 13], "texture": "#spoon"},
+				"south": {"uv": [3, 4, 4, 13], "texture": "#spoon"},
+				"west": {"uv": [3, 4, 12, 13], "texture": "#spoon"},
+				"up": {"uv": [4, 4, 3, 12], "texture": "#spoon"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#spoon"}
+			}
+		}
+	]
+}

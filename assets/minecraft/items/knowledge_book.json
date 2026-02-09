@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "rebar:guide",
+        "model": {
+          "type": "model",
+          "model": "rebar:item/ui/guide"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/knowledge_book"
+    }
+  }
+}

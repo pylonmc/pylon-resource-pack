@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:research_pack_2",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/science/research_pack_2"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "special",
+      "base": "item/template_banner",
+      "model": {
+        "type": "banner",
+        "color": "lime"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:grindstone_handle",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/simple_machines/grindstone_handle"
+        }
+      },
+      {
+        "when": "pylon:axle",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/axle"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/oak_fence_inventory"
+    }
+  }
+}

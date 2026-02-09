@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:tin_nugget",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/tin_nugget"
+        }
+      },
+      {
+        "when": "pylon:nickel_nugget",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/nickel_nugget"
+        }
+      },
+      {
+        "when": "pylon:cobalt_nugget",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/resources/cobalt_nugget"
+        }
+      },
+      {
+        "when": "pylon:tin_projectile",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/combat/tin_projectile"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_nugget"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"duct": "pylon:block/machines/cargo/cargo_duct",
+		"input": "pylon:block/machines/cargo/cargo_inserter",
+		"particle": "pylon:block/machines/cargo/cargo_duct"
+	},
+	"elements": [
+		{
+			"from": [5, 5, 5],
+			"to": [11, 11, 11],
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"east": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"west": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#duct"}
+			}
+		},
+		{
+			"from": [2.75, 2.75, 0],
+			"to": [13.25, 13.25, 3.3],
+			"faces": {
+				"north": {"uv": [0, 2, 12, 14], "texture": "#input"},
+				"east": {"uv": [13, 2, 16, 14], "texture": "#input"},
+				"south": {"uv": [0, 2, 12, 14], "texture": "#input"},
+				"west": {"uv": [13, 2, 16, 14], "texture": "#input"},
+				"up": {"uv": [13, 2, 16, 14], "rotation": 90, "texture": "#input"},
+				"down": {"uv": [13, 2, 16, 14], "rotation": 90, "texture": "#input"}
+			}
+		},
+		{
+			"from": [4.5, 4.5, 3],
+			"to": [11.5, 11.5, 4],
+			"faces": {
+				"east": {"uv": [4, 4, 5, 5], "texture": "#input"},
+				"south": {"uv": [2, 4, 10, 12], "texture": "#input"},
+				"west": {"uv": [4, 4, 5, 5], "texture": "#input"},
+				"up": {"uv": [4, 4, 5, 5], "texture": "#input"},
+				"down": {"uv": [4, 4, 5, 5], "texture": "#input"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, -135, 0],
+			"translation": [-2, 1, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

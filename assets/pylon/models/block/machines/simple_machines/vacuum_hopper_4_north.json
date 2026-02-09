@@ -1,0 +1,16 @@
+{
+	"parent": "pylon:block/machines/simple_machines/vacuum_hopper_1_north",
+	"author": "dongji",
+	"textures": {
+		"inside": "pylon:block/machines/simple_machines/vacuum_hopper_4_inside",
+		"side": "pylon:block/machines/simple_machines/vacuum_hopper_4_outside",
+		"top": "pylon:block/machines/simple_machines/vacuum_hopper_4_top",
+		"particle": "pylon:block/machines/simple_machines/vacuum_hopper_4_outside"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

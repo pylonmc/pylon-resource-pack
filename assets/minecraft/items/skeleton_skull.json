@@ -1,0 +1,37 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:hunting_talisman_simple",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/hunting_talisman_simple"
+        }
+      },
+      {
+        "when": "pylon:hunting_talisman_advanced",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/hunting_talisman_advanced"
+        }
+      },
+      {
+        "when": "pylon:hunting_talisman_ultimate",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/talismans/hunting_talisman_ultimate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "minecraft:item/template_skull",
+      "model": {
+        "type": "minecraft:head",
+        "kind": "skeleton"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:weighted_shaft",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/components/shaft"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/deepslate_tile_wall_inventory"
+    }
+  }
+}

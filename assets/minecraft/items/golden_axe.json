@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:bronze_axe",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/tools/bronze_axe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/golden_axe"
+    }
+  }
+}

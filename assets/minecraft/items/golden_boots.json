@@ -1,0 +1,102 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:bronze_boots",
+        "model": {
+          "type": "select",
+          "property": "trim_material",
+          "cases": [
+            {
+              "when": "quartz",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_quartz_trim"
+              }
+            },
+            {
+              "when": "iron",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_iron_trim"
+              }
+            },
+            {
+              "when": "netherite",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_netherite_trim"
+              }
+            },
+            {
+              "when": "redstone",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_redstone_trim"
+              }
+            },
+            {
+              "when": "copper",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_copper_trim"
+              }
+            },
+            {
+              "when": "gold",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_gold_trim"
+              }
+            },
+            {
+              "when": "emerald",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_emerald_trim"
+              }
+            },
+            {
+              "when": "diamond",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_diamond_trim"
+              }
+            },
+            {
+              "when": "lapis",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_lapis_trim"
+              }
+            },
+            {
+              "when": "amethyst",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_amethyst_trim"
+              }
+            },
+            {
+              "when": "resin",
+              "model": {
+                "type": "model",
+                "model": "item/bronze_boots_resin_trim"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "pylon:item/armor/bronze_boots"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/golden_boots"
+    }
+  }
+}

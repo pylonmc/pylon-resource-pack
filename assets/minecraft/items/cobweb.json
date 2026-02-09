@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:bandage",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/combat/bandage"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/cobweb"
+    }
+  }
+}

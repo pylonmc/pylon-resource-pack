@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:brick_mold",
+        "model": {
+          "type": "model",
+          "model": "pylon:item/tools/brick_mold"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/oak_fence_gate"
+    }
+  }
+}

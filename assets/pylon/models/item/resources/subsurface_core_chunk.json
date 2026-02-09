@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"author": "dongji",
+	"textures": {
+		"layer0": "pylon:item/resources/subsurface_core_chunk"
+	}
+}

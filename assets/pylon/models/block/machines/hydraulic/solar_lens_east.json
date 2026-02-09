@@ -1,0 +1,10 @@
+{
+	"parent": "pylon:block/machines/hydraulic/solar_lens_south",
+	"author": "Pandicka",
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [1.01, 1, 1.01]
+		}
+	}
+}

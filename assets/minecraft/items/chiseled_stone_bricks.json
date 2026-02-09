@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:manual_core_drill",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/simple_machines/manual_core_drill"
+        }
+      },
+      {
+        "when": "pylon:hydraulic_mixing_attachment",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/hydraulic/mixing_attachment"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/chiseled_stone_bricks"
+    }
+  }
+}

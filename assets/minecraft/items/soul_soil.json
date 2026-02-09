@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:enriched_soul_soil",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/components/enriched_soul_soil"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/soul_soil"
+    }
+  }
+}

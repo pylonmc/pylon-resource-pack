@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "cases": [
+      {
+        "when": "pylon:bronze",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/fluids/bronze"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "block/brown_concrete"
+    }
+  }
+}
