@@ -565,11 +565,13 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
         if "model" in itemData:
             model = itemData["model"]
             if isinstance(model, dict):
+                # TODO: validate model definition somehow
                 case = {
                     "when": f"{itemKey}",
-                    "model": itemData["model"]
+                    "model": model
                 }
             elif isinstance(model, str):
+                get_model(model, True)
                 case = {
                     "when": f"{itemKey}",
                     "model": {

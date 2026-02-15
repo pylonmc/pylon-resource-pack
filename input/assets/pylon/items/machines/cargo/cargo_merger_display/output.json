@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:red_terracotta",
+  "id": "cargo_merger:output",
+  "model": "pylon:block/machines/cargo/display/output_alt"
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"main": "pylon:block/machines/cargo/cargo_extractor",
+		"particle": "pylon:block/machines/cargo/cargo_extractor"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 2, 12, 14], "texture": "#main"},
+				"east": {"uv": [13, 2, 16, 14], "texture": "#main"},
+				"south": {"uv": [0, 2, 12, 14], "texture": "#main"},
+				"west": {"uv": [13, 2, 16, 14], "texture": "#main"},
+				"up": {"uv": [13, 2, 16, 14], "rotation": 90, "texture": "#main"},
+				"down": {"uv": [13, 2, 16, 14], "rotation": 90, "texture": "#main"}
+			}
+		}
+	],
+	"author": "Pandicka"
+}

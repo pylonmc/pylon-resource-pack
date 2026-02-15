@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"main": "pylon:block/machines/cargo/cargo_duct_alt",
+		"particle": "pylon:block/machines/cargo/cargo_duct_alt"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#main"},
+				"east": {"uv": [3, 3, 13, 13], "texture": "#main"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#main"},
+				"west": {"uv": [3, 3, 13, 13], "texture": "#main"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#main"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#main"}
+			}
+		}
+	],
+	"author": "Pandicka"
+}

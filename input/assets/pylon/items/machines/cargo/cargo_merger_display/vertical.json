@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:stripped_warped_stem",
+  "id": "cargo_merger:vertical",
+  "model": "pylon:block/machines/cargo/display/merger"
+}

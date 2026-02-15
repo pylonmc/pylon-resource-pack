@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:light_blue_concrete",
+  "id": "cargo_filter:output_right",
+  "model": "pylon:block/machines/cargo/display/right_alt"
+}

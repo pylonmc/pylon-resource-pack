@@ -1,0 +1,36 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "pylon:block/machines/cargo/cargo_buffer",
+	"textures": {
+		"fluidinput": "pylon:block/machines/pipes/copper_portable_tank_input",
+		"fluidoutput": "pylon:block/machines/pipes/copper_portable_tank_output",
+		"particle": "pylon:block/machines/cargo/cargo_duct_alt",
+		"duct": "pylon:block/machines/cargo/cargo_duct_alt"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"east": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"west": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#duct"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#duct"}
+			}
+		},
+		{
+			"from": [-0.111, 5.19, 5.19],
+			"to": [16.144, 10.879, 10.879],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-4.25, -0.8, -0.8]},
+			"faces": {
+				"east": {"uv": [6, 6, 10, 10], "texture": "#fluidinput"},
+				"west": {"uv": [6, 6, 10, 10], "rotation": 90, "texture": "#fluidoutput"}
+			}
+		}
+	],
+	"author": "Pandicka"
+}

@@ -1,8 +1,0 @@
-{
-  "author": "Pandicka",
-  "variants": {
-    "": {
-      "model": "pylon:block/machines/cargo/cargo_duct"
-    }
-  }
-}

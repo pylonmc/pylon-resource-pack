@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:light_gray_concrete",
+  "id": "cargo_monitor:main",
+  "model": "pylon:block/machines/cargo/display/main"
+}

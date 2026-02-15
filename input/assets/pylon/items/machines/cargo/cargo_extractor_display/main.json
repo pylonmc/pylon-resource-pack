@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:light_gray_concrete",
+  "id": "cargo_extractor:main",
+  "model": "pylon:block/machines/cargo/display/extractor"
+}

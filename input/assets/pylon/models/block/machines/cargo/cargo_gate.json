@@ -1,13 +1,14 @@
 {
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"parent": "pylon:block/machines/cargo/cargo_duct",
-	"author": "Pandicka",
 	"textures": {
 		"left": "pylon:block/machines/cargo/cargo_left",
 		"right": "pylon:block/machines/cargo/cargo_right",
+		"particle": "pylon:block/machines/cargo/cargo_duct_alt",
 		"duct": "pylon:block/machines/cargo/cargo_duct_alt",
 		"repeater": "block/repeater",
 		"output": "pylon:block/machines/cargo/cargo_extractor",
-		"particle": "pylon:block/machines/cargo/cargo_duct_alt",
 		"unlit": "block/redstone_torch_off",
 		"slab": "block/smooth_stone"
 	},
@@ -30,11 +31,11 @@
 			"to": [2.6, 11.29, 11.29],
 			"rotation": {"angle": 0, "axis": "y", "origin": [2, 4.75, 4.75]},
 			"faces": {
-				"north": {"uv": [4, 4, 5, 12], "texture": "#left"},
-				"south": {"uv": [4, 4, 5, 12], "texture": "#left"},
-				"west": {"uv": [4, 4, 12, 12], "texture": "#left"},
-				"up": {"uv": [4, 4, 5, 12], "texture": "#left"},
-				"down": {"uv": [4, 4, 5, 12], "texture": "#left"}
+				"north": {"uv": [2, 4, 3, 12], "texture": "#left"},
+				"south": {"uv": [2, 4, 3, 12], "texture": "#left"},
+				"west": {"uv": [2, 4, 10, 12], "texture": "#left"},
+				"up": {"uv": [2, 4, 3, 12], "texture": "#left"},
+				"down": {"uv": [2, 4, 3, 12], "texture": "#left"}
 			}
 		},
 		{
@@ -42,11 +43,11 @@
 			"to": [14.4, 11.29, 11.29],
 			"rotation": {"angle": 0, "axis": "y", "origin": [13, 4.75, 4.75]},
 			"faces": {
-				"north": {"uv": [4, 4, 5, 12], "texture": "#right"},
-				"east": {"uv": [4, 4, 12, 12], "texture": "#right"},
-				"south": {"uv": [4, 4, 5, 12], "texture": "#right"},
-				"up": {"uv": [4, 4, 5, 12], "texture": "#right"},
-				"down": {"uv": [4, 4, 5, 12], "texture": "#right"}
+				"north": {"uv": [2, 4, 3, 12], "texture": "#right"},
+				"east": {"uv": [2, 4, 10, 12], "texture": "#right"},
+				"south": {"uv": [2, 4, 3, 12], "texture": "#right"},
+				"up": {"uv": [2, 4, 3, 12], "texture": "#right"},
+				"down": {"uv": [2, 4, 3, 12], "texture": "#right"}
 			}
 		},
 		{
@@ -98,5 +99,6 @@
 				"up": {"uv": [7, 6, 9, 8], "texture": "#unlit"}
 			}
 		}
-	]
+	],
+	"author": "Pandicka"
 }

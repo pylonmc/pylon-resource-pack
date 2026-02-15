@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:stripped_crimson_stem",
+  "id": "cargo_splitter:vertical",
+  "model": "pylon:block/machines/cargo/display/splitter"
+}

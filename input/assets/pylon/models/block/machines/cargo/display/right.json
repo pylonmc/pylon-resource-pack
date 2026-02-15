@@ -1,0 +1,8 @@
+{
+	"parent": "pylon:block/machines/cargo/display/input",
+	"textures": {
+		"main": "pylon:block/machines/cargo/cargo_right",
+		"particle": "pylon:block/machines/cargo/cargo_right"
+	},
+	"author": "Pandicka"
+}
