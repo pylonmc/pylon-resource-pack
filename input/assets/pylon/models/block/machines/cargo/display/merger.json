@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"particle": "pylon:block/machines/cargo/cargo_duct_alt",
 		"merger": "pylon:block/machines/cargo/cargo_merger",
 		"slab": "block/smooth_stone",
-		"wood": "block/stripped_warped_stem_top"
+		"wood": "block/stripped_warped_stem_top",
+		"particle": "pylon:block/machines/cargo/cargo_duct_alt"
 	},
 	"elements": [
 		{
@@ -25,16 +25,16 @@
 		{
 			"from": [0, -0.1, 0],
 			"to": [16, 16.1, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.975, 15.5, 7.975]},
+			"rotation": {"x": 0, "y": -180, "z": 0, "origin": [7.975, 15.5, 7.975]},
 			"faces": {
 				"up": {"uv": [0, 0, 16, 16], "texture": "#merger"},
 				"down": {"uv": [0, 16, 16, 0.05], "texture": "#merger"}
 			}
 		},
 		{
-			"from": [6.48, -0.3, 8],
-			"to": [8.48, 16.3, 15],
-			"rotation": {"angle": -45, "axis": "y", "origin": [7.9775, 10, 8.75]},
+			"from": [7.84612, -0.3, 5.42678],
+			"to": [9.84612, 16.3, 12.42678],
+			"rotation": {"x": 0, "y": 135, "z": 0, "origin": [8.84362, 8, 6.92678]},
 			"faces": {
 				"north": {"uv": [5, 3, 6, 4], "texture": "#wood"},
 				"east": {"uv": [5, 3, 6, 4], "texture": "#wood"},
@@ -45,9 +45,9 @@
 			}
 		},
 		{
-			"from": [0.85, -0.3, 6.5],
-			"to": [14.1, 16.3, 8.5],
-			"rotation": {"angle": -45, "axis": "y", "origin": [7.9775, 10, 8.75]},
+			"from": [2.21612, -0.3, 3.92678],
+			"to": [15.46612, 16.3, 5.92678],
+			"rotation": {"x": 0, "y": 135, "z": 0, "origin": [8.84362, 8, 6.92678]},
 			"faces": {
 				"north": {"uv": [6, 3, 7, 4], "texture": "#wood"},
 				"east": {"uv": [6, 3, 7, 4], "texture": "#wood"},
