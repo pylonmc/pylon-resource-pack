@@ -525,10 +525,13 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         itemPath = itemFile[:-5]
         itemName = itemPath.split('/')[-1] if '/' in itemPath else itemPath
+        itemNamespace = namespace
         itemId = itemName
         if "id" in itemData:
             itemId = itemData["id"]
-        itemKey = f"{namespace}:{itemId}"
+        if "namespace" in itemData:
+            itemNamespace = itemData["namespace"]
+        itemKey = f"{itemNamespace}:{itemId}"
         
         if "vanilla" not in itemData or not isinstance(itemData["vanilla"], str):
             if logWarnings:
