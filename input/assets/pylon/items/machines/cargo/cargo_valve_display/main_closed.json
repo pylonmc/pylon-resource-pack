@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:cyan_terracotta",
+  "id": "cargo_valve:closed",
+  "model": "pylon:block/machines/cargo/display/valve_closed"
+}

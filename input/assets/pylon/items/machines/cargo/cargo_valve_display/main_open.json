@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:white_concrete",
+  "id": "cargo_valve:open",
+  "model": "pylon:block/machines/cargo/display/valve"
+}

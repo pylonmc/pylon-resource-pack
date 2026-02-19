@@ -525,10 +525,13 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         itemPath = itemFile[:-5]
         itemName = itemPath.split('/')[-1] if '/' in itemPath else itemPath
+        itemNamespace = namespace
         itemId = itemName
         if "id" in itemData:
             itemId = itemData["id"]
-        itemKey = f"{namespace}:{itemId}"
+        if "namespace" in itemData:
+            itemNamespace = itemData["namespace"]
+        itemKey = f"{itemNamespace}:{itemId}"
         
         if "vanilla" not in itemData or not isinstance(itemData["vanilla"], str):
             if logWarnings:
@@ -565,11 +568,13 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
         if "model" in itemData:
             model = itemData["model"]
             if isinstance(model, dict):
+                # TODO: validate model definition somehow
                 case = {
                     "when": f"{itemKey}",
-                    "model": itemData["model"]
+                    "model": model
                 }
             elif isinstance(model, str):
+                get_model(model, True)
                 case = {
                     "when": f"{itemKey}",
                     "model": {

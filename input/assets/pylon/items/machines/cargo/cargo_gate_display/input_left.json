@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:yellow_concrete",
+  "id": "cargo_gate:input_left",
+  "model": "pylon:block/machines/cargo/display/left_alt"
+}

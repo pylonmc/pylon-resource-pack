@@ -1,0 +1,69 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "pylon:block/machines/cargo/cargo_valve",
+		"valve": "pylon:block/machines/cargo/cargo_valve"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.0025, 11.0025, 8.0025]},
+			"faces": {
+				"north": {"uv": [0, 8, 10, 16], "texture": "#valve"},
+				"east": {"uv": [0, 0, 12, 8], "texture": "#valve"},
+				"south": {"uv": [0, 8, 10, 16], "texture": "#valve"},
+				"west": {"uv": [0, 0, 12, 8], "texture": "#valve"},
+				"up": {"uv": [0, 0, 12, 8], "rotation": 90, "texture": "#valve"},
+				"down": {"uv": [0, 0, 12, 8], "rotation": 90, "texture": "#valve"}
+			}
+		},
+		{
+			"from": [6.5, 16, 6.85],
+			"to": [9.5, 23, 9.15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.0025, 15.0025, 8.0025]},
+			"faces": {
+				"north": {"uv": [13, 9, 14, 14], "texture": "#valve"},
+				"east": {"uv": [13, 9, 16, 14], "texture": "#valve"},
+				"south": {"uv": [13, 9, 14, 14], "texture": "#valve"},
+				"west": {"uv": [13, 9, 16, 14], "texture": "#valve"},
+				"up": {"uv": [13, 9, 14, 10], "texture": "#valve"}
+			}
+		},
+		{
+			"from": [5, 18, 5.675],
+			"to": [11, 20, 10.325],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 19, 8]},
+			"faces": {
+				"north": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"east": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"south": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"west": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"up": {"uv": [13, 2, 16, 3], "texture": "#valve"},
+				"down": {"uv": [13, 2, 16, 3], "texture": "#valve"}
+			}
+		},
+		{
+			"from": [2, 18, 7.225],
+			"to": [14, 22, 8.775],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 19, 8]},
+			"faces": {
+				"north": {"uv": [13, 2, 16, 9], "rotation": 90, "texture": "#valve"},
+				"east": {"uv": [13, 2, 16, 3], "rotation": 90, "texture": "#valve"},
+				"south": {"uv": [13, 2, 16, 9], "rotation": 90, "texture": "#valve"},
+				"west": {"uv": [13, 2, 16, 3], "rotation": 90, "texture": "#valve"},
+				"up": {"uv": [13, 2, 14, 9], "rotation": 90, "texture": "#valve"},
+				"down": {"uv": [13, 2, 14, 9], "rotation": 90, "texture": "#valve"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	},
+	"author": "Pandicka"
+}

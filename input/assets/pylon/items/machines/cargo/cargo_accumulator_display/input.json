@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:lime_terracotta",
+  "id": "cargo_accumulator:input",
+  "model": "pylon:block/machines/cargo/display/input_alt"
+}

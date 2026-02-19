@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "pylon:block/machines/cargo/cargo_inserter",
+		"main": "pylon:block/machines/cargo/cargo_inserter"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 90, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 4, 10, 12], "texture": "#main"},
+				"east": {"uv": [2, 4, 3, 12], "texture": "#main"},
+				"south": {"uv": [2, 4, 10, 12], "texture": "#main"},
+				"west": {"uv": [2, 4, 3, 12], "texture": "#main"},
+				"up": {"uv": [2, 4, 3, 12], "texture": "#main"},
+				"down": {"uv": [2, 4, 3, 12], "texture": "#main"}
+			}
+		}
+	],
+	"author": "Pandicka"
+}

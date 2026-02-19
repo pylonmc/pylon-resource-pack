@@ -1,0 +1,62 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "pylon:block/machines/cargo/cargo_duct_alt",
+		"slab": "block/smooth_stone",
+		"wood": "block/stripped_crimson_stem_top",
+		"splitter": "pylon:block/machines/cargo/cargo_splitter"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.09362, 8, 8.92678]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#slab"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#slab"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#slab"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#slab"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#slab"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#slab"}
+			}
+		},
+		{
+			"from": [-1.81277, -0.1, 1.85355],
+			"to": [14.18723, 16.1, 17.85355],
+			"rotation": {"x": 0, "y": -180, "z": 0, "origin": [7.09362, 8, 8.92678]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#splitter"},
+				"down": {"uv": [0, 16, 16, 0.05], "texture": "#splitter"}
+			}
+		},
+		{
+			"from": [8.09612, -0.3, 5.42678],
+			"to": [10.09612, 16.3, 12.42678],
+			"rotation": {"x": 0, "y": 135, "z": 0, "origin": [9.09362, 8, 6.92678]},
+			"faces": {
+				"north": {"uv": [5, 3, 6, 4], "texture": "#wood"},
+				"east": {"uv": [5, 3, 6, 4], "texture": "#wood"},
+				"south": {"uv": [5, 3, 6, 4], "texture": "#wood"},
+				"west": {"uv": [5, 3, 6, 4], "texture": "#wood"},
+				"up": {"uv": [5, 3, 6, 4], "texture": "#wood"},
+				"down": {"uv": [5, 3, 6, 4], "texture": "#wood"}
+			}
+		},
+		{
+			"from": [2.46612, -0.3, 3.92678],
+			"to": [15.71612, 16.3, 5.92678],
+			"rotation": {"x": 0, "y": 135, "z": 0, "origin": [9.09362, 8, 6.92678]},
+			"faces": {
+				"north": {"uv": [6, 3, 7, 4], "texture": "#wood"},
+				"east": {"uv": [6, 3, 7, 4], "texture": "#wood"},
+				"south": {"uv": [6, 3, 7, 4], "texture": "#wood"},
+				"west": {"uv": [6, 3, 7, 4], "texture": "#wood"},
+				"up": {"uv": [6, 3, 7, 4], "texture": "#wood"},
+				"down": {"uv": [6, 3, 7, 4], "texture": "#wood"}
+			}
+		}
+	],
+	"author": "Pandicka"
+}

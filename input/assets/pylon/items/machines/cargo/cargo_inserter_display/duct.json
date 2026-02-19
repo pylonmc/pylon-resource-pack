@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:gray_concrete",
+  "id": "cargo_inserter:duct",
+  "model": "pylon:block/machines/cargo/display/duct_solid"
+}

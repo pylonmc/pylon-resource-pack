@@ -61,7 +61,7 @@
 		{
 			"from": [7.5, 13, 5],
 			"to": [8.5, 15, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
+			"rotation": {"x": 0, "y": 90, "z": 0, "origin": [8, 14, 8]},
 			"faces": {
 				"north": {"uv": [13, 2, 16, 3], "rotation": 90, "texture": "#valve"},
 				"east": {"uv": [13, 2, 16, 9], "rotation": 90, "texture": "#valve"},
