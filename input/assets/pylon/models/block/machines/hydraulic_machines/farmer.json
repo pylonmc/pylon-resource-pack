@@ -1,0 +1,34 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"harvest": "pylon:block/machines/hydraulic_machines/farmer",
+		"particle": "pylon:block/machines/hydraulic_machines/machine_input",
+		"input": "pylon:block/machines/hydraulic_machines/machine_input",
+		"output": "pylon:block/machines/hydraulic_machines/machine_output",
+		"side": "pylon:block/machines/hydraulic_machines/machine_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#output"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#harvest"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#input"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#harvest"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [1,1,1]
+		}
+	}
+}

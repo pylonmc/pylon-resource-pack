@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "pylon:palladium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "pylon:palladium"
+      }
+    ]
+  }
+}

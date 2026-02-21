@@ -1,0 +1,61 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"furnace": "pylon:block/machines/diesel_machines/diesel_furnace",
+		"input": "pylon:block/machines/diesel_machines/diesel_input_alt",
+		"core": "pylon:block/machines/diesel_machines/diesel_machine_block",
+		"frame": "pylon:block/machines/diesel_machines/diesel_frame",
+		"particle": "pylon:block/machines/diesel_machines/diesel_furnace"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#core"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#core"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#furnace"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#core"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#input"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#core"}
+			}
+		},
+		{
+			"from": [-0.9, 1.5, 1.5],
+			"to": [17.1, 14.5, 14.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.5, 1.5]},
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"east": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"south": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"west": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"up": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"down": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"}
+			}
+		},
+		{
+			"from": [1.5, 1.5, -0.9],
+			"to": [14.5, 14.5, 13.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1.5, 1.5]},
+			"faces": {
+				"north": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"east": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"south": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"west": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"up": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"},
+				"down": {"uv": [1.5, 1.5, 14.5, 14.5], "texture": "#frame"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, 0, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

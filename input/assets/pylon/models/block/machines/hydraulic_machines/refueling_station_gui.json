@@ -1,0 +1,69 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"glass": "block/orange_stained_glass",
+		"top": "pylon:block/machines/hydraulic_machines/refueling_station",
+		"particle": "pylon:block/machines/hydraulic_machines/machine_side",
+		"side": "pylon:block/machines/hydraulic_machines/machine_side",
+		"input": "pylon:block/machines/hydraulic_machines/machine_input",
+		"output": "pylon:block/machines/hydraulic_machines/machine_output"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8.001, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#output"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#input"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#side"}
+			}
+		},
+		{
+			"from": [5, 5, 13.6],
+			"to": [11, 11, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 7, 14]},
+			"faces": {
+				"north": {"uv": [5, 5, 11, 11], "texture": "#input"},
+				"east": {"uv": [5, 5, 6, 11], "texture": "#input"},
+				"south": {"uv": [5, 5, 11, 11], "texture": "#input"},
+				"west": {"uv": [5, 5, 6, 11], "texture": "#input"},
+				"up": {"uv": [5, 5, 11, 6], "texture": "#input"}
+			}
+		},
+		{
+			"from": [5, 5, 0],
+			"to": [11, 11, 2.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 7, 0.4]},
+			"faces": {
+				"north": {"uv": [5, 5, 11, 11], "texture": "#output"},
+				"east": {"uv": [5, 5, 6, 11], "texture": "#input"},
+				"south": {"uv": [5, 5, 11, 11], "texture": "#output"},
+				"west": {"uv": [5, 5, 6, 11], "texture": "#input"},
+				"up": {"uv": [5, 5, 11, 6], "texture": "#input"}
+			}
+		},
+		{
+			"from": [2.4, 4, 2.4],
+			"to": [13.6, 15.2, 13.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 7, 0]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#glass"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#glass"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		}
+	}
+}

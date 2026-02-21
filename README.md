@@ -39,7 +39,11 @@ Refer to [Contributing](CONTRIBUTING.md) if you'd like to help out!
 
 **Special thanks** to the developers of [@pylonmc] who helped extend Pylon’s visual and technical capabilities  
 
-**Thanks** to [ALL CONTRIBUTORS HERE].
+**Thanks** to:
+  - JustAHuman-xD
+  - dongji
+  - cromecloride
+  - Leo
 
 Your contributions made this pack possible ❤️
 

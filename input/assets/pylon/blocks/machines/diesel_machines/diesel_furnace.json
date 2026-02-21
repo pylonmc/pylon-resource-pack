@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/machines/diesel_machines/furnace",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/diesel_machines/furnace"
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/diesel_machines/furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pylon:block/machines/diesel_machines/furnace",
+      "y": 90
+    }
+  }
+}

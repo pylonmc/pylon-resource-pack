@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=west": {
+      "model": "pylon:block/machines/diesel_machines/breaker",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/diesel_machines/breaker"
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/diesel_machines/breaker",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "pylon:block/machines/diesel_machines/breaker",
+      "y": 90
+    }
+  }
+}
