@@ -1,0 +1,18 @@
+{
+  "author": "Pandicka",
+  "properties": ["shape"],
+  "variants": {
+    "shape=single": {
+      "model": "pylon:block/machines/pipes/palladium_tank_casing"
+    },
+    "shape=bottom": {
+      "model": "pylon:block/machines/pipes/palladium_tank_casing_bottom"
+    },
+    "shape=middle": {
+      "model": "pylon:block/machines/pipes/palladium_tank_casing_middle"
+    },
+    "shape=top": {
+      "model": "pylon:block/machines/pipes/palladium_tank_casing_top"
+    }
+  }
+}

@@ -2,6 +2,6 @@
 	"parent": "pylon:item/science/research_pack_1",
 	"author": "Pandicka",
 	"textures": {
-		"layer0": "pylon:item/science/research_pack_2"
+		"layer0": "pylon:item/science/research_pack_4"
 	}
 }

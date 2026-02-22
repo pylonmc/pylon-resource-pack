@@ -1,0 +1,8 @@
+{
+	"parent": "pylon:block/machines/pipes/copper_pipe",
+	"author": "Pandicka",
+	"textures": {
+		"pipe": "pylon:block/machines/pipes/palladium_pipe",
+		"particle": "pylon:block/machines/pipes/palladium_pipe"
+	}
+}
