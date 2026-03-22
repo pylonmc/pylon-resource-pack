@@ -1,0 +1,7 @@
+{
+  "parent": "pylon:block/machines/pipes/steel_portable_tank",
+  "author": "Pandicka",
+  "textures": {
+    "fluid": "pylon:block/fluids/lava_still"
+  }
+}

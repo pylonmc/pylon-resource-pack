@@ -2,10 +2,11 @@
 	"parent": "block/block",
 	"author": "Pandicka",
 	"textures": {
+		"fluid": "pylon:block/components/air",
+		"particle": "pylon:block/machines/pipes/copper_portable_tank_front",
 		"side": "pylon:block/machines/pipes/copper_portable_tank_front",
 		"top": "pylon:block/machines/pipes/copper_portable_tank_input",
-		"bottom": "pylon:block/machines/pipes/copper_portable_tank_output",
-		"particle": "pylon:block/machines/pipes/copper_portable_tank_front"
+		"bottom": "pylon:block/machines/pipes/copper_portable_tank_output"
 	},
 	"elements": [
 		{
@@ -129,11 +130,23 @@
 				"up": {"uv": [0, 0, 1, 1], "texture": "#side"},
 				"down": {"uv": [0, 0, 1, 1], "texture": "#side"}
 			}
+		},
+		{
+			"from": [1, 1, 1],
+			"to": [15, 5.5, 15],
+			"faces": {
+				"north": {"uv": [0, 7, 14, 14], "texture": "#fluid","tintindex": 0},
+				"east": {"uv": [0, 7, 14, 14], "texture": "#fluid","tintindex": 0},
+				"south": {"uv": [0, 7, 14, 14], "texture": "#fluid","tintindex": 0},
+				"west": {"uv": [0, 7, 14, 14], "texture": "#fluid","tintindex": 0},
+				"up": {"uv": [0, 0, 14, 14], "texture": "#fluid","tintindex": 0},
+				"down": {"uv": [0, 0, 14, 14], "texture": "#fluid","tintindex": 0}
+			}
 		}
 	],
 	"display": {
 		"fixed": {
-			"scale": [1, 1, 1]
+			"scale": [1,1,1]
 		}
 	}
 }

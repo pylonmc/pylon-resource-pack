@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:cyan_concrete",
+  "id": "assembly_table:worktop",
+  "model": "pylon:block/assembling/display/worktop"
+}

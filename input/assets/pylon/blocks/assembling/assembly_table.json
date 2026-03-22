@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/assembling/assembly_table",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "pylon:block/assembling/assembly_table"
+    },
+    "facing=south": {
+      "model": "pylon:block/assembling/assembly_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pylon:block/assembling/assembly_table",
+      "y": 90
+    }
+  }
+}

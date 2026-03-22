@@ -3,6 +3,12 @@
   "vanilla": "minecraft:yellow_concrete",
   "model":{
     "type": "model",
-    "model": "pylon:block/fluids/gold"
+    "model": "pylon:block/fluids/lava_still",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 16367926
+      }
+    ]
   }
 }

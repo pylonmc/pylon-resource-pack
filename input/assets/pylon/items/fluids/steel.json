@@ -3,6 +3,12 @@
   "vanilla": "minecraft:gray_concrete",
   "model":{
     "type": "model",
-    "model": "pylon:block/fluids/steel"
+    "model": "pylon:block/fluids/lava_still",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 7039851
+      }
+    ]
   }
 }

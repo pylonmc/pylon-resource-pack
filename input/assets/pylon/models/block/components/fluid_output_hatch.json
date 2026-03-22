@@ -1,0 +1,15 @@
+{
+	"parent": "block/orientable",
+	"author": "Pandicka",
+	"textures": {
+		"front": "pylon:block/components/fluid_output_hatch",
+		"side": "pylon:block/components/hatch_side",
+		"top": "pylon:block/components/hatch_side"
+	},
+	"display": {
+		"fixed": {
+      "rotation": [0, 180, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

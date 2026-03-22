@@ -1,5 +1,380 @@
 {
     "author": "Pandicka",
     "vanilla": "minecraft:gray_stained_glass",
-    "model": "pylon:block/machines/pipes/steel_portable_tank"
+    "model": {
+      "type": "select",
+      "property": "custom_model_data",
+      "index": 1,
+      "cases": [
+      {
+        "when": "pylon:fluid:empty",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/steel_portable_tank"
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:water",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 4159204
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:lava",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_lava"
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:plant_oil",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 12890962
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:hydraulic_fluid",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 2508772
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:dirty_hydraulic_fluid",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 5133712
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:sugarcane",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13290377
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:reflector_fluid",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 16777215
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:ethanol",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 14211288
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:biodiesel",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 14669627
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:obscyra",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 3746100
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:sulfur",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 12427298
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:mercury",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 9868950
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:copper",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 15035457
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:iron",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13838376
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:gold",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 16367926
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:tin",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 9415346
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:bronze",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13734984
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:steel",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 7039851
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:palladium",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 5738685
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 8355711
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry_coal",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 3947580
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry_carbon",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 2631720
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry_raw_steel",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13196853
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry_raw_iron",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 14200723
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry_raw_gold",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 14848260
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry_raw_redstone",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 12587522
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry_raw_tin",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13029330
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:slurry_sponge_iron",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/steel_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 8555924
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "pylon:block/machines/pipes/steel_portable_tank"
+    }
+  }
 }

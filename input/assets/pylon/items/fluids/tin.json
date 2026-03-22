@@ -3,6 +3,12 @@
   "vanilla": "minecraft:green_terracotta",
   "model":{
     "type": "model",
-    "model": "pylon:block/fluids/tin"
+    "model": "pylon:block/fluids/lava_still",
+    "tints": [
+      {
+        "type": "constant",
+        "value": 9415346
+      }
+    ]
   }
 }

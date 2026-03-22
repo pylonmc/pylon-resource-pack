@@ -1,0 +1,8 @@
+{
+  "author": "Pandicka",
+  "variants": {
+    "": {
+      "model": "pylon:block/machines/diesel_machines/diesel_core_drill"
+    }
+  }
+}

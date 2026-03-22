@@ -1,24 +1,14 @@
 {
-	"format_version": "1.21.11",
-	"credit": "Made with Blockbench",
 	"parent": "block/block",
+	"author": "Pandicka",
 	"textures": {
 		"0": "pylon:block/building/pedestal",
 		"1": "pylon:block/building/pedestal_bottom",
-		"2": "pylon:block/building/pedestal_top_half",
+		"3": "pylon:block/building/pedestal_top",
+		"5": "pylon:block/building/pedestal_bottom_alt",
 		"particle": "pylon:block/building/pedestal"
 	},
 	"elements": [
-		{
-			"from": [4, 2, 4],
-			"to": [12.01, 14, 12.01],
-			"faces": {
-				"north": {"uv": [2, 2, 10, 14], "texture": "#0"},
-				"east": {"uv": [2, 2, 10, 14], "texture": "#0"},
-				"south": {"uv": [2, 2, 10, 14], "texture": "#0"},
-				"west": {"uv": [2, 2, 10, 14], "texture": "#0"}
-			}
-		},
 		{
 			"from": [2, 14, 2],
 			"to": [14, 16, 14],
@@ -28,50 +18,62 @@
 				"east": {"uv": [0, 0, 12, 2], "texture": "#0"},
 				"south": {"uv": [0, 0, 12, 2], "texture": "#0"},
 				"west": {"uv": [0, 0, 12, 2], "texture": "#0"},
-				"up": {"uv": [2, 2, 14, 14], "texture": "#2"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#3"},
 				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
 			}
 		},
 		{
-			"from": [3, 0, 3],
-			"to": [13, 2, 13],
+			"from": [3.999, 1.999, 3.999],
+			"to": [12.001, 14.001, 12.001],
+			"faces": {
+				"north": {"uv": [2, 2, 10, 14], "texture": "#0"},
+				"east": {"uv": [2, 2, 10, 14], "texture": "#0"},
+				"south": {"uv": [2, 2, 10, 14], "texture": "#0"},
+				"west": {"uv": [2, 2, 10, 14], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 3],
+			"to": [16, 2, 13],
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 3]},
 			"faces": {
-				"north": {"uv": [1, 14, 11, 16], "texture": "#0"},
+				"north": {"uv": [0, 14, 16, 16], "texture": "#0"},
 				"east": {"uv": [1, 14, 11, 16], "texture": "#0"},
-				"south": {"uv": [1, 14, 11, 16], "texture": "#0"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#0"},
 				"west": {"uv": [1, 14, 11, 16], "texture": "#0"},
-				"up": {"uv": [2, 2, 14, 14], "texture": "#2"},
+				"up": {"uv": [0, 3, 16, 13], "texture": "#5"},
 				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
 			}
 		},
 		{
 			"from": [0, 2, 5],
-			"to": [4, 14, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 5]},
+			"to": [16, 12, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [2, 2, 6, 14], "texture": "#0"},
-				"east": {"uv": [2, 2, 6, 14], "texture": "#0"},
-				"south": {"uv": [2, 2, 6, 14], "texture": "#0"},
+				"north": {"uv": [0, 4, 16, 14], "texture": "#0"},
+				"east": {"uv": [2, 2, 8, 14], "texture": "#0"},
+				"south": {"uv": [0, 4, 16, 14], "texture": "#0"},
 				"west": {"uv": [2, 2, 8, 14], "texture": "#0"},
-				"up": {"uv": [3, 8, 7, 14], "texture": "#2"},
-				"down": {"uv": [2, 2, 6, 14], "texture": "#0"}
+				"up": {"uv": [3, 7, 7, 13], "texture": "#3"}
 			}
 		},
 		{
-			"from": [0, 0, 4],
-			"to": [3, 2, 12],
-			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 4]},
+			"from": [0, 12, 4],
+			"to": [16, 14, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 13, 2]},
 			"faces": {
-				"north": {"uv": [8, 14, 11, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 8, 2], "texture": "#missing"},
-				"south": {"uv": [1, 14, 4, 16], "texture": "#0"},
-				"west": {"uv": [2, 14, 10, 16], "texture": "#0"},
-				"up": {"uv": [2, 2, 5, 14], "texture": "#2"},
-				"down": {"uv": [2, 2, 5, 14], "texture": "#1"}
+				"north": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [4, 0, 12, 2], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 2], "texture": "#0"},
+				"west": {"uv": [4, 0, 12, 2], "texture": "#0"},
+				"up": {"uv": [0, 4, 16, 12], "texture": "#3"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
 			}
 		}
 	],
-	"display": {},
-	"author": "Pandicka"
+	"display": {
+		"fixed": {
+			"scale": [1,1,1]
+		}
+	}
 }

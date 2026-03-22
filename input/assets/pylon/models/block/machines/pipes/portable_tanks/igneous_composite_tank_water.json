@@ -1,0 +1,7 @@
+{
+  "parent": "pylon:block/machines/pipes/igneous_composite_portable_tank",
+  "author": "Pandicka",
+  "textures": {
+    "fluid": "pylon:block/fluids/water_still"
+  }
+}

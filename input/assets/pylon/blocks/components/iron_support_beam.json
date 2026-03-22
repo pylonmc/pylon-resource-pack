@@ -1,0 +1,584 @@
+{
+  "author": "Pandicka",
+  "properties": ["east", "north", "south", "west", "up"],
+  "variants": {
+    "east=none,north=none,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_post"
+    },
+    "east=none,north=none,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_post"
+    },
+    "east=none,north=none,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 90
+    },
+    "east=none,north=none,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 90
+    },
+    "east=none,north=none,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 90
+    },
+    "east=none,north=none,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 90
+    },
+    "east=none,north=none,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 180
+    },
+    "east=none,north=none,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 180
+    },
+    "east=none,north=none,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 270
+    },
+    "east=none,north=none,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 270
+    },
+    "east=none,north=none,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 270
+    },
+    "east=none,north=none,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 270
+    },
+    "east=none,north=none,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 180
+    },
+    "east=none,north=none,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 180
+    },
+    "east=none,north=none,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 270
+    },
+    "east=none,north=none,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 270
+    },
+    "east=none,north=none,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 270
+    },
+    "east=none,north=none,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 270
+    },
+    "east=none,north=low,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_noside"
+    },
+    "east=none,north=low,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_noside"
+    },
+    "east=none,north=low,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 180
+    },
+    "east=none,north=low,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 180
+    },
+    "east=none,north=low,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 180
+    },
+    "east=none,north=low,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 180
+    },
+    "east=none,north=low,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_side",
+      "y": 90
+    },
+    "east=none,north=low,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_side_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_side",
+      "y": 90
+    },
+    "east=none,north=low,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_side_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=low,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_noside"
+    },
+    "east=none,north=tall,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_noside"
+    },
+    "east=none,north=tall,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 180
+    },
+    "east=none,north=tall,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 180
+    },
+    "east=none,north=tall,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 180
+    },
+    "east=none,north=tall,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 180
+    },
+    "east=none,north=tall,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_side",
+      "y": 90
+    },
+    "east=none,north=tall,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_side_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_side",
+      "y": 90
+    },
+    "east=none,north=tall,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_side_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=none,north=tall,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 90
+    },
+    "east=low,north=none,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 270
+    },
+    "east=low,north=none,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 270
+    },
+    "east=low,north=none,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_side"
+    },
+    "east=low,north=none,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_side_alt"
+    },
+    "east=low,north=none,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_side"
+    },
+    "east=low,north=none,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_side_alt"
+    },
+    "east=low,north=none,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner"
+    },
+    "east=low,north=none,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner"
+    },
+    "east=low,north=none,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=low,north=none,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=low,north=none,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=low,north=none,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=low,north=none,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner"
+    },
+    "east=low,north=none,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner"
+    },
+    "east=low,north=none,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=low,north=none,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=low,north=none,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=low,north=none,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=low,north=low,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 90
+    },
+    "east=low,north=low,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 90
+    },
+    "east=low,north=low,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=low,north=low,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=low,north=low,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=low,north=low,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=low,north=low,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=low,north=low,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=low,north=low,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=low,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=low,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=low,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=low,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=low,north=low,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=low,north=low,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=low,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=low,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=low,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=tall,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 90
+    },
+    "east=low,north=tall,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 90
+    },
+    "east=low,north=tall,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=low,north=tall,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=low,north=tall,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=low,north=tall,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=low,north=tall,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=low,north=tall,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=low,north=tall,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=tall,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=tall,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=tall,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=tall,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=low,north=tall,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=low,north=tall,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=tall,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=tall,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=low,north=tall,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=none,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 270
+    },
+    "east=tall,north=none,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_noside",
+      "y": 270
+    },
+    "east=tall,north=none,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_side"
+    },
+    "east=tall,north=none,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_side_alt"
+    },
+    "east=tall,north=none,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_side"
+    },
+    "east=tall,north=none,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_side_alt"
+    },
+    "east=tall,north=none,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner"
+    },
+    "east=tall,north=none,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner"
+    },
+    "east=tall,north=none,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=tall,north=none,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=tall,north=none,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=tall,north=none,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=tall,north=none,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner"
+    },
+    "east=tall,north=none,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner"
+    },
+    "east=tall,north=none,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=tall,north=none,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=tall,north=none,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=tall,north=none,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 180
+    },
+    "east=tall,north=low,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 90
+    },
+    "east=tall,north=low,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 90
+    },
+    "east=tall,north=low,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=tall,north=low,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=tall,north=low,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=tall,north=low,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=tall,north=low,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=tall,north=low,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=tall,north=low,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=low,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=low,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=low,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=low,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=tall,north=low,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=tall,north=low,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=low,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=low,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=low,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=tall,south=none,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 90
+    },
+    "east=tall,north=tall,south=none,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner",
+      "y": 90
+    },
+    "east=tall,north=tall,south=none,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=tall,north=tall,south=none,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=tall,north=tall,south=none,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=tall,north=tall,south=none,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt"
+    },
+    "east=tall,north=tall,south=low,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=tall,north=tall,south=low,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=tall,north=tall,south=low,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=tall,south=low,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=tall,south=low,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=tall,south=low,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=tall,south=tall,west=none,up=true": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=tall,north=tall,south=tall,west=none,up=false": {
+      "model": "pylon:block/components/iron_support_beam_corner_alt",
+      "y": 270
+    },
+    "east=tall,north=tall,south=tall,west=low,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=tall,south=tall,west=low,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=tall,south=tall,west=tall,up=true": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    },
+    "east=tall,north=tall,south=tall,west=tall,up=false": {
+      "model": "pylon:block/components/iron_support_beam_all"
+    }
+  }
+}

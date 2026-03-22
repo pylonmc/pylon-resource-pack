@@ -1,0 +1,47 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"1": "pylon:block/components/bronze_grating",
+		"particle": "pylon:block/components/bronze_grating"
+	},
+	"elements": [
+		{
+			"from": [7.995, 0, 7],
+			"to": [8.005, 16, 9],
+			"faces": {
+				"east": {"uv": [9, 0, 7, 16], "texture": "#1"},
+				"west": {"uv": [7, 0, 9, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0, 7.995],
+			"to": [9, 16, 8.005],
+			"faces": {
+				"north": {"uv": [7, 0, 9, 16], "texture": "#1"},
+				"south": {"uv": [9, 0, 7, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 0.002, 9],
+			"faces": {
+				"up": {"uv": [7, 7, 9, 9], "texture": "#1"},
+				"down": {"uv": [7, 7, 9, 9], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 15.998, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"up": {"uv": [7, 7, 9, 9], "texture": "#1"},
+				"down": {"uv": [7, 7, 9, 9], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"fixed":{
+			"scale": [1,1,1]
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:orange_terracotta",
+  "id": "assembly_table:worktop",
+  "model": "pylon:block/assembling/display/side"
+}

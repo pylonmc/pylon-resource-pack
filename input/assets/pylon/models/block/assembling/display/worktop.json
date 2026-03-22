@@ -1,0 +1,17 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"top": "pylon:block/assembling/display/worktop",
+		"particle": "pylon:block/assembling/display/worktop"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#top"}
+			}
+		}
+	]
+}

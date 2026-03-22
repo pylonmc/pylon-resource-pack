@@ -1,0 +1,7 @@
+{
+  "parent": "pylon:block/machines/pipes/copper_portable_tank",
+  "author": "Pandicka",
+  "textures": {
+    "fluid": "pylon:block/fluids/water_still"
+  }
+}

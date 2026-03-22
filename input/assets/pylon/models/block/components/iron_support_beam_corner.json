@@ -1,0 +1,9 @@
+{
+	"parent": "pylon:block/components/steel_support_beam_corner",
+	"author": "Pandicka",
+	"textures": {
+		"0": "pylon:block/components/iron_support_beam",
+		"1": "pylon:block/components/iron_support_beam_alt",
+		"particle": "pylon:block/components/iron_support_beam"
+	}
+}

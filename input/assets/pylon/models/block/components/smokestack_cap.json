@@ -1,0 +1,29 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"0": "pylon:block/components/smokestake_ring",
+		"1": "block/bricks",
+		"particle": "pylon:block/components/smokestake_ring"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 6, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 16, 1]},
+			"faces": {
+				"north": {"uv": [16, 10, 10, 0], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [16, 10, 10, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [16, 10, 10, 0], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [16, 10, 10, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [10, 10, 0, 0], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#1"}
+			}
+		}
+	],
+	"display":{
+		"fixed":{
+			"scale": [1,1,1]
+		}
+	}
+}
