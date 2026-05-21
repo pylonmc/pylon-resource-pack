@@ -348,7 +348,10 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         blockModel = {}
         blockModelDefinition = {
-            "when": f"{namespace}:{blockId}"
+            "vanilla": blockData["vanilla"] if "vanilla" in blockData else "air",
+            "case": {
+                "when": f"{namespace}:{blockId}"
+            }
         }
         cases = []
 
@@ -472,26 +475,26 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
             }
         else:
             blockModel = build_select_from_cases(cases, allPropertyKeys, 0)
-        blockModelDefinition["model"] = blockModel
+        blockModelDefinition["case"]["model"] = blockModel
         blockModelDefinitions.append(blockModelDefinition)
 
-## Assemble final "air" item model definition (what block models work off of)
+## Append the block model cases to the vanilla item model definitions
 # uses the select model type against the 0 index of custom_model_data
-airModelDefinition = {
-    "model": {
-        "type": "minecraft:select",
-        "property": "custom_model_data",
-        "index": 0,
-        "cases": [],
-        "fallback": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/air"
+for modelDef in blockModelDefinitions:
+    vanillaItem = modelDef["vanilla"]
+    if not ":" in vanillaItem:
+        vanillaItem = f"minecraft:{vanillaItem}"
+
+    vanillaDefinition = itemModelDefinitions[vanillaItem] if vanillaItem in itemModelDefinitions else {
+        "model": {
+            "type": "minecraft:select",
+            "property": "custom_model_data",
+            "index": 0,
+            "cases": []
         }
     }
-}
-for modelDef in blockModelDefinitions:
-    airModelDefinition["model"]["cases"].append(modelDef)
-save_item_definition("air", airModelDefinition)
+    vanillaDefinition["model"]["cases"].append(modelDef["case"])
+    itemModelDefinitions[vanillaItem] = vanillaDefinition
 
 ## Now handle item definition files:
 # First compile all of the different cases
@@ -525,13 +528,10 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         itemPath = itemFile[:-5]
         itemName = itemPath.split('/')[-1] if '/' in itemPath else itemPath
-        itemNamespace = namespace
         itemId = itemName
         if "id" in itemData:
             itemId = itemData["id"]
-        if "namespace" in itemData:
-            itemNamespace = itemData["namespace"]
-        itemKey = f"{itemNamespace}:{itemId}"
+        itemKey = f"{namespace}:{itemId}"
         
         if "vanilla" not in itemData or not isinstance(itemData["vanilla"], str):
             if logWarnings:
@@ -568,13 +568,11 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
         if "model" in itemData:
             model = itemData["model"]
             if isinstance(model, dict):
-                # TODO: validate model definition somehow
                 case = {
                     "when": f"{itemKey}",
-                    "model": model
+                    "model": itemData["model"]
                 }
             elif isinstance(model, str):
-                get_model(model, True)
                 case = {
                     "when": f"{itemKey}",
                     "model": {
