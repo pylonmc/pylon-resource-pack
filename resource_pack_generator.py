@@ -342,15 +342,19 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
 
         blockPath = blockFile[:-5]
         blockName = blockPath.split('/')[-1] if '/' in blockPath else blockPath
+        blockNamespace = namespace
         blockId = blockName
         if "id" in blockData:
             blockId = blockData["id"]
+        if "namespace" in blockData:
+            blockNamespace = blockData["namespace"]
+        blockKey = f"{blockNamespace}:{blockId}"
 
         blockModel = {}
         blockModelDefinition = {
             "vanilla": blockData["vanilla"] if "vanilla" in blockData else "air",
             "case": {
-                "when": f"{namespace}:{blockId}"
+                "when": blockKey
             }
         }
         cases = []
