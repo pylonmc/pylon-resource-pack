@@ -191,7 +191,7 @@ def save_item_definition(itemPath, itemDef):
     namespace, itemId = itemPath.split(':') if ':' in itemPath else ('minecraft', itemPath)
     save_asset(f"{namespace}:items/{itemId}.json", itemDef)
 
-def create_block_model_variant(name, variant):
+def create_block_model_variant(name, variant, displayType):
     if "uvlock" in variant or "weight" in variant:
         if logWarnings:
             print(f"Warning: Block variant {name} contains uvlock or weight, which are not supported, skipping.")
@@ -237,7 +237,7 @@ def create_block_model_variant(name, variant):
             return modelPath # already exists
 
         display = model["display"] if "display" in model else {}
-        fixed_display = display["fixed"] if "fixed" in display else {}
+        fixed_display = display[displayType] if displayType in display else {}
         fixed_rotation = fixed_display["rotation"] if "rotation" in fixed_display else [0, 0, 0]
         if "x" in variant:
             x_rot = variant["x"] % 360
@@ -249,7 +249,7 @@ def create_block_model_variant(name, variant):
             z_rot = variant["z"] % 360
             fixed_rotation[2] = (fixed_rotation[2] + z_rot) % 360
         fixed_display["rotation"] = fixed_rotation
-        display["fixed"] = fixed_display
+        display[displayType] = fixed_display
         model["display"] = display
         save_model(modelPath, model)
     else:
@@ -359,6 +359,8 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
         }
         cases = []
 
+        displayType = blockData["display"] if "display" in blockData else "fixed"
+
         if (variants == {}) :
             modelPath = f"{namespace}:block/{blockName}"
             if (get_model(modelPath, False) is not None):
@@ -416,7 +418,7 @@ for namespace in os.listdir(os.path.join(INPUT_DIR, "assets")):
                 if value not in allPropertyValues[key]:
                     allPropertyValues[key].append(value)
 
-            modelPath = create_block_model_variant(name, variant)
+            modelPath = create_block_model_variant(name, variant, displayType)
             if modelPath is None:
                 continue
 
