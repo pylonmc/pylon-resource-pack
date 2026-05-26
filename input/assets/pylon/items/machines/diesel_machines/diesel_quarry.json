@@ -1,5 +1,5 @@
 {
   "author": "Pandicka",
-  "vanilla": "minecraft:iron_block",
-  "model": "pylon:block/machines/diesel_machines/quarry"
+  "vanilla": "minecraft:yellow_terracotta",
+  "model": "pylon:block/machines/diesel_machines/quarry_gui"
 }
