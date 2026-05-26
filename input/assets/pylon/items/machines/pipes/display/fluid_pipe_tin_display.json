@@ -1,0 +1,52 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:green_terracotta",
+  "namespace": "fluid_pipe_display",
+  "id": "pylon:fluid_pipe_tin",
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "index": 1,
+    "cases": [
+      {
+        "when": "fluid_pipe_length:1",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/display/tin/fluid_pipe_1"
+        }
+      },
+      {
+        "when": "fluid_pipe_length:2",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/display/tin/fluid_pipe_2"
+        }
+      },
+      {
+        "when": "fluid_pipe_length:3",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/display/tin/fluid_pipe_3"
+        }
+      },
+      {
+        "when": "fluid_pipe_length:4",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/display/tin/fluid_pipe_4"
+        }
+      },
+      {
+        "when": "fluid_pipe_length:5",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/display/tin/fluid_pipe_5"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "pylon:block/machines/pipes/display/tin/fluid_pipe_1"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"parent": "pylon:block/machines/fluid_machines/water_placer",
+	"author": "Pandicka",
+	"textures": {
+		"front": "pylon:block/machines/fluid_machines/placer_front",
+		"back": "pylon:block/machines/fluid_machines/placer_back",
+		"side": "pylon:block/machines/fluid_machines/placer_lava",
+		"top": "pylon:block/machines/fluid_machines/placer_top",
+		"particle": "pylon:block/machines/fluid_machines/placer_lava"
+	}
+}

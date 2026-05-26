@@ -1,0 +1,14 @@
+{
+	"parent": "pylon:block/machines/pipes/display/copper/intersection_point_cross",
+	"author": "Pandicka",
+	"textures": {
+		"elbow": "pylon:block/machines/pipes/obsidian_pipe_elbow",
+		"particle": "pylon:block/machines/pipes/obsidian_pipe",
+		"pipe": "pylon:block/machines/pipes/obsidian_pipe"
+	},
+	"display": {
+		"head": {
+			"scale": [2, 2, 2]
+		}
+	}
+}

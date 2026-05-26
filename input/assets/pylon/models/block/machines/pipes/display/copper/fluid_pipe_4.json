@@ -1,0 +1,62 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"pipe": "pylon:block/machines/pipes/copper_pipe_alt",
+		"particle": "pylon:block/machines/pipes/copper_pipe_alt"
+	},
+	"elements": [
+		{
+			"from": [-10, -10, 0.15],
+			"to": [26, 26, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 1]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#pipe"},
+				"east": {"uv": [0, 4, 15, 10], "texture": "#pipe"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#pipe"},
+				"west": {"uv": [0, 4, 15, 10], "texture": "#pipe"},
+				"up": {"uv": [0, 4, 15, 10], "rotation": 90, "texture": "#pipe"},
+				"down": {"uv": [0, 4, 15, 10], "rotation": 90, "texture": "#pipe"}
+			}
+		},
+		{
+			"from": [-10, -10, 4],
+			"to": [26, 26, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 5.4]},
+			"faces": {
+				"east": {"uv": [0, 10, 16, 16], "texture": "#pipe"},
+				"west": {"uv": [0, 10, 16, 16], "texture": "#pipe"},
+				"up": {"uv": [0, 10, 16, 16], "rotation": 90, "texture": "#pipe"},
+				"down": {"uv": [0, 10, 16, 16], "rotation": 90, "texture": "#pipe"}
+			}
+		},
+		{
+			"from": [-10, -10, 8],
+			"to": [26, 26, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 9.4]},
+			"faces": {
+				"east": {"uv": [0, 10, 16, 16], "texture": "#pipe"},
+				"west": {"uv": [0, 10, 16, 16], "texture": "#pipe"},
+				"up": {"uv": [0, 10, 16, 16], "rotation": 90, "texture": "#pipe"},
+				"down": {"uv": [0, 10, 16, 16], "rotation": 90, "texture": "#pipe"}
+			}
+		},
+		{
+			"from": [-10, -10, 12],
+			"to": [26, 26, 15.85],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 12.55]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#pipe"},
+				"east": {"uv": [0, 4, 15, 10], "texture": "#pipe"},
+				"west": {"uv": [0, 4, 15, 10], "texture": "#pipe"},
+				"up": {"uv": [0, 4, 15, 10], "rotation": 90, "texture": "#pipe"},
+				"down": {"uv": [0, 4, 15, 10], "rotation": 90, "texture": "#pipe"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [1,1,1]
+		}
+	}
+}

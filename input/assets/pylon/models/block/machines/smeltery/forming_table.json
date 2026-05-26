@@ -1,0 +1,14 @@
+{
+  "parent": "block/cube_bottom_top",
+  "author": "Pandicka",
+  "textures": {
+    "bottom": "pylon:block/machines/smeltery/forming_table_bottom",
+    "side": "pylon:block/machines/smeltery/forming_table_side",
+    "top": "pylon:block/machines/smeltery/forming_table_top"
+  },
+  "display": {
+    "fixed": {
+      "scale": [1, 1, 1]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"parent": "block/cube_column",
+	"author": "Pandicka",
+	"textures": {
+		"end": "pylon:block/components/distillation_tower_ring_top",
+		"side": "pylon:block/components/distillation_tower_ring",
+		"particle": "pylon:block/components/distillation_tower_ring"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

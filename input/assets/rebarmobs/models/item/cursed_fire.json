@@ -1,0 +1,88 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "rebarmobs:item/cursed_fire",
+		"fire1": "rebarmobs:item/cursed_fire_1",
+		"fire": "rebarmobs:item/cursed_fire"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8.8],
+			"to": [16, 22.4, 8.8],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#fire1"}
+			}
+		},
+		{
+			"from": [0, 0, 7.2],
+			"to": [16, 22.4, 7.2],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#fire1"}
+			}
+		},
+		{
+			"from": [8.8, 0, 0],
+			"to": [8.8, 22.4, 16],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"west": {"uv": [0, 0, 16, 16], "texture": "#fire1"}
+			}
+		},
+		{
+			"from": [7.2, 0, 0],
+			"to": [7.2, 22.4, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#fire1"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 22.4, 0.02],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		},
+		{
+			"from": [0, 0, 15.98],
+			"to": [16, 22.4, 16],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		},
+		{
+			"from": [0, 0, 16],
+			"to": [16, 22.4, 16.02],
+			"shade": false,
+			"rotation": {"x": 0, "y": 90, "z": 0, "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		},
+		{
+			"from": [16, 0, 15.98],
+			"to": [32, 22.4, 16],
+			"shade": false,
+			"rotation": {"x": 0, "y": 90, "z": 0, "origin": [16, 0, 16]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"}
+			}
+		}
+	],
+	"gui_light": "front"
+}

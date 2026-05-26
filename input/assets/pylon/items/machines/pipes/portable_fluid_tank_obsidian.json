@@ -1,0 +1,133 @@
+{
+    "author": "Pandicka",
+    "vanilla": "minecraft:black_stained_glass",
+    "model": {
+      "type": "select",
+      "property": "custom_model_data",
+      "index": 1,
+      "cases": [
+      {
+        "when": "pylon:fluid:empty",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/obsidian_portable_tank"
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:lava",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_lava"
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:sulfur",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_water",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 12427298
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:copper",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 15035457
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:iron",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13838376
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:gold",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 16367926
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:tin",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 9415346
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:bronze",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 13734984
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:steel",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 7039851
+            }
+          ]
+        }
+      },
+      {
+        "when": "pylon:fluid:pylon:palladium",
+        "model": {
+          "type": "model",
+          "model": "pylon:block/machines/pipes/portable_tanks/obsidian_tank_lava_still",
+          "tints": [
+            {
+              "type": "constant",
+              "value": 5738685
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "pylon:block/machines/pipes/obsidian_portable_tank"
+    }
+  }
+}

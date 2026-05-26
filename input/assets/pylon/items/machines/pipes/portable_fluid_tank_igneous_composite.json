@@ -164,7 +164,7 @@
         }
       },
       {
-        "when": "pylon:fluid:pylon:igneous_composite",
+        "when": "pylon:fluid:pylon:copper",
         "model": {
           "type": "model",
           "model": "pylon:block/machines/pipes/portable_tanks/igneous_composite_tank_lava_still",

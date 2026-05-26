@@ -1,0 +1,15 @@
+{
+	"parent": "block/orientable",
+	"author": "Pandicka",
+	"textures": {
+		"front": "pylon:block/machines/smeltery/diesel_smeltery_heater_front_lit",
+		"side": "pylon:block/machines/smeltery/diesel_smeltery_heater_side",
+		"top": "pylon:block/machines/smeltery/diesel_smeltery_heater_side"
+	},
+	"display": {
+		"fixed": {
+      "rotation": [0, 180, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

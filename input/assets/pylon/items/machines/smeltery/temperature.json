@@ -1,0 +1,144 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:green_stained_glass_pane",
+  "id": "smeltery-status",
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "item/green_stained_glass_pane"
+      },
+      {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+          {
+            "threshold": 20,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature"
+            }
+          },
+          {
+            "threshold": 125,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_0"
+            }
+          },
+          {
+            "threshold": 250,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_1"
+            }
+          },
+          {
+            "threshold": 375,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_2"
+            }
+          },
+          {
+            "threshold": 500,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_3"
+            }
+          },
+          {
+            "threshold": 625,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_4"
+            }
+          },
+          {
+            "threshold": 750,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_5"
+            }
+          },
+          {
+            "threshold": 875,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_6"
+            }
+          },
+          {
+            "threshold": 1000,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_7"
+            }
+          },
+          {
+            "threshold": 1125,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_8"
+            }
+          },
+          {
+            "threshold": 1250,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_9"
+            }
+          },
+          {
+            "threshold": 1375,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_10"
+            }
+          },
+          {
+            "threshold": 1500,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_11"
+            }
+          },
+          {
+            "threshold": 1625,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_12"
+            }
+          },
+          {
+            "threshold": 1750,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_13"
+            }
+          },
+          {
+            "threshold": 1875,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_14"
+            }
+          },
+          {
+            "threshold": 1999,
+            "model": {
+              "type": "model",
+              "model": "pylon:item/smeltery/temperature_15"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "model",
+          "model": "pylon:item/smeltery/temperature"
+        }
+      }
+    ]
+  },
+  "oversized_in_gui": true
+}

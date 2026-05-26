@@ -1,0 +1,7 @@
+{
+	"parent": "pylon:block/machines/smeltery/smeltery_controller",
+	"author": "Pandicka",
+	"textures": {
+		"front": "pylon:block/machines/smeltery/smeltery_controller_8"
+	}
+}

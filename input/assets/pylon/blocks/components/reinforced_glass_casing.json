@@ -1,0 +1,180 @@
+{
+  "author": "Pandicka",
+  "properties": ["position", "east", "north", "south", "waterlogged", "west"],
+  "variants": {
+    "position=bottom,east=false,north=false,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_post"
+    },
+    "position=bottom,east=false,north=false,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_bot_noside",
+      "y": 180
+    },
+    "position=bottom,east=false,north=false,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_bot_noside",
+      "y": 270
+    },
+    "position=bottom,east=false,north=false,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_bot_corner",
+      "y": 270
+    },
+    "position=bottom,east=false,north=true,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_bot_noside",
+      "y": 90
+    },
+    "position=bottom,east=false,north=true,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_bot_corner",
+      "y": 180
+    },
+    "position=bottom,east=false,north=true,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_bot_side"
+    },
+    "position=bottom,east=false,north=true,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_bot_corner_alt",
+      "y": 180
+    },
+    "position=bottom,east=true,north=false,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_bot_noside"
+    },
+    "position=bottom,east=true,north=false,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_bot_side",
+      "y": 90
+    },
+    "position=bottom,east=true,north=false,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_bot_corner"
+    },
+    "position=bottom,east=true,north=false,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_bot_corner_alt",
+      "y": 270
+    },
+    "position=bottom,east=true,north=true,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_bot_corner",
+      "y": 90
+    },
+    "position=bottom,east=true,north=true,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_bot_corner_alt",
+      "y": 90
+    },
+    "position=bottom,east=true,north=true,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_bot_corner_alt"
+    },
+    "position=bottom,east=true,north=true,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_post"
+    },
+    "position=middle,east=false,north=false,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_post"
+    },
+    "position=middle,east=false,north=false,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_mid_noside",
+      "y": 180
+    },
+    "position=middle,east=false,north=false,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_mid_noside",
+      "y": 270
+    },
+    "position=middle,east=false,north=false,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_mid_corner",
+      "y": 270
+    },
+    "position=middle,east=false,north=true,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_mid_noside",
+      "y": 90
+    },
+    "position=middle,east=false,north=true,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_mid_corner",
+      "y": 180
+    },
+    "position=middle,east=false,north=true,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_mid_side"
+    },
+    "position=middle,east=false,north=true,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_mid_corner_alt",
+      "y": 180
+    },
+    "position=middle,east=true,north=false,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_mid_noside"
+    },
+    "position=middle,east=true,north=false,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_mid_side",
+      "y": 90
+    },
+    "position=middle,east=true,north=false,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_mid_corner"
+    },
+    "position=middle,east=true,north=false,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_mid_corner_alt",
+      "y": 270
+    },
+    "position=middle,east=true,north=true,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_mid_corner",
+      "y": 90
+    },
+    "position=middle,east=true,north=true,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_mid_corner_alt",
+      "y": 90
+    },
+    "position=middle,east=true,north=true,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_mid_corner_alt"
+    },
+    "position=middle,east=true,north=true,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_post"
+    },
+    "position=top,east=false,north=false,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_post"
+    },
+    "position=top,east=false,north=false,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_top_noside",
+      "y": 180
+    },
+    "position=top,east=false,north=false,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_top_noside",
+      "y": 270
+    },
+    "position=top,east=false,north=false,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_top_corner",
+      "y": 270
+    },
+    "position=top,east=false,north=true,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_top_noside",
+      "y": 90
+    },
+    "position=top,east=false,north=true,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_top_corner",
+      "y": 180
+    },
+    "position=top,east=false,north=true,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_top_side"
+    },
+    "position=top,east=false,north=true,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_top_corner_alt",
+      "y": 180
+    },
+    "position=top,east=true,north=false,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_top_noside"
+    },
+    "position=top,east=true,north=false,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_top_side",
+      "y": 90
+    },
+    "position=top,east=true,north=false,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_top_corner"
+    },
+    "position=top,east=true,north=false,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_top_corner_alt",
+      "y": 270
+    },
+    "position=top,east=true,north=true,south=false,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_top_corner",
+      "y": 90
+    },
+    "position=top,east=true,north=true,south=false,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_top_corner_alt",
+      "y": 90
+    },
+    "position=top,east=true,north=true,south=true,waterlogged=false,west=false": {
+      "model": "pylon:block/components/reinforced_glass_top_corner_alt"
+    },
+    "position=top,east=true,north=true,south=true,waterlogged=false,west=true": {
+      "model": "pylon:block/components/reinforced_glass_post"
+    }
+  }
+}

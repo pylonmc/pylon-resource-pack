@@ -1,0 +1,603 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:flint",
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "rebarmobs:soul_shard",
+        "model": {
+          "type": "select",
+          "property": "custom_model_data",
+          "index": 1,
+          "cases": [
+            {
+              "when": "rebarmobs:mob_type:minecraft:allay",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/allay"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:armadillo",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/armadillo"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:axolotl",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/axolotl"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:bat",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/bat"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:bee",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/bee"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:blaze",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/blaze"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:bogged",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/bogged"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:breeze",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/breeze"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:camel",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/camel"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:camel_husk",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/camel_husk"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:cat",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/cat"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:cave_spider",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/cave_spider"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:chicken",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/chicken"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:cod",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/cod"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:copper_golem",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/copper_golem"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:cow",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/cow"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:creaking",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/creaking"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:creeper",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/creeper"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:dolphin",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/dolphin"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:donkey",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/donkey"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:drowned",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/drowned"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:enderman",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/enderman"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:endermite",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/endermite"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:evoker",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/evoker"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:fox",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/fox"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:frog",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/frog"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:ghast",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/ghast"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:glow_squid",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/glow_squid"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:goat",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/goat"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:guardian",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/guardian"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:happy_ghast",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/ghast"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:hoglin",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/hoglin"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:horse",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/horse"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:husk",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/husk"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:iron_golem",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/iron_golem"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:llama",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/llama"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:magma_cube",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/magma_cube"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:mooshroom",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/mooshroom"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:mule",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/mule"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:nautilus",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/nautilus"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:ocelot",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/ocelot"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:panda",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/panda"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:parched",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/parched"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:parrot",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/parrot"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:phantom",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/phantom"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:pig",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/pig"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:piglin",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/piglin"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:piglin_brute",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/piglin_brute"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:pillager",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/pillager"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:polar_bear",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/polar_bear"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:pufferfish",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/pufferfish"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:rabbit",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/rabbit"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:ravager",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/ravager"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:salmon",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/salmon"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:sheep",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/sheep"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:shulker",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/shulker"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:silverfish",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/silverfish"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:skeleton",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/skeleton"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:skeleton_horse",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/skeleton_horse"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:slime",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/slime"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:sniffer",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/sniffer"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:spider",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/spider"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:squid",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/squid"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:stray",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/stray"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:strider",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/strider"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:tadpole",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/tadpole"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:tropical_fish",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/tropical_fish"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:turtle",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/turtle"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:vex",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/vex"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:villager",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/villager"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:vindicator",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/vindicator"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:warden",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/warden"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:witch",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/witch"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:wither_skeleton",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/wither_skeleton"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:wolf",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/wolf"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:zoglin",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/zoglin"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:zombie_villager",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/zombie_villager"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:zombie",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/zombie"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:zombie_horse",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/zombie_horse"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:zombie_nautilus",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/zombie_nautilus"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:zombie1",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/zombie1"
+              }
+            },
+            {
+              "when": "rebarmobs:mob_type:minecraft:zombified_piglin",
+              "model": {
+                "type": "model",
+                "model": "rebarmobs:item/souls/zombified_piglin"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "rebarmobs:item/souls/soul_shard"
+          }
+        } 
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "rebarmobs:item/souls/soul_shard"
+    }
+  }
+}

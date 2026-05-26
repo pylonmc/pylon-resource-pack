@@ -1,0 +1,14 @@
+{
+	"parent": "pylon:block/machines/pipes/display/copper/intersection_point_elbow_alt",
+	"author": "Pandicka",
+	"textures": {
+		"elbow": "pylon:block/machines/pipes/iron_pipe_elbow",
+		"particle": "pylon:block/machines/pipes/iron_pipe",
+		"pipe": "pylon:block/machines/pipes/iron_pipe"
+	},
+	"display": {
+		"head": {
+			"scale": [2, 2, 2]
+		}
+	}
+}

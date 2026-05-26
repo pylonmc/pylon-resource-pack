@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:white_concrete",
+  "id": "fluid_accumulator:main",
+  "model": "pylon:block/machines/fluid_machines/display/fluid_meter"
+}

@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=west": {
+      "model": "pylon:block/machines/diesel_machines/quarry",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/diesel_machines/quarry",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/diesel_machines/quarry"
+    },
+    "facing=east": {
+      "model": "pylon:block/machines/diesel_machines/quarry",
+      "y": 270
+    }
+  }
+}

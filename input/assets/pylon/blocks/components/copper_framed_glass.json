@@ -1,0 +1,8 @@
+{
+  "author": "Pandicka",
+  "variants": {
+    "": {
+      "model": "pylon:block/components/copper_framed_glass"
+    }
+  }
+}

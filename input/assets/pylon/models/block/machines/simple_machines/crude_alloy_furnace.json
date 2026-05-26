@@ -1,0 +1,15 @@
+{
+	"parent": "block/orientable",
+	"author": "Pandicka",
+	"textures": {
+		"front": "pylon:block/machines/simple_machines/crude_alloy_furnace",
+		"side": "pylon:block/machines/simple_machines/crude_alloy_furnace_side",
+		"top": "pylon:block/machines/simple_machines/crude_alloy_furnace_side"
+	},
+	"display": {
+		"fixed": {
+      "rotation": [0, 180, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

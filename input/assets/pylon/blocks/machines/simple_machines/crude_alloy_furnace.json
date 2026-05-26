@@ -1,0 +1,36 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing","lit"],
+  "variants": {
+    "facing=east,lit=false": {
+      "model": "pylon:block/machines/simple_machines/crude_alloy_furnace",
+      "y": 270
+    },
+    "facing=east,lit=true": {
+      "model": "pylon:block/machines/simple_machines/crude_alloy_furnace_lit",
+      "y": 270
+    },
+    "facing=north,lit=false": {
+      "model": "pylon:block/machines/simple_machines/crude_alloy_furnace"
+    },
+    "facing=north,lit=true": {
+      "model": "pylon:block/machines/simple_machines/crude_alloy_furnace_lit"
+    },
+    "facing=south,lit=false": {
+      "model": "pylon:block/machines/simple_machines/crude_alloy_furnace",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "pylon:block/machines/simple_machines/crude_alloy_furnace_lit",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "pylon:block/machines/simple_machines/crude_alloy_furnace",
+      "y": 90
+    },
+    "facing=west,lit=true": {
+      "model": "pylon:block/machines/simple_machines/crude_alloy_furnace_lit",
+      "y": 90
+    }
+  }
+}

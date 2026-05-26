@@ -1,0 +1,15 @@
+{
+  "parent": "item/generated",
+	"author": "Pandicka",
+	"textures": {
+		"layer0": "pylon:item/smeltery/temperature_3"
+    
+	},
+	"display":{
+		"gui":{
+      "rotation":[0, 0, 0],
+      "translation":[-80, 0, 0],
+      "scale":[4, 4, 4]
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:iron_block",
+  "id": "crude_alloy_furnace:chamber",
+  "model": "pylon:block/machines/simple_machines/display/crude_alloy_furnace_chamber"
+}

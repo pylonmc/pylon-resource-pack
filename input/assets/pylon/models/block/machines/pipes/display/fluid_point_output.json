@@ -1,0 +1,13 @@
+{
+	"parent": "pylon:block/machines/pipes/display/fluid_point_input",
+	"author": "Pandicka",
+	"textures": {
+		"point": "block/red_concrete",
+		"particle": "block/red_concrete"
+	},
+	"display": {
+		"head": {
+			"scale": [2, 2, 2]
+		}
+	}
+}

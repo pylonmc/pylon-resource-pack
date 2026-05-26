@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:black_terracotta",
+  "id": "fluid_voider_1:main",
+  "model": "pylon:block/machines/fluid_machines/display/fluid_voider"
+}

@@ -1,0 +1,12 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:lime_concrete",
+  "namespace": "fluid_point_input",
+  "id": "none",
+  "display": "head",
+  "variants": {
+    "": {
+      "model": "pylon:block/machines/pipes/display/fluid_point_input"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:red_concrete",
+  "namespace": "fluid_point_output",
+  "id": "none",
+  "display": "head",
+  "variants": {
+    "": {
+      "model": "pylon:block/machines/pipes/display/fluid_point_output"
+    }
+  }
+}

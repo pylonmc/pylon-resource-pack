@@ -1,0 +1,15 @@
+{
+	"parent": "block/orientable",
+	"author": "Pandicka",
+	"textures": {
+		"front": "pylon:block/machines/smeltery/kiln_lit",
+		"side": "block/mud_bricks",
+		"top": "block/mud_bricks"
+	},
+	"display": {
+		"fixed": {
+      "rotation": [0, 180, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

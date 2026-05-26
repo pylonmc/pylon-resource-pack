@@ -1,0 +1,45 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"4": "pylon:block/machines/diesel_machines/diesel_refueling_station",
+		"5": "pylon:block/machines/diesel_machines/diesel_input",
+		"6": "pylon:block/machines/diesel_machines/diesel_machine_block",
+		"particle": "pylon:block/machines/diesel_machines/diesel_refueling_station"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8.001, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#6"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#6"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#6"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#6"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#6"}
+			}
+		},
+		{
+			"from": [5, 5, 13.603],
+			"to": [11, 11, 16.003],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 7, 14]},
+			"faces": {
+				"north": {"uv": [5, 5, 11, 11], "texture": "#5"},
+				"east": {"uv": [5, 5, 6, 11], "texture": "#5"},
+				"south": {"uv": [5, 5, 11, 11], "texture": "#5"},
+				"west": {"uv": [5, 5, 6, 11], "texture": "#5"},
+				"up": {"uv": [5, 5, 11, 6], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

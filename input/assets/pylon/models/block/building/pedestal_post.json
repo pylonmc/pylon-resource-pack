@@ -6,6 +6,7 @@
 		"1": "pylon:block/building/pedestal_bottom",
 		"2": "pylon:block/building/pedestal_top",
 		"3": "pylon:block/building/pedestal_bottom_alt",
+		"4": "block/glass",
 		"particle": "pylon:block/building/pedestal"
 	},
 	"elements": [
@@ -43,6 +44,19 @@
 				"west": {"uv": [1, 14, 11, 16], "texture": "#0"},
 				"up": {"uv": [3, 3, 13, 13], "texture": "#3"},
 				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 16, 4],
+			"to": [12, 24, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 19, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
 			}
 		}
 	],

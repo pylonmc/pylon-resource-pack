@@ -1,0 +1,29 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"particle": "pylon:block/machines/pipes/copper_pipe",
+		"pipe": "pylon:block/machines/pipes/copper_pipe"
+	},
+	"elements": [
+		{
+			"from": [-1, -10, -10],
+			"to": [13, 26, 26],
+			"shade": false,
+			"rotation": {"x": 0, "y": 90, "z": 0, "origin": [7, 3, 7]},
+			"faces": {
+				"north": {"uv": [0, 10, 14, 16], "texture": "#pipe"},
+				"east": {"uv": [1, 1, 7, 7], "texture": "#pipe"},
+				"south": {"uv": [0, 10, 14, 16], "texture": "#pipe"},
+				"west": {"uv": [1, 1, 7, 7], "texture": "#pipe"},
+				"up": {"uv": [0, 10, 14, 16], "texture": "#pipe"},
+				"down": {"uv": [0, 10, 14, 16], "texture": "#pipe"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [1,1,1]
+		}
+	}
+}

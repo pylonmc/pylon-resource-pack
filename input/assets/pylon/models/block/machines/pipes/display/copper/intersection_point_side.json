@@ -1,0 +1,39 @@
+{
+	"parent": "block/block",
+	"author": "Pandicka",
+	"textures": {
+		"particle": "pylon:block/machines/pipes/copper_pipe",
+		"pipe": "pylon:block/machines/pipes/copper_pipe"
+	},
+	"elements": [
+		{
+			"from": [-1.25, -1.25, 8],
+			"to": [17.25, 17.25, 12.5],
+			"faces": {
+				"north": {"uv": [0, 8, 8, 0], "texture": "#pipe"},
+				"east": {"uv": [8, 8, 0, 10], "rotation": 90, "texture": "#pipe"},
+				"south": {"uv": [8, 8, 16, 0], "texture": "#pipe"},
+				"west": {"uv": [8, 10, 0, 8], "rotation": 90, "texture": "#pipe"},
+				"up": {"uv": [0, 8, 8, 10], "texture": "#pipe"},
+				"down": {"uv": [0, 10, 8, 8], "texture": "#pipe"}
+			}
+		},
+		{
+			"from": [-1.25, -1.25, 3.5],
+			"to": [17.25, 17.25, 8],
+			"faces": {
+				"north": {"uv": [8, 8, 16, 0], "texture": "#pipe"},
+				"east": {"uv": [8, 10, 0, 8], "rotation": 90, "texture": "#pipe"},
+				"south": {"uv": [0, 8, 8, 0], "texture": "#pipe"},
+				"west": {"uv": [8, 8, 0, 10], "rotation": 90, "texture": "#pipe"},
+				"up": {"uv": [0, 10, 8, 8], "texture": "#pipe"},
+				"down": {"uv": [0, 8, 8, 10], "texture": "#pipe"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [2, 2, 2]
+		}
+	}
+}

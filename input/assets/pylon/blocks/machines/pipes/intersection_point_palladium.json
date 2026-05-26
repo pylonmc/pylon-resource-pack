@@ -1,0 +1,275 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:black_concrete",
+  "namespace": "fluid_point_intersection",
+  "id": "pylon:fluid_pipe_palladium",
+  "display": "head",
+  "properties": ["up","down","east","west","south","north"],
+  "variants": {
+    "up=false,down=false,east=false,west=false,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_noside"
+    },
+    "up=false,down=false,east=false,west=false,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_noside",
+      "y": 180
+    },
+    "up=false,down=false,east=false,west=false,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_side"
+    },
+    "up=false,down=false,east=false,west=true,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_noside",
+      "y": 90
+    },
+    "up=false,down=false,east=false,west=true,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow"
+    },
+    "up=false,down=false,east=false,west=true,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "y": 90
+    },
+    "up=false,down=false,east=false,west=true,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "y": 90
+    },
+    "up=false,down=false,east=true,west=false,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_noside",
+      "y": 270
+    },
+    "up=false,down=false,east=true,west=false,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "y": 270
+    },
+    "up=false,down=false,east=true,west=false,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "y": 180
+    },
+    "up=false,down=false,east=true,west=false,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "y": 270
+    },
+    "up=false,down=false,east=true,west=true,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_side",
+      "y": 90
+    },
+    "up=false,down=false,east=true,west=true,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee"
+    },
+    "up=false,down=false,east=true,west=true,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "y": 180
+    },
+    "up=false,down=false,east=true,west=true,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross"
+    },
+    "up=false,down=true,east=false,west=false,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_noside",
+      "x": 90
+    },
+    "up=false,down=true,east=false,west=false,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "z": 270
+    },
+    "up=false,down=true,east=false,west=false,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "y": 180,
+      "z": 270
+    },
+    "up=false,down=true,east=false,west=false,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "x": 90,
+      "z": 90
+    },
+    "up=false,down=true,east=false,west=true,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "y": 90,
+      "z": 270
+    },
+    "up=false,down=true,east=false,west=true,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow_alt",
+      "x": 180,
+      "y": 90
+    },
+    "up=false,down=true,east=false,west=true,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow_alt",
+      "x": 180
+    },
+    "up=false,down=true,east=false,west=true,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "x": 180,
+      "y": 90
+    },
+    "up=false,down=true,east=true,west=false,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "y": 270,
+      "z": 270
+    },
+    "up=false,down=true,east=true,west=false,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow_alt",
+      "x": 180,
+      "y": 180
+    },
+    "up=false,down=true,east=true,west=false,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow_alt",
+      "x": 270,
+      "y": 180
+    },
+    "up=false,down=true,east=true,west=false,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "x": 180,
+      "y": 270
+    },
+    "up=false,down=true,east=true,west=true,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "x": 90,
+      "z": 180
+    },
+    "up=false,down=true,east=true,west=true,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "x": 180,
+      "y": 180
+    },
+    "up=false,down=true,east=true,west=true,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "x": 180
+    },
+    "up=false,down=true,east=true,west=true,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_5_cross",
+      "x": 180
+    },
+    "up=true,down=false,east=false,west=false,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_noside",
+      "x": 270
+    },
+    "up=true,down=false,east=false,west=false,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "z": 90
+    },
+    "up=true,down=false,east=false,west=false,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "y": 180,
+      "z": 90
+    },
+    "up=true,down=false,east=false,west=false,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "x": 270,
+      "z": 90
+    },
+    "up=true,down=false,east=false,west=true,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "x": 270
+    },
+    "up=true,down=false,east=false,west=true,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow_alt"
+    },
+    "up=true,down=false,east=false,west=true,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow_alt",
+      "y": 90
+    },
+    "up=true,down=false,east=false,west=true,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "x": 270,
+      "y": 90,
+      "z": 90
+    },
+    "up=true,down=false,east=true,west=false,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow",
+      "y": 270,
+      "z": 90
+    },
+    "up=true,down=false,east=true,west=false,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow_alt",
+      "y": 270
+    },
+    "up=true,down=false,east=true,west=false,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_elbow_alt",
+      "y": 180
+    },
+    "up=true,down=false,east=true,west=false,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "y": 270
+    },
+    "up=true,down=false,east=true,west=true,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "x": 270
+    },
+    "up=true,down=false,east=true,west=true,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt"
+    },
+    "up=true,down=false,east=true,west=true,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "y": 180
+    },
+    "up=true,down=false,east=true,west=true,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_5_cross"
+    },
+    "up=true,down=true,east=false,west=false,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_side",
+      "x": 90
+    },
+    "up=true,down=true,east=false,west=false,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "z": 90
+    },
+    "up=true,down=true,east=false,west=false,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "y": 180,
+      "z": 90
+    },
+    "up=true,down=true,east=false,west=false,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross",
+      "z": 90
+    },
+    "up=true,down=true,east=false,west=true,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "y": 90,
+      "z": 90
+    },
+    "up=true,down=true,east=false,west=true,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "y": 90,
+      "z": 90
+    },
+    "up=true,down=true,east=false,west=true,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "x": 180,
+      "z": 270
+    },
+    "up=true,down=true,east=false,west=true,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_5_cross",
+      "z": 270
+    },
+    "up=true,down=true,east=true,west=false,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_tee",
+      "y": 270,
+      "z": 90
+    },
+    "up=true,down=true,east=true,west=false,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "z": 90
+    },
+    "up=true,down=true,east=true,west=false,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross_alt",
+      "x": 180,
+      "z": 90
+    },
+    "up=true,down=true,east=true,west=false,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_5_cross",
+      "z": 90
+    },
+    "up=true,down=true,east=true,west=true,south=false,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_cross",
+      "x": 90
+    },
+    "up=true,down=true,east=true,west=true,south=false,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_5_cross",
+      "x": 90
+    },
+    "up=true,down=true,east=true,west=true,south=true,north=false": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_5_cross",
+      "x": 270
+    },
+    "up=true,down=true,east=true,west=true,south=true,north=true": {
+      "model": "pylon:block/machines/pipes/display/palladium/intersection_point_all"
+    }
+  }
+}

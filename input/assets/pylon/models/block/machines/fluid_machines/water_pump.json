@@ -1,0 +1,14 @@
+{
+	"parent": "block/cube_column",
+	"author": "Pandicka",
+	"textures": {
+		"end": "pylon:block/machines/fluid_machines/water_pump_output",
+		"side": "pylon:block/machines/fluid_machines/water_pump",
+		"particle": "pylon:block/machines/fluid_machines/water_pump"
+	},
+	"display": {
+		"fixed": {
+			"scale": [1, 1, 1]
+		}
+	}
+}

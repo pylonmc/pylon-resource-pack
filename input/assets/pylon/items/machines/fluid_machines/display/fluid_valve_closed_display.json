@@ -1,0 +1,6 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:cyan_terracotta",
+  "id": "fluid_valve:closed",
+  "model": "pylon:block/machines/fluid_machines/display/fluid_valve_closed"
+}

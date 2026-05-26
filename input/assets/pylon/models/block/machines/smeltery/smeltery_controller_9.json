@@ -1,0 +1,13 @@
+{
+	"parent": "pylon:block/machines/smeltery/smeltery_controller",
+	"author": "Pandicka",
+	"textures": {
+		"front": "pylon:block/machines/smeltery/smeltery_controller_9"
+	},
+	"display": {
+		"fixed": {
+      "rotation": [0, 180, 0],
+			"scale": [1, 1, 1]
+		}
+	}
+}

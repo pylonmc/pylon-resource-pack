@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rebarmobs:item/souls/tadpole",
+    "layer1": "rebarmobs:item/souls/soul_shard_overlay",
+    "layer2": "rebarmobs:item/souls/soul_shard_frame"
+  }
+}

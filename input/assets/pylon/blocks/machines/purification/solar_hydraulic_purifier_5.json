@@ -1,0 +1,21 @@
+{
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/machines/purification/solar_hydraulic_purifier",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "pylon:block/machines/purification/solar_hydraulic_purifier",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "pylon:block/machines/purification/solar_hydraulic_purifier"
+    },
+    "facing=west": {
+      "model": "pylon:block/machines/purification/solar_hydraulic_purifier",
+      "y": 270
+    }
+  }
+}

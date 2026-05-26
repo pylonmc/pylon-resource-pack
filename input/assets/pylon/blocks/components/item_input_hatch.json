@@ -1,3 +1,21 @@
 {
-  "author": "Pandicka"
+  "author": "Pandicka",
+  "properties": ["facing"],
+  "variants": {
+    "facing=east": {
+      "model": "pylon:block/components/item_input_hatch",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "pylon:block/components/item_input_hatch",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "pylon:block/components/item_input_hatch"
+    },
+    "facing=west": {
+      "model": "pylon:block/components/item_input_hatch",
+      "y": 270
+    }
+  }
 }

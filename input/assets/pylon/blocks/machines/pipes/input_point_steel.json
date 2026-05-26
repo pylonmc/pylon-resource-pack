@@ -1,0 +1,33 @@
+{
+  "author": "Pandicka",
+  "vanilla": "minecraft:lime_concrete",
+  "namespace": "fluid_point_input",
+  "id": "pylon:fluid_pipe_steel",
+  "display": "head",
+  "properties": ["face"],
+  "variants": {
+    "face=north": {
+      "model": "pylon:block/machines/pipes/display/steel/intersection_point_noside",
+      "y": 180
+    },
+    "face=south": {
+      "model": "pylon:block/machines/pipes/display/steel/intersection_point_noside"
+    },
+    "face=west": {
+      "model": "pylon:block/machines/pipes/display/steel/intersection_point_noside",
+      "y": 270
+    },
+    "face=east": {
+      "model": "pylon:block/machines/pipes/display/steel/intersection_point_noside",
+      "y": 90
+    },
+    "face=up": {
+      "model": "pylon:block/machines/pipes/display/steel/intersection_point_noside",
+      "x": 90
+    },
+    "face=down": {
+      "model": "pylon:block/machines/pipes/display/steel/intersection_point_noside",
+      "x": 270
+    }
+  }
+}

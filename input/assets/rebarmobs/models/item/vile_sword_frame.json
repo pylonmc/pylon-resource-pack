@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "rebarmobs:item/vile_sword_frame"
+  }
+}

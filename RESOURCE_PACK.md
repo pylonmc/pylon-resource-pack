@@ -14,16 +14,14 @@
 ### ❌ Untouched
 - Simple Machines - Crucible
 - Smelting - Bronze Anvil
-- Fluid Machines - Water/Lava Placer and Drainer
 - Diesel Production - all
 - Building - Immobilizer
 - Creative Items - all
 
 ### ⏳ In Progress
 - Components - Hatches, Cannon Chamber
-- Fluid Machines
 - Hydraulic Purification
-- Assembling
+- Magic stuff
 
 ### ✔️ Supported
 - Fluids

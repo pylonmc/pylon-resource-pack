@@ -1,35 +1,499 @@
 {
   "author": "Pandicka",
-  "properties": ["facing","lit"],
+  "properties": ["level","facing","lit","running"],
   "variants": {
-    "facing=east,lit=false": {
+    "level=0,facing=east,lit=false,running=false": {
       "model": "pylon:block/machines/smeltery/smeltery_controller",
       "y": 270
     },
-    "facing=east,lit=true": {
+    "level=0,facing=east,lit=false,running=true": {
       "model": "pylon:block/machines/smeltery/smeltery_controller_lit",
       "y": 270
     },
-    "facing=north,lit=false": {
+    "level=0,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit",
+      "y": 270
+    },
+    "level=0,facing=north,lit=false,running=false": {
       "model": "pylon:block/machines/smeltery/smeltery_controller"
     },
-    "facing=north,lit=true": {
+    "level=0,facing=north,lit=false,running=true": {
       "model": "pylon:block/machines/smeltery/smeltery_controller_lit"
     },
-    "facing=south,lit=false": {
+    "level=0,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit"
+    },
+    "level=0,facing=south,lit=false,running=false": {
       "model": "pylon:block/machines/smeltery/smeltery_controller",
       "y": 180
     },
-    "facing=south,lit=true": {
+    "level=0,facing=south,lit=false,running=true": {
       "model": "pylon:block/machines/smeltery/smeltery_controller_lit",
       "y": 180
     },
-    "facing=west,lit=false": {
+    "level=0,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit",
+      "y": 180
+    },
+    "level=0,facing=west,lit=false,running=false": {
       "model": "pylon:block/machines/smeltery/smeltery_controller",
       "y": 90
     },
-    "facing=west,lit=true": {
+    "level=0,facing=west,lit=false,running=true": {
       "model": "pylon:block/machines/smeltery/smeltery_controller_lit",
+      "y": 90
+    },
+    "level=0,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit",
+      "y": 90
+    },
+    "level=1,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_1",
+      "y": 270
+    },
+    "level=1,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_1",
+      "y": 270
+    },
+    "level=1,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_1",
+      "y": 270
+    },
+    "level=1,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_1"
+    },
+    "level=1,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_1"
+    },
+    "level=1,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_1"
+    },
+    "level=1,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_1",
+      "y": 180
+    },
+    "level=1,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_1",
+      "y": 180
+    },
+    "level=1,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_1",
+      "y": 180
+    },
+    "level=1,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_1",
+      "y": 90
+    },
+    "level=1,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_1",
+      "y": 90
+    },
+    "level=1,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_1",
+      "y": 90
+    },
+    "level=2,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_2",
+      "y": 270
+    },
+    "level=2,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_2",
+      "y": 270
+    },
+    "level=2,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_2"
+    },
+    "level=2,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_2"
+    },
+    "level=2,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_2"
+    },
+    "level=2,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_2"
+    },
+    "level=2,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_2",
+      "y": 180
+    },
+    "level=2,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_2",
+      "y": 180
+    },
+    "level=2,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_2",
+      "y": 180
+    },
+    "level=2,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_2",
+      "y": 90
+    },
+    "level=2,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_2",
+      "y": 90
+    },
+    "level=2,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_2",
+      "y": 90
+    },
+    "level=3,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_3",
+      "y": 270
+    },
+    "level=3,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_3",
+      "y": 270
+    },
+    "level=3,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_3",
+      "y": 270
+    },
+    "level=3,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_3"
+    },
+    "level=3,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_3"
+    },
+    "level=3,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_3"
+    },
+    "level=3,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_3",
+      "y": 180
+    },
+    "level=3,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_3",
+      "y": 180
+    },
+    "level=3,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_3",
+      "y": 180
+    },
+    "level=3,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_3",
+      "y": 90
+    },
+    "level=3,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_3",
+      "y": 90
+    },
+    "level=3,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_3",
+      "y": 90
+    },
+    "level=4,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_4",
+      "y": 270
+    },
+    "level=4,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_4",
+      "y": 270
+    },
+    "level=4,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_4",
+      "y": 270
+    },
+    "level=4,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_4"
+    },
+    "level=4,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_4"
+    },
+    "level=4,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_4"
+    },
+    "level=4,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_4",
+      "y": 180
+    },
+    "level=4,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_4",
+      "y": 180
+    },
+    "level=4,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_4",
+      "y": 180
+    },
+    "level=4,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_4",
+      "y": 90
+    },
+    "level=4,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_4",
+      "y": 90
+    },
+    "level=4,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_4",
+      "y": 90
+    },
+    "level=5,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_5",
+      "y": 270
+    },
+    "level=5,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_5",
+      "y": 270
+    },
+    "level=5,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_5",
+      "y": 270
+    },
+    "level=5,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_5"
+    },
+    "level=5,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_5"
+    },
+    "level=5,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_5"
+    },
+    "level=5,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_5",
+      "y": 180
+    },
+    "level=5,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_5",
+      "y": 180
+    },
+    "level=5,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_5",
+      "y": 180
+    },
+    "level=5,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_5",
+      "y": 90
+    },
+    "level=5,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_5",
+      "y": 90
+    },
+    "level=5,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_5",
+      "y": 90
+    },
+    "level=6,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_6",
+      "y": 270
+    },
+    "level=6,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_6",
+      "y": 270
+    },
+    "level=6,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_6",
+      "y": 270
+    },
+    "level=6,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_6"
+    },
+    "level=6,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_6"
+    },
+    "level=6,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_6"
+    },
+    "level=6,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_6",
+      "y": 180
+    },
+    "level=6,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_6",
+      "y": 180
+    },
+    "level=6,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_6",
+      "y": 180
+    },
+    "level=6,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_6",
+      "y": 90
+    },
+    "level=6,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_6",
+      "y": 90
+    },
+    "level=6,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_6",
+      "y": 90
+    },
+    "level=7,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_7",
+      "y": 270
+    },
+    "level=7,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_7",
+      "y": 270
+    },
+    "level=7,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_7",
+      "y": 270
+    },
+    "level=7,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_7"
+    },
+    "level=7,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_7"
+    },
+    "level=7,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_7"
+    },
+    "level=7,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_7",
+      "y": 180
+    },
+    "level=7,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_7",
+      "y": 180
+    },
+    "level=7,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_7",
+      "y": 180
+    },
+    "level=7,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_7",
+      "y": 90
+    },
+    "level=7,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_7",
+      "y": 90
+    },
+    "level=7,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_7",
+      "y": 90
+    },
+    "level=8,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_8",
+      "y": 270
+    },
+    "level=8,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_8",
+      "y": 270
+    },
+    "level=8,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_8",
+      "y": 270
+    },
+    "level=8,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_8"
+    },
+    "level=8,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_8"
+    },
+    "level=8,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_8"
+    },
+    "level=8,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_8",
+      "y": 180
+    },
+    "level=8,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_8",
+      "y": 180
+    },
+    "level=8,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_8",
+      "y": 180
+    },
+    "level=8,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_8",
+      "y": 90
+    },
+    "level=8,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_8",
+      "y": 90
+    },
+    "level=8,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_8",
+      "y": 90
+    },
+    "level=9,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_9",
+      "y": 270
+    },
+    "level=9,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_9",
+      "y": 270
+    },
+    "level=9,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_9",
+      "y": 270
+    },
+    "level=9,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_9"
+    },
+    "level=9,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_9"
+    },
+    "level=9,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_9"
+    },
+    "level=9,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_9",
+      "y": 180
+    },
+    "level=9,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_9",
+      "y": 180
+    },
+    "level=9,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_9",
+      "y": 180
+    },
+    "level=9,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_9",
+      "y": 90
+    },
+    "level=9,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_9",
+      "y": 90
+    },
+    "level=9,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_9",
+      "y": 90
+    },
+    "level=10,facing=east,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_10",
+      "y": 270
+    },
+    "level=10,facing=east,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_10",
+      "y": 270
+    },
+    "level=10,facing=east,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_10",
+      "y": 270
+    },
+    "level=10,facing=north,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_10"
+    },
+    "level=10,facing=north,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_10"
+    },
+    "level=10,facing=north,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_10"
+    },
+    "level=10,facing=south,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_10",
+      "y": 180
+    },
+    "level=10,facing=south,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_10",
+      "y": 180
+    },
+    "level=10,facing=south,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_10",
+      "y": 180
+    },
+    "level=10,facing=west,lit=false,running=false": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_10",
+      "y": 90
+    },
+    "level=10,facing=west,lit=false,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_10",
+      "y": 90
+    },
+    "level=10,facing=west,lit=true,running=true": {
+      "model": "pylon:block/machines/smeltery/smeltery_controller_lit_10",
       "y": 90
     }
   }
